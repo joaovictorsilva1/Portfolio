@@ -486,7 +486,7 @@ footer {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 5vh;
+  font-size: 4vh;
   margin-left: 5%;
 }
 
@@ -496,10 +496,10 @@ footer {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 5vh;
+  font-size: 4vh;
   margin-left: 5%;
   left:59%;
-  bottom:106vh;
+  bottom:97vh;
 }
 
 
@@ -522,7 +522,7 @@ footer {
   font-size: 5vh;
   margin-left: 5%;
   left:59%;
-  bottom:106vh;
+  bottom:96vh;
 }
 
 .area_project{
@@ -536,14 +536,14 @@ footer {
 }
 
 .area_project2{
-  background: rgb(134, 134, 134);
+  background: rgb(119, 119, 119);
   position: relative;
   width: 33%;
   height: 33ch;
   z-index: 5;
   margin-left: 5%;
   left:59%;
-  bottom:106vh;
+  bottom:96vh;
 }
 
 .button_website1{
