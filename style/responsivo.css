@@ -1,0 +1,27 @@
+@media only screen and (max-width: 767px) {
+    /* Estilos para dispositivos móveis */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tablets */
+}
+
+
+@media only screen and (min-width: 1024px) {
+    /* Estilos para desktops */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para dispositivos pequenos e médios */
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* Estilos para dispositivos grandes */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+    /* Estilos para telas de alta resolução */
+}

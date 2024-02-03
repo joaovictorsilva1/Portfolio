@@ -1,0 +1,601 @@
+* {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.11), #C8EBF7);
+  /* Gradiente entre preto e azul claro */
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.links_index {
+  display: block;
+  background-color: rgba(90, 191, 36, 0);
+  width: 100%;
+  position: fixed;
+  left: 6%;
+  margin: 2%;
+  z-index: 8;
+}
+
+.link_text {
+  margin-left: 80px;
+  font-size: 32px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+
+}
+
+.link_text:hover {
+  text-decoration: none;
+  border-bottom: solid rgb(255, 255, 255);
+  line-height: 1;
+  overflow-y: hidden;
+}
+
+.background {
+  position: relative;
+  background: #C8EBF7;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* Evita a barra de rolagem */
+  z-index: 4;
+}
+
+
+
+.gradient-container {
+  width: 500px;
+  border-radius: 50%;
+  height: 400px;
+  background: radial-gradient(circle, #86408F, #86408F);
+  position: relative;
+  overflow: hidden;
+  filter: blur(150px);
+  position: fixed;
+  z-index: 4;
+}
+
+.blur-circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #86408F;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  filter: blur(150px);
+  /* Ajuste o valor conforme necessário */
+  z-index: 4;
+}
+
+.gradient-container2 {
+  width: 1000px;
+  border-radius: 50%;
+  height: 700px;
+  background: radial-gradient(circle, #884A94, #884A94);
+  position: relative;
+  overflow: hidden;
+  filter: blur(200px);
+  position: fixed;
+  left: 500px;
+  bottom: 100px;
+  z-index: 4;
+}
+
+.blur-circle2 {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background-color: #884A94;
+  ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  right: 500px;
+  top: 300px;
+  filter: blur(200px);
+  /* Ajuste o valor conforme necessário */
+  z-index: 4;
+}
+
+.gradient-container3 {
+  width: 600px;
+  border-radius: 50%;
+  height: 250px;
+  background: radial-gradient(circle, #D318FA, #D318FA);
+  position: relative;
+  overflow: hidden;
+  filter: blur(150px);
+  position: fixed;
+  left: 1300px;
+  top: 500px;
+  z-index: 4;
+}
+
+.blur-circle3 {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: #D318FA;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  right: 500px;
+  bottom: 300px;
+  filter: blur(150px);
+  /* Ajuste o valor conforme necessário */
+  z-index: 4;
+}
+
+.pentagon {
+  width: 500px;
+  /* Tamanho do pentágono */
+  height: 500px;
+  /* Tamanho do pentágono */
+  background-color: #251A66;
+  /* Cor de fundo do pentágono */
+  background: radial-gradient(circle, #D318FA, #D318FA);
+  position: fixed;
+  left: 1200px;
+  filter: blur(50px);
+  border-radius: 200%;
+  z-index: 4;
+
+}
+
+.gradient-container4 {
+
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(#251A66, #251A66);
+  position: relative;
+  overflow: hidden;
+  filter: blur(300px);
+  position: fixed;
+  left: 1200px;
+  border-radius: 20%;
+  z-index: 4;
+
+}
+
+.pentagon2 {
+  width: 500px;
+  /* Tamanho do pentágono */
+  height: 00px;
+  /* Tamanho do pentágono */
+  background-color: #6A96F4;
+  /* Cor de fundo do pentágono */
+  position: fixed;
+  top: 400px;
+  filter: blur(50px);
+  z-index: 4;
+}
+
+.gradient-container5 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(#6A96F4,
+      #6A96F4);
+  background: #6A96F4;
+  position: relative;
+  overflow: hidden;
+  filter: blur(190px);
+  position: fixed;
+  top: 400px;
+  z-index: 4;
+}
+
+.perfil_img {
+  width: 25%;
+  margin: 25px;
+  position: relative;
+  top: 180px;
+  z-index: 6;
+
+}
+
+.writing-effect {
+  font-family: 'Noto Sans Gujarati', sans-serif;
+  color: #013170;
+  overflow: hidden;
+  width: 21ch;
+  border-right: 0.15em solid #013170;
+  white-space: nowrap;
+  animation: typing 2s steps(21), blink-caret 0.75s step-end infinite;
+  position: relative;
+  left: 33%;
+  bottom: 185px;
+  z-index: 6;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #013170;
+  }
+}
+
+.button_contacts {
+  font-family: "Leelawadee UI";
+  font-size: 4vh;
+  width: 336px;
+  height: 47px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  color: black;
+  border: 1px solid #D9D9D9;
+  position: relative;
+  left: 30%;
+  bottom: 55px;
+  z-index: 6;
+}
+
+.button_contacts:hover {
+  background: black;
+  color: #D9D9D9;
+  cursor: pointer;
+}
+
+.text_introdu {
+  font-family: 'Inter', sans-serif;
+  font-size: 60px;
+  position: relative;
+  left: 33%;
+  bottom: 185px;
+}
+
+.card_cert {
+  background: #9FD9DB;
+  width: 33%;
+  height: 35vh;
+  text-align: center;
+  z-index: 7;
+  color: white;
+  margin: 5%;
+  border-radius: 10%;
+  position: relative;
+  left: 55%;
+  bottom: 13px;
+  font-size: 2em;
+  padding: 15px;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  z-index: 7;
+  background: #9FD9DB;
+  width: 33%;
+  height: 35vh;
+  border-radius: 10%;
+  bottom: 48vh;
+  right: 55vh;
+}
+
+.slider-content {
+  display: none;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.dots-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+.slider_img {
+  width: 15%;
+}
+
+.title_card_difere {
+  color: white;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+
+
+
+.img_skills {
+  position: relative;
+  z-index: 5;
+  width: 7%;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.text_skills {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  top: 3vh;
+}
+
+.title_skills {
+  color: #3B3D3D;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  font-size: 10vh;
+  text-align: center;
+
+}
+
+.text_about_me {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+}
+
+.text_about_me2 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+  left: 830px;
+  bottom: 300px;
+}
+
+.text_about_me3 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+  left: 830px;
+  bottom: 200px;
+}
+
+.title_about_me {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  font-size: 10vh;
+  margin-left: 5%;
+}
+
+.title_about_me2 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  font-size: 8vh;
+  margin-left: 5%;
+  left: 830px;
+  bottom: 330px;
+}
+
+.title_about_me3 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  font-size: 8vh;
+  margin-left: 5%;
+  left: 830px;
+  bottom: 200px;
+}
+
+footer {
+  background-color: rgb(4, 48, 52);
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 33vh;
+  position: relative;
+  z-index: 5;
+}
+
+.footer_img {
+  width: 5%;
+  margin-top: 2vh;
+  margin-bottom: 2ch;
+}
+
+.footer_img2 {
+  width: 5%;
+  margin: 1px;
+}
+
+.footer_img3 {
+  width: 10%;
+  margin: 1px;
+}
+
+.title_port {
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 10vh;
+}
+
+.text_port{
+  color:white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+}
+
+.text_port2{
+  color:white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+  left:59%;
+  bottom:106vh;
+}
+
+
+.title_project1{
+  color:white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+}
+
+.title_project2{
+  color:white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+  left:59%;
+  bottom:106vh;
+}
+
+.area_project{
+  background: rgb(119, 119, 119);
+  position: relative;
+  width: 33%;
+  height: 33ch;
+  z-index: 5;
+  margin-left: 5%;
+
+}
+
+.area_project2{
+  background: rgb(134, 134, 134);
+  position: relative;
+  width: 33%;
+  height: 33ch;
+  z-index: 5;
+  margin-left: 5%;
+  left:59%;
+  bottom:106vh;
+}
+
+.button_website1{
+  width: 33%;
+  font-size: 3vh;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+.button_website2{
+  width: 33%;
+  font-size: 3vh;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+.button_website1:hover{
+ background: black;
+ cursor: pointer;
+
+}
+ .button_website2:hover{
+  background: black;
+  cursor: pointer;
+ 
+ }
+
+
+
+ .button_code1{
+  width: 33%;
+  font-size: 3vh;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+.button_code2{
+  width: 33%;
+  font-size: 3vh;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+.button_code1:hover{
+ background: black;
+ cursor: pointer;
+
+}
+ .button_code2:hover{
+  background: black;
+  cursor: pointer;
+ 
+ }
+
