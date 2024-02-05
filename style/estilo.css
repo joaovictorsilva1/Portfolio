@@ -217,46 +217,41 @@ a:hover {
   width: 25%;
   margin: 25px;
   position: relative;
-  top: 180px;
+  top: 90px;
+  left: 2%;
   z-index: 6;
 
 }
 
 .writing-effect {
   font-family: 'Noto Sans Gujarati', sans-serif;
+  font-size: 6vh;
   color: #013170;
   overflow: hidden;
   width: 21ch;
-  border-right: 0.15em solid #013170;
+  border-right: 4px solid #013170;
   white-space: nowrap;
-  animation: typing 2s steps(21), blink-caret 0.75s step-end infinite;
+  animation: typing 4.9s steps(21), blinking 0.75s  infinite  ease-in-out;
+  animation-iteration-count: infinite;
   position: relative;
   left: 33%;
-  bottom: 185px;
+  bottom: 285px;
   z-index: 6;
 }
+
 
 @keyframes typing {
   from {
     width: 0;
   }
-
-  to {
-    width: 100%;
-  }
 }
 
-@keyframes blink-caret {
-
-  from,
-  to {
+@keyframes blinking {
+  50% {
     border-color: transparent;
   }
-
-  50% {
-    border-color: #013170;
-  }
 }
+
 
 .button_contacts {
   font-family: "Leelawadee UI";
@@ -269,7 +264,8 @@ a:hover {
   border: 1px solid #D9D9D9;
   position: relative;
   left: 30%;
-  bottom: 55px;
+  margin: 3px;
+  bottom: 155px;
   z-index: 6;
 }
 
@@ -281,10 +277,10 @@ a:hover {
 
 .text_introdu {
   font-family: 'Inter', sans-serif;
-  font-size: 60px;
+  font-size: 100px;
   position: relative;
   left: 33%;
-  bottom: 185px;
+  bottom: 285px;
 }
 
 .card_cert {
