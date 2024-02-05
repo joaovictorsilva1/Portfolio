@@ -48,12 +48,13 @@ a:hover {
   width: 0;
   height: 2px;
   background-color: rgb(255, 255, 255);
- 
+
 }
 
 .link_text:hover::before {
-  width: 50%; 
+  width: 50%;
 }
+
 .background {
   position: relative;
   background: #C8EBF7;
@@ -231,7 +232,7 @@ a:hover {
   width: 21ch;
   border-right: 4px solid #013170;
   white-space: nowrap;
-  animation: typing 4.9s steps(21), blinking 0.75s  infinite  ease-in-out;
+  animation: typing 4.9s steps(21), blinking 0.75s infinite ease-in-out;
   animation-iteration-count: infinite;
   position: relative;
   left: 33%;
@@ -476,8 +477,8 @@ footer {
   font-size: 10vh;
 }
 
-.text_port{
-  color:white;
+.text_port {
+  color: white;
   position: relative;
   z-index: 6;
   text-align: justify;
@@ -486,21 +487,21 @@ footer {
   margin-left: 5%;
 }
 
-.text_port2{
-  color:white;
+.text_port2 {
+  color: white;
   position: relative;
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
   font-size: 4vh;
   margin-left: 5%;
-  left:59%;
-  bottom:97vh;
+  left: 59%;
+  bottom: 97vh;
 }
 
 
-.title_project1{
-  color:white;
+.title_project1 {
+  color: white;
   position: relative;
   z-index: 6;
   text-align: justify;
@@ -509,19 +510,19 @@ footer {
   margin-left: 5%;
 }
 
-.title_project2{
-  color:white;
+.title_project2 {
+  color: white;
   position: relative;
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
   font-size: 5vh;
   margin-left: 5%;
-  left:59%;
-  bottom:96vh;
+  left: 59%;
+  bottom: 96vh;
 }
 
-.area_project{
+.area_project {
   background: rgb(119, 119, 119);
   position: relative;
   width: 33%;
@@ -531,18 +532,18 @@ footer {
 
 }
 
-.area_project2{
+.area_project2 {
   background: rgb(119, 119, 119);
   position: relative;
   width: 33%;
   height: 33ch;
   z-index: 5;
   margin-left: 5%;
-  left:59%;
-  bottom:96vh;
+  left: 59%;
+  bottom: 96vh;
 }
 
-.button_website1{
+.button_website1 {
   width: 33%;
   font-size: 3vh;
   border-radius: 15px;
@@ -551,7 +552,7 @@ footer {
   font-family: "Jost", sans-serif;
 }
 
-.button_website2{
+.button_website2 {
   width: 33%;
   font-size: 3vh;
   border-radius: 15px;
@@ -560,45 +561,63 @@ footer {
   font-family: "Jost", sans-serif;
 }
 
-.button_website1:hover{
- background: black;
- cursor: pointer;
-
-}
- .button_website2:hover{
+.button_website1:hover {
   background: black;
   cursor: pointer;
- 
- }
-
-
-
- .button_code1{
-  width: 33%;
-  font-size: 3vh;
-  border-radius: 15px;
-  color: white;
-  background: red;
-  font-family: "Jost", sans-serif;
-}
-
-.button_code2{
-  width: 33%;
-  font-size: 3vh;
-  border-radius: 15px;
-  color: white;
-  background: red;
-  font-family: "Jost", sans-serif;
-}
-
-.button_code1:hover{
- background: black;
- cursor: pointer;
 
 }
- .button_code2:hover{
+
+.button_website2:hover {
   background: black;
   cursor: pointer;
- 
- }
 
+}
+
+
+
+.button_code1 {
+  width: 33%;
+  font-size: 3vh;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+.button_code2 {
+  width: 33%;
+  font-size: 3vh;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+.button_code1:hover {
+  background: black;
+  cursor: pointer;
+
+}
+
+.button_code2:hover {
+  background: black;
+  cursor: pointer;
+
+}
+
+.carregarMais1 {
+  margin-left: 2%;
+  border-radius: 5%;
+  font-family: "Jost", sans-serif;
+  background: #D9D9D9;
+  width: 20%;
+  height: ;
+  z-index: 6;
+  position: relative;
+}
+
+.carregarMais1:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
