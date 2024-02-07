@@ -22,9 +22,9 @@ a:hover {
 
 .links_index {
   display: block;
-  background-color: rgb(36, 30, 61);
+  background-color: rgba(36, 30, 61, 0);
   width: 100%;
-  position: fixed;
+ position: relative;
   z-index: 8;
   top: 0;
   
@@ -37,7 +37,7 @@ a:hover {
   text-decoration: none;
   color: white;
   position: relative;
-  left: 14%;
+  left: 14%; 
   margin: 2%;
 
 }
@@ -302,61 +302,37 @@ a:hover {
   padding: 15px;
 }
 
-.slider-container {
-  position: relative;
-  max-width: 600px;
-  margin: auto;
-  overflow: hidden;
-  z-index: 7;
-  background: #9FD9DB;
-  width: 33%;
-  height: 35vh;
-  border-radius: 10%;
-  bottom: 48vh;
-  right: 55vh;
-}
 
-.slider-content {
-  display: none;
-  text-align: center;
-  transition: transform 0.5s ease-in-out;
-}
-
-.dots-container {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dot.active {
-  background-color: #717171;
-}
 
 .slider_img {
   width: 15%;
+  position: relative;
+ 
+  top:33px;
+  left: 33px;
+}
+
+.slider_img2 {
+  width: 15%;
+  position: relative;
+  top:33px;
+  left: 33px;
+  
+}
+
+.slider_img3 {
+  width: 15%;
+  position: relative;
+  top:33px;
+  left: 33px;
+  
 }
 
 .title_card_difere {
   color: white;
+  text-align: center;
+  margin-top: 3%;
 }
-
-.slider {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-
-
-
 
 .img_skills {
   position: relative;
@@ -452,9 +428,10 @@ footer {
   text-align: center;
   color: white;
   width: 100%;
-  height: 33vh;
+  height: 35vh;
   position: relative;
   z-index: 5;
+  overflow: hidden;
 }
 
 .footer_img {
@@ -686,4 +663,128 @@ footer {
   ´position: relative;
   z-index: 5;
   
+}
+
+
+
+
+.links_index2 {
+  display: block;
+  background-color: rgba(36, 30, 61, 0);
+  width: 100%;
+ position: relative;
+  z-index: 8;
+  top: 0;
+  
+}
+
+.link_text2 {
+  margin-left: 80px;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(138, 135, 135);
+  position: relative;
+  left: 1%; 
+  margin: 2%;
+  font-family: "Jost", sans-serif;
+
+}
+
+.link_text2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.link_text2:hover::before {
+  width: 50%;
+}
+
+
+.slider-container {
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  background: #9FD9DB;
+  width: 33%;
+  height: 35vh;
+  z-index: 6;
+  border-radius: 20px;
+  margin: 5%;
+  position: relative;
+  bottom:48vh;
+}
+
+.slider {
+  display: flex;
+  height: 35vh;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 6;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.color_red{
+color: red;
+position: relative;
+z-index: 6;
+}
+
+.text_dif1{
+ 
+  width: 73%;
+  color: rgb(118, 109, 109);
+  font-family: "Jost", sans-serif;
+  position: relative;
+  left: 23%;
+  bottom:49px;
+}
+
+.text_dif2{
+  width: 73%;
+  color: rgb(118, 109, 109);
+  font-family: "Jost", sans-serif;
+  position: relative;
+  left: 23%;
+  bottom:49px;
+}
+
+.text_dif3{
+
+  width: 73%;
+  color: rgb(118, 109, 109);
+  font-family: "Jost", sans-serif;
+  position: relative;
+  left: 23%;
+  bottom:40px;
 }

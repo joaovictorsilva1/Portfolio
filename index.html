@@ -44,7 +44,7 @@
 <a href="https://github.com/joaovictorsilva1" target="_blank"><button class="button_contacts">GitHub</button></a>
 <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-silva-dev/" target="_blank"><button
     class="button_contacts">Linkedin</button></a>
-<div  class="title_about_me"   id="secao2">HELLO,</div>
+<div class="title_about_me" id="secao2">HELLO,</div>
 <div class="text_about_me">I am João Victor, a web developer passionate<div> about technology. Through it, I not only
     bring</div>
   <div>visual
@@ -58,7 +58,7 @@
 </div>
 <div class="title_about_me3">CURRENT OCCUPATION</div>
 <div class="text_about_me3">Full-stack web developer</div>
-<div class="title_skills"  id="secao4">MINHAS SKILLS</div>
+<div class="title_skills" id="secao4">MINHAS SKILLS</div>
 <img class="img_skills" src="/img/html-5.png">
 <div class="text_skills">HTML</div>
 <img class="img_skills" src="/img/css.png">
@@ -77,36 +77,30 @@
 
 
 <div class="slider-container">
-
-  <div class="slider-content" id="content1">
-    <!-- Conteúdo 1 -->
-    <h1 class="title_card_difere">DIFFERENTIALS</h1>
-    <img class="slider_img" src="/img/tag_img.png">
-    <h5>Clean code é uma abordagem de programação que se destaca pela clareza e simplicidade, onde o diferencial de
-      quem sabe está na capacidade de criar soluções elegantes, evitar complexidades desnecessárias e adotar padrões
-      consistentes, resultando em código fácil de entender e manter ao longo do tempo.</h5>
+  <h1 class="title_card_difere">DIFFERENTIALS</h1>
+  <div class="slider">
+    <div class="slide" id="slide1">
+      <img class="slider_img" src="/img/tag_img.png" alt="Slide 1">
+      <h5 class="text_dif1">Clean code é uma abordagem de programação que se destaca pela clareza e simplicidade, onde o diferencial de quem sabe está na capacidade de criar soluções elegantes, evitar complexidades desnecessárias e adotar padrões consistentes, resultando em código fácil de entender e manter ao longo do tempo.</h5>
+    </div>
+    <div class="slide" id="slide2">
+      <img class="slider_img" src="/img/metodologia.png" alt="Slide 2">
+      <h5 class="text_dif2">Metodologias ágeis são abordagens de desenvolvimento flexíveis e colaborativas. Quem domina essas metodologias destaca-se pela capacidade de adaptação, comunicação eficaz e entrega incremental de valor ao cliente. </h5>
+    </div>
+    <div class="slide" id="slide3">
+      <img class="slider_img" src="/img/web-design.png" alt="Slide 3">
+      <h5 class="text_dif3">Capacidade de criar interfaces que se ajustam de forma harmoniosa a diferentes tamanhos de tela e dispositivos, proporcionando uma experiência consistente ao usuário.</h5>
+    </div>
   </div>
-  <div class="slider-content" id="content2">
-    <!-- Conteúdo 2 -->
-    <h1 class="title_card_difere">DIFFERENTIALS</h1>
-    <img class="slider_img" src="/img/metodologia.png">
-    <h5>
-      Metodologias ágeis são abordagens de desenvolvimento flexíveis e colaborativas. Quem domina essas metodologias
-      destaca-se pela capacidade de adaptação, comunicação eficaz e entrega incremental de valor ao cliente. </h5>
-  </div>
-  <div class="slider-content" id="content3">
-    <!-- Conteúdo 3 -->
-    <h1 class="title_card_difere">DIFFERENTIALS</h1>
-    <img class="slider_img" src="/img/web-design.png">
-    <h5>Capacidade de criar interfaces que se ajustam de forma harmoniosa a diferentes tamanhos de tela e
-      dispositivos, proporcionando uma experiência consistente ao usuário.</h5>
-  </div>
-  <div class="dots-container">
-    <span class="dot" onclick="showContent(1)"></span>
-    <span class="dot" onclick="showContent(2)"></span>
-    <span class="dot" onclick="showContent(3)"></span>
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1, 1)"></span>
+    <span class="dot" onclick="currentSlide(2, 1)"></span>
+    <span class="dot" onclick="currentSlide(3, 1)"></span>
   </div>
 </div>
+
+
+
 <div class="background">
   <div class="circle red"></div>
   <div class="circle green"></div>
@@ -128,7 +122,8 @@
   </div>
 </div>
 <div class="title_port" id="secao3">PORTFOLIO</div>
-<div class="area_project"><img class="img_projects" src="/img/hair.jpg"><a href="#"><button class="button_website1">View website</button></a>
+<div class="area_project"><img class="img_projects" src="/img/hair.jpg"><a href="#"><button class="button_website1">View
+      website</button></a>
   <a href="#"><button class="button_code1">See code</button></a>
 </div>
 <div class="title_project1">HairHub</div>
@@ -141,20 +136,42 @@
     personalized and convenient</div> experience.
   <div>HTML,CSS,PHP,JAVASCRIPT E MYSQL.</div>
 </div></a>
-<div class="area_project2"><img class="img_projects" src="/img/aviao.jpg"><a href="#"><button class="button_website2">View website</button></a>
+<div class="area_project2"><img class="img_projects" src="/img/aviao.jpg"><a href="#"><button
+      class="button_website2">View website</button></a>
   <a href="#"><button class="button_code2">See code</button>
 </div></a>
 <div class="title_project2">TravelVista</div>
-<div class="text_port2"><div>TravelVista is a comprehensive</div> travel and tourism application that<div></div> redefines the planning,
-  experience,<div></div> and sharing of global adventures.<div></div> With an intuitive interface and innovative<div></div> features, TravelVista is the
-  ideal<div></div> partner for exploring destinations,<div></div> facilitating the creation of<div></div> unforgettable memories.<div></div>
-  <div></div> HTML,BOOTSRAP,PHP,PYTHON E MYSQL.</div>
-  <button class="carregarMais1" id="carregarMais">LOAD MORE </button>
-  <div class="title_maproject">MY PROJECTS</div>
-  <button class="carregarMais2" id="carregarMais">ALL </button>
-  <button class="carregarMais2" id="carregarMais">FRONT-END </button>
-  <button class="carregarMais2" id="carregarMais">BACK-END </button>
+<div class="text_port2">
+  <div>TravelVista is a comprehensive</div> travel and tourism application that<div></div> redefines the planning,
+  experience,<div></div> and sharing of global adventures.<div></div> With an intuitive interface and innovative<div>
+  </div> features, TravelVista is the
+  ideal<div></div> partner for exploring destinations,<div></div> facilitating the creation of<div></div> unforgettable
+  memories.<div></div>
+  <div></div> HTML,BOOTSRAP,PHP,PYTHON E MYSQL.
+</div>
+<button class="carregarMais1" id="carregarMais">LOAD MORE </button>
+<div class="title_maproject">MY PROJECTS</div>
+<button class="carregarMais2" id="carregarMais">ALL </button>
+<button class="carregarMais2" id="carregarMais">FRONT-END </button>
+<button class="carregarMais2" id="carregarMais">BACK-END </button>
 <footer id="secao1">
+  <div class="links_index2">
+    <a href="index.html">
+      <ul class="link_text2">HOME</ul>
+    </a>
+    <a href="#secao2">
+      <ul class="link_text2">ABOUT ME</ul>
+    </a>
+    <a href="#secao3">
+      <ul class="link_text2">MY PROJECTS</ul>
+    </a>
+    <a href="#secao4">
+      <ul class="link_text2">SKILLS</ul>
+    </a>
+    <a href="#secao1">
+      <ul class="link_text2">CONTACTS</ul>
+    </a>
+  </div>
   <a href="mailto:contatojoaosilva1000@gmail.com"><img class="footer_img" src="/img/email.png"></a>
   <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-silva-dev/" target="_blank"><img class="footer_img"
       src="/img/linkedin.png" alt=""></a>
