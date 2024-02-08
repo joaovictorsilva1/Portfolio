@@ -348,8 +348,71 @@ a:hover {
   z-index: 5;
   font-family: "Jost", sans-serif;
   display: inline-block;
+  right:77px;
   top: 3vh;
 }
+
+.text_skills2 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right:73px;
+  top: 3vh;
+}
+
+
+.text_skills3 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right:97px;
+  top: 3vh;
+}
+
+.text_skills4 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right:76px;
+  top: 3vh;
+}
+.text_skills5 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right:98px;
+  top: 3vh;
+}
+
+.text_skills6 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right:86px;
+  top: 3vh;
+}
+
+
+.text_skills7 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right:77px;
+  top: 3vh;
+}
+
 
 .title_skills {
   color: #3B3D3D;
