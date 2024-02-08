@@ -781,7 +781,7 @@ footer {
   border-radius: 20px;
   margin: 5%;
   position: relative;
-  bottom:48vh;
+  bottom:0vh;
 }
 
 .slider {
@@ -850,4 +850,32 @@ z-index: 6;
   position: relative;
   left: 23%;
   bottom:40px;
+}
+
+.title_certificados{
+ color: white;
+ text-align: center;
+}
+
+.dots_certificados{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot_certificado {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 6;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot_certificado.active {
+  background-color: #333;
 }
