@@ -681,7 +681,7 @@ footer {
   z-index: 6;
   position: relative;
   left: 33%;
-  bottom: 93vh;
+  bottom: 87vh;
   
 }
 
@@ -702,7 +702,7 @@ footer {
   z-index: 6;
   position: relative;
   left: 13%;
-  bottom: 93vh;
+  bottom: 87vh;
 }
 
 .carregarMais2:hover {
@@ -719,7 +719,7 @@ footer {
   z-index: 6;
   left:13%;
   margin: 1%;
-  bottom: 93vh;
+  bottom: 87vh;
 }
 
 .img_projects{
@@ -848,7 +848,6 @@ z-index: 6;
 }
 
 .text_dif3{
-
   width: 73%;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
