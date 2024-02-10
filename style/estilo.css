@@ -342,7 +342,8 @@ a:hover {
   z-index: 5;
   width: 7%;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 3.2%;
+  top: 5vh;
 }
 
 .text_skills {
@@ -352,7 +353,7 @@ a:hover {
   font-family: "Jost", sans-serif;
   display: inline-block;
   right:77px;
-  top: 3vh;
+  top: 10vh;
 }
 
 .text_skills2 {
@@ -362,7 +363,7 @@ a:hover {
   font-family: "Jost", sans-serif;
   display: inline-block;
   right:73px;
-  top: 3vh;
+  top: 10vh;
 }
 
 
@@ -373,7 +374,7 @@ a:hover {
   font-family: "Jost", sans-serif;
   display: inline-block;
   right:97px;
-  top: 3vh;
+  top: 10vh;
 }
 
 .text_skills4 {
@@ -383,7 +384,7 @@ a:hover {
   font-family: "Jost", sans-serif;
   display: inline-block;
   right:76px;
-  top: 3vh;
+  top: 10vh;
 }
 .text_skills5 {
   color: white;
@@ -392,7 +393,7 @@ a:hover {
   font-family: "Jost", sans-serif;
   display: inline-block;
   right:98px;
-  top: 3vh;
+  top: 10vh;
 }
 
 .text_skills6 {
@@ -402,7 +403,7 @@ a:hover {
   font-family: "Jost", sans-serif;
   display: inline-block;
   right:86px;
-  top: 3vh;
+  top: 10vh;
 }
 
 
@@ -413,7 +414,7 @@ a:hover {
   font-family: "Jost", sans-serif;
   display: inline-block;
   right:77px;
-  top: 3vh;
+  top: 10vh;
 }
 
 
@@ -475,7 +476,7 @@ a:hover {
   font-size: 8vh;
   margin-left: 5%;
   left: 830px;
-  bottom: 330px;
+  bottom: 300px;
 }
 
 .title_about_me3 {
@@ -485,8 +486,8 @@ a:hover {
   font-family: "Jost", sans-serif;
   font-size: 8vh;
   margin-left: 5%;
-  left: 830px;
-  bottom: 200px;
+  left: 820px;
+  bottom: 185px;
 }
 
 footer {
@@ -638,7 +639,7 @@ footer {
   width: 33%;
   height: 40px;
   position: relative;
-  left:17%;
+  left:20.1%;
   bottom:100px;
   font-size: 3vh;
   border-radius: 15px;
@@ -651,7 +652,7 @@ footer {
   width: 33%;
   height: 40px;
   position: relative;
-  left:17%;
+  left:20.1%;
   bottom:100px;
   font-size: 3vh;
   border-radius: 15px;
@@ -704,7 +705,7 @@ footer {
   height: 6vh;
   z-index: 6;
   position: relative;
-  left: 13%;
+  left: 12%;
   bottom: 87vh;
 }
 
