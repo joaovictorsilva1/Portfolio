@@ -220,7 +220,7 @@ a:hover {
   width: 25%;
   margin: 25px;
   position: relative;
-  top: 90px;
+  bottom: 20px;
   left: 2%;
   z-index: 6;
 
@@ -237,8 +237,8 @@ a:hover {
   animation: typing 4.9s steps(21), blinking 0.75s infinite ease-in-out;
   animation-iteration-count: infinite;
   position: relative;
-  left: 33%;
-  bottom: 285px;
+  left: 32.3%;
+  bottom: 390px;
   z-index: 6;
 }
 
@@ -268,7 +268,7 @@ a:hover {
   position: relative;
   left: 30%;
   margin: 3px;
-  bottom: 155px;
+  bottom: 205px;
   z-index: 6;
 }
 
@@ -279,11 +279,14 @@ a:hover {
 }
 
 .text_introdu {
+  margin: 0;
+  padding: 0px;
   font-family: 'Inter', sans-serif;
-  font-size: 100px;
+  font-size: 15vh;
   position: relative;
-  left: 33%;
-  bottom: 285px;
+  left: 32%;
+  bottom: 385px;
+ 
 }
 
 .card_cert {
