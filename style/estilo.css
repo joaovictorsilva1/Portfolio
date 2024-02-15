@@ -897,7 +897,7 @@ body, h1, p {
 .slider_img_cert {
   width: 45%;
   position: relative;
- 
+ overflow: hidden;
   top:3px;
   left: 3%;
 }
@@ -910,5 +910,9 @@ body, h1, p {
   position: relative;
   left: 49%;
   bottom:150px;
+  overflow: hidden;
+}
+
+.slide_certificado{
   overflow: hidden;
 }
