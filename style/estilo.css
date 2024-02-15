@@ -898,14 +898,17 @@ body, h1, p {
   width: 45%;
   position: relative;
  
-  top:33px;
-  left: 43%;
+  top:3px;
+  left: 3%;
 }
 
 .text_certificado1{
-  font-size: 3vh;
-  position: relative;
+  font-size: 15px;
   z-index: 6;
-  text-align: center;
-  bottom:159px;
+  color: rgb(118, 109, 109);
+  font-family: "Jost", sans-serif;
+  position: relative;
+  left: 49%;
+  bottom:150px;
+  overflow: hidden;
 }
