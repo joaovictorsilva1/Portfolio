@@ -893,3 +893,19 @@ body, h1, p {
   margin: 0;
   padding: 0;
 }
+
+.slider_img_cert {
+  width: 45%;
+  position: relative;
+ 
+  top:33px;
+  left: 43%;
+}
+
+.text_certificado1{
+  font-size: 3vh;
+  position: relative;
+  z-index: 6;
+  text-align: center;
+  bottom:159px;
+}
