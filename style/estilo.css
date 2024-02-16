@@ -916,3 +916,14 @@ body, h1, p {
 .slide_certificado{
   overflow: hidden;
 }
+
+.text_certificado2{
+  font-size: 15px;
+  z-index: 6;
+  color: rgb(118, 109, 109);
+  font-family: "Jost", sans-serif;
+  position: relative;
+  left: 49%;
+  bottom:150px;
+  overflow: hidden;
+}
