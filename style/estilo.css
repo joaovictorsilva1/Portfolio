@@ -938,3 +938,17 @@ body, h1, p {
   bottom:150px;
   overflow: hidden;
 }
+
+.coming_card{
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    width: 70%;
+    height: 33vh;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    z-index: 6;
+    position: relative;
+    left: 15%;
+    top:33px;
+}
