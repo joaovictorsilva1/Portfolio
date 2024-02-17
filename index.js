@@ -73,9 +73,12 @@ setInterval(() => {
     const loadMoreBtn = document.getElementById("load-more-btn");
     const filterButtons = document.querySelectorAll(".filter-btn");
     const projectsToAdd = [
+      "<div class='project backend'>Projeto 1 (Backend)</div>",
+      "<div class='project frontend'>Projeto 2 (Frontend)</div>",
+      "<div class='project frontend'>Projeto 3 (Frontend)</div>",
       "<div class='project backend'>Projeto 4 (Backend)</div>",
-      "<div class='project frontend'>Projeto 5 (Frontend)</div>",
-      "<div class='project backend frontend'>Projeto 6 (Full-stack)</div>",
+      "<div class='project fullstack'>Projeto 5 (Full-stack)</div>",
+      "<div class='project fullstack'>Projeto 6 (Full-stack)</div>",
       // Adicione mais projetos backend/frontend/fullstack aqui
     ];
     let currentIndex = 0;
@@ -98,6 +101,8 @@ setInterval(() => {
       // Oculta o botão de "Carregar Mais" se não houver mais projetos a serem carregados
       if (currentIndex >= projectsToAdd.length) {
         loadMoreBtn.style.display = "none";
+      } else {
+        loadMoreBtn.style.display = "block"; // Garante que o botão seja exibido se houver mais projetos a serem carregados
       }
     }
   
@@ -109,9 +114,13 @@ setInterval(() => {
     }
   
     function filterProjects(category) {
-      projectsContainer.innerHTML = ""; // Limpa o contêiner de projetos
-      currentIndex = 0; // Reinicia o índice para carregar a partir do início
+      // Limpa o contêiner de projetos
+      projectsContainer.innerHTML = "";
+      // Reinicia o índice para carregar a partir do início
+      currentIndex = 0;
+      // Define a categoria atual
       currentCategory = category;
+      // Adiciona projetos
       addProjects();
     }
   
@@ -123,6 +132,10 @@ setInterval(() => {
       });
     });
   
+    // Adiciona evento de clique ao botão "Carregar Mais"
     loadMoreBtn.addEventListener("click", addProjects);
+  
+    // Carrega os projetos iniciais ao iniciar a página
+    addProjects();
   });
   
