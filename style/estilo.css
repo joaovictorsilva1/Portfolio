@@ -943,12 +943,20 @@ body, h1, p {
     text-align: center;
     font-family: "Jost", sans-serif;
     width: 70%;
-    height: 33vh;
+    height: 53vh;
     border-radius: 10px;
-    background-color: black;
+    background-color: rgb(75, 75, 75);
     color: white;
     z-index: 6;
     position: relative;
     left: 15%;
     top:33px;
+}
+
+.logo_index{
+  position: relative;
+  z-index: 6;
+  width: 7%;
+  border-radius: 10px;
+  
 }
