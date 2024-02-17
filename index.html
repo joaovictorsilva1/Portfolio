@@ -108,23 +108,32 @@
   <h1 class="title_certificados">CERTIFICATIONS</h1>
   <div class="slider">
     <div class="slide_certificado" id="certificado1">
-      <a href="https://www.freecodecamp.org/certification/JoaoVsilva/responsive-web-design" target="_blank"><img class="slider_img_cert" src="/img/cert_design.png" alt="Certificate 1"></a>
+      <a href="https://www.freecodecamp.org/certification/JoaoVsilva/responsive-web-design" target="_blank"><img
+          class="slider_img_cert" src="/img/cert_design.png" alt="Certificate 1"></a>
       <h5 class="text_certificado1">Responsive web design:</h5>
       <h6 class="text_certificado1">
         In the Responsive Web Design<div></div> certification, it was learned the<div></div> usage of HTML for
         content<div></div> and CSS for website design.</h6>
     </div>
     <div class="slide_certificado" id="certificado2">
-      <a href="https://www.freecodecamp.org/certification/JoaoVsilva/data-analysis-with-python-v7" target="_blank"><img class="slider_img_cert" src="/img/cert2.png" alt="Certificate 2"></a>
+      <a href="https://www.freecodecamp.org/certification/JoaoVsilva/data-analysis-with-python-v7" target="_blank"><img
+          class="slider_img_cert" src="/img/cert2.png" alt="Certificate 2"></a>
       <h5 class="text_certificado2">Data Analysis with Python:</h5>
       <h6 class="text_certificado2">
-        After completing the certification<div></div> in data analysis with Python, I have<div></div> mastered the fundamentals of data<div></div>  analysis, including reading data<div></div> from sources such as CSVs and SQL,<div></div>  and utilizing libraries like Numpy,<div></div> Pandas, Matplotlib, and Seaborn<div></div> for data processing and visualization.</h6>
+        After completing the certification<div></div> in data analysis with Python, I have<div></div> mastered the
+        fundamentals of data<div></div> analysis, including reading data<div></div> from sources such as CSVs and SQL,
+        <div></div> and utilizing libraries like Numpy,<div></div> Pandas, Matplotlib, and Seaborn<div></div> for data
+        processing and visualization.
+      </h6>
     </div>
     <div class="slide_certificado" id="certificado3">
-      <a href="https://www.freecodecamp.org/certification/JoaoVsilva/javascript-algorithms-and-data-structures-v8" target="_blank"><img class="slider_img_cert" src="/img/cert3.png" alt="Certificate 3"></a>
+      <a href="https://www.freecodecamp.org/certification/JoaoVsilva/javascript-algorithms-and-data-structures-v8"
+        target="_blank"><img class="slider_img_cert" src="/img/cert3.png" alt="Certificate 3"></a>
       <h5 class="text_certificado3">Javascript algorithms and data structures:</h5>
       <h6 class="text_certificado3">
-        This certificate in Algorithms and Data<div></div> Structures in JavaScript covered the<div></div>  fundamentals of JavaScript, including<div></div>  variables, arrays, objects, loops, functions,<div></div>  the DOM, and much more.</h6>
+        This certificate in Algorithms and Data<div></div> Structures in JavaScript covered the<div></div> fundamentals
+        of JavaScript, including<div></div> variables, arrays, objects, loops, functions,<div></div> the DOM, and much
+        more.</h6>
     </div>
   </div>
   <div class="dots_certificados">
@@ -159,7 +168,9 @@
   </div>
 </div>
 <div class="title_port" id="projects">PORTFOLIO</div>
-<div class="area_project"><img class="img_projects" src="/img/hair.jpg"><a href="coming_soon.html"><button class="button_website1">View
+
+<div class="area_project"><img class="img_projects" src="/img/hair.jpg"><a href="coming_soon.html"><button
+      class="button_website1">View
       website</button></a>
   <a href="https://github.com/joaovictorsilva1/HairHub" target="_blank"><button class="button_code1">See
       code</button></a>
@@ -180,19 +191,36 @@
       code</button>
 </div></a>
 <div class="title_project2">TravelVista</div>
-<div class="text_port2">
+<div class="text_port2" class='project backend'>
   <div>TravelVista is a comprehensive</div> travel and tourism application that<div></div> redefines the planning,
   experience,<div></div> and sharing of global adventures.<div></div> With an intuitive interface and innovative<div>
   </div> features, TravelVista is the
-  ideal<div></div> partner for exploring destinations,<div></div> facilitating the creation of<div></div> unforgettable
+  ideal<div></div> partner for exploring destinations,<div></div> facilitating the creation of<div></div>
+  unforgettable
   memories.<div></div>
   <div></div> HTML,BOOTSRAP,PHP,PYTHON E MYSQL.
 </div>
-<button class="carregarMais1" id="carregarMais">LOAD MORE </button>
+
+<button class="carregarMais1" id="carregarMais" id="load-more-btn">LOAD MORE </button>
 <div class="title_maproject">MY PROJECTS</div>
-<button class="carregarMais2" id="carregarMais">ALL </button>
-<button class="carregarMais2" id="carregarMais">FRONT-END </button>
-<button class="carregarMais2" id="carregarMais">BACK-END </button>
+<button class="carregarMais2" id="carregarMais" class="filter-btn" data-category="all">ALL </button>
+<button class="carregarMais2" id="carregarMais" class="filter-btn" data-category="backend">FRONT-END </button>
+<button class="carregarMais2" id="carregarMais" data-category="frontend">BACK-END </button>
+<div>
+  <button class="filter-btn" data-category="all">Todos</button>
+  <button class="filter-btn" data-category="backend">Backend</button>
+  <button class="filter-btn" data-category="frontend">Frontend</button>
+  <button class="filter-btn" data-category="fullstack">Full-stack</button>
+</div>
+
+<div id="projects-container">
+  <!-- Aqui estão os projetos iniciais -->
+  <div class="project backend">Projeto 1 (Backend)</div>
+  <div class="project frontend">Projeto 2 (Frontend)</div>
+  <div class="project frontend">Projeto 3 (Frontend)</div>
+</div>
+
+<button id="load-more-btn">Carregar Mais</button>
 <footer id="contacts">
   <div class="links_index2">
     <a href="index.html">

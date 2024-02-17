@@ -65,3 +65,64 @@ setInterval(() => {
     plusSlidesCertificado(1);
   }, 3000);
 
+
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const projectsContainer = document.getElementById("projects-container");
+    const loadMoreBtn = document.getElementById("load-more-btn");
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const projectsToAdd = [
+      "<div class='project backend'>Projeto 4 (Backend)</div>",
+      "<div class='project frontend'>Projeto 5 (Frontend)</div>",
+      "<div class='project backend frontend'>Projeto 6 (Full-stack)</div>",
+      // Adicione mais projetos backend/frontend/fullstack aqui
+    ];
+    let currentIndex = 0;
+    let currentCategory = "all";
+  
+    function addProjects() {
+      const fragment = document.createDocumentFragment();
+      const projectsToAddSlice = projectsToAdd.slice(currentIndex, currentIndex + 3);
+      for (let i = 0; i < projectsToAddSlice.length; i++) {
+        const projectElement = document.createElement("div");
+        const category = getCategory(projectsToAddSlice[i]);
+        if (currentCategory === "all" || currentCategory === category) {
+          projectElement.innerHTML = projectsToAddSlice[i];
+          fragment.appendChild(projectElement);
+        }
+      }
+      projectsContainer.appendChild(fragment);
+      currentIndex += projectsToAddSlice.length;
+      
+      // Oculta o botão de "Carregar Mais" se não houver mais projetos a serem carregados
+      if (currentIndex >= projectsToAdd.length) {
+        loadMoreBtn.style.display = "none";
+      }
+    }
+  
+    function getCategory(projectHtml) {
+      const tempDiv = document.createElement("div");
+      tempDiv.innerHTML = projectHtml;
+      const projectCategory = tempDiv.querySelector(".project").classList[1];
+      return projectCategory;
+    }
+  
+    function filterProjects(category) {
+      projectsContainer.innerHTML = ""; // Limpa o contêiner de projetos
+      currentIndex = 0; // Reinicia o índice para carregar a partir do início
+      currentCategory = category;
+      addProjects();
+    }
+  
+    // Adiciona eventos de clique aos botões de filtro
+    filterButtons.forEach(function(button) {
+      button.addEventListener("click", function() {
+        const category = this.getAttribute("data-category");
+        filterProjects(category);
+      });
+    });
+  
+    loadMoreBtn.addEventListener("click", addProjects);
+  });
+  
