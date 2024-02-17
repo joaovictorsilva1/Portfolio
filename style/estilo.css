@@ -942,15 +942,18 @@ body, h1, p {
 .coming_card{
     text-align: center;
     font-family: "Jost", sans-serif;
+    font-size: 6vh;
     width: 70%;
-    height: 53vh;
+    height: 93vh;
     border-radius: 10px;
     background-color: rgb(75, 75, 75);
     color: white;
     z-index: 6;
     position: relative;
     left: 15%;
-    top:33px;
+    top:30px;
+    padding: 4%;
+    overflow: hidden;
 }
 
 .logo_index{
