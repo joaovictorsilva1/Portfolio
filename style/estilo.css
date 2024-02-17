@@ -940,7 +940,7 @@ body, h1, p {
 }
 
 .coming_card{
-    text-align: center;
+    text-align: justify;
     font-family: "Jost", sans-serif;
     font-size: 6vh;
     width: 70%;
@@ -951,7 +951,7 @@ body, h1, p {
     z-index: 6;
     position: relative;
     left: 15%;
-    top:30px;
+    top:25px;
     padding: 4%;
     overflow: hidden;
 }
@@ -961,5 +961,15 @@ body, h1, p {
   z-index: 6;
   width: 7%;
   border-radius: 10px;
+  left: 45%;
   
+}
+
+.text_contacts{
+ text-align: center;
+}
+.center_img{
+  position: relative;
+  z-index: 6;
+  left: 41%;
 }
