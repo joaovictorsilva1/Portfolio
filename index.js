@@ -66,22 +66,21 @@ setInterval(() => {
   }, 3000);
 
 
-
-
   document.addEventListener("DOMContentLoaded", function() {
     const projectsContainer = document.getElementById("projects-container");
     const loadMoreBtn = document.getElementById("load-more-btn");
     const filterButtons = document.querySelectorAll(".filter-btn");
+    const projects = document.querySelectorAll(".project");
     const projectsToAdd = [
-      "<div class='project backend'>Projeto 1 (Backend)</div>",
-      "<div class='project frontend'>Projeto 2 (Frontend)</div>",
-      "<div class='project frontend'>Projeto 3 (Frontend)</div>",
-      "<div class='project backend'>Projeto 4 (Backend)</div>",
-      "<div class='project fullstack'>Projeto 5 (Full-stack)</div>",
-      "<div class='project fullstack'>Projeto 6 (Full-stack)</div>",
+      "<div class='project backend'>Projeto 7 (Backend)</div>",
+      "<div class='project frontend'>Projeto 8 (Frontend)</div>",
+      "<div class='project frontend'>Projeto 9 (Frontend)</div>",
+      "<div class='project fullstack'>Projeto 10 (Full-stack)</div>",
+      "<div class='project fullstack'>Projeto 11 (Full-stack)</div>",
+      "<div class='project backend'>Projeto 12 (Backend)</div>",
       // Adicione mais projetos backend/frontend/fullstack aqui
     ];
-    let currentIndex = 0;
+    let currentIndex = 6; // Começa com 6 porque os 6 primeiros projetos já estão visíveis
     let currentCategory = "all";
   
     function addProjects() {
@@ -89,6 +88,7 @@ setInterval(() => {
       const projectsToAddSlice = projectsToAdd.slice(currentIndex, currentIndex + 3);
       for (let i = 0; i < projectsToAddSlice.length; i++) {
         const projectElement = document.createElement("div");
+        projectElement.classList.add("project");
         const category = getCategory(projectsToAddSlice[i]);
         if (currentCategory === "all" || currentCategory === category) {
           projectElement.innerHTML = projectsToAddSlice[i];
@@ -97,12 +97,16 @@ setInterval(() => {
       }
       projectsContainer.appendChild(fragment);
       currentIndex += projectsToAddSlice.length;
-      
+  
+      // Exibe os projetos adicionados
+      const addedProjects = document.querySelectorAll(".project");
+      addedProjects.forEach(project => {
+        project.style.display = "block";
+      });
+  
       // Oculta o botão de "Carregar Mais" se não houver mais projetos a serem carregados
       if (currentIndex >= projectsToAdd.length) {
         loadMoreBtn.style.display = "none";
-      } else {
-        loadMoreBtn.style.display = "block"; // Garante que o botão seja exibido se houver mais projetos a serem carregados
       }
     }
   
@@ -114,14 +118,25 @@ setInterval(() => {
     }
   
     function filterProjects(category) {
-      // Limpa o contêiner de projetos
-      projectsContainer.innerHTML = "";
-      // Reinicia o índice para carregar a partir do início
-      currentIndex = 0;
-      // Define a categoria atual
+      // Esconde todos os projetos
+      projects.forEach(project => {
+        project.style.display = "none";
+      });
+  
+      // Exibe apenas os projetos da categoria selecionada
+      if (category === "all") {
+        projects.forEach(project => {
+          project.style.display = "block";
+        });
+      } else {
+        const filteredProjects = document.querySelectorAll(`.project.${category}`);
+        filteredProjects.forEach(project => {
+          project.style.display = "block";
+        });
+      }
+  
+      // Atualiza a categoria atual
       currentCategory = category;
-      // Adiciona projetos
-      addProjects();
     }
   
     // Adiciona eventos de clique aos botões de filtro
@@ -134,8 +149,5 @@ setInterval(() => {
   
     // Adiciona evento de clique ao botão "Carregar Mais"
     loadMoreBtn.addEventListener("click", addProjects);
-  
-    // Carrega os projetos iniciais ao iniciar a página
-    addProjects();
   });
   
