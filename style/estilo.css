@@ -724,7 +724,7 @@ footer {
   z-index: 6;
   left: 13%;
   margin: 1%;
-  bottom: 87vh;
+  bottom: 121vh;
 }
 
 .img_projects {
@@ -987,7 +987,11 @@ p {
 
 #load-more-btn {
   display: block;
+  font-size: 5vh;
   position: relative;
+  bottom: 150vh;
+  width: 33%;
+  height: 10vh;
   z-index: 6;
   margin: 20px auto;
   padding: 10px 20px;
@@ -1015,7 +1019,7 @@ p {
   border-radius: 5px;
   font-family: "Jost", sans-serif;
   position: relative;
-  bottom: 80vh;
+  bottom: 120vh;
   left: 14%;
   z-index: 6;
   border: none;
