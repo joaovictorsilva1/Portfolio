@@ -981,6 +981,8 @@ body, h1, p {
 }
 #load-more-btn {
   display: block;
+  position: relative;
+  z-index: 6;
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #007bff;
@@ -989,3 +991,18 @@ body, h1, p {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.filter-btn{
+ background-color: red;
+ font-size: 3vh;
+ color: white;
+ border-radius: 5px;
+ font-family: "Jost", sans-serif;
+ position: relative;
+ z-index: 6;
+}
+
+.filter-btn:hover{
+  background-color: black;
+  cursor: pointer;
+ }

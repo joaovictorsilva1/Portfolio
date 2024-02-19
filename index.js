@@ -67,87 +67,49 @@ setInterval(() => {
 
 
   document.addEventListener("DOMContentLoaded", function() {
-    const projectsContainer = document.getElementById("projects-container");
     const loadMoreBtn = document.getElementById("load-more-btn");
-    const filterButtons = document.querySelectorAll(".filter-btn");
-    const projects = document.querySelectorAll(".project");
-    const projectsToAdd = [
-      "<div class='project backend'>Projeto 7 (Backend)</div>",
-      "<div class='project frontend'>Projeto 8 (Frontend)</div>",
-      "<div class='project frontend'>Projeto 9 (Frontend)</div>",
-      "<div class='project fullstack'>Projeto 10 (Full-stack)</div>",
-      "<div class='project fullstack'>Projeto 11 (Full-stack)</div>",
-      "<div class='project backend'>Projeto 12 (Backend)</div>",
-      // Adicione mais projetos backend/frontend/fullstack aqui
-    ];
-    let currentIndex = 6; // Começa com 6 porque os 6 primeiros projetos já estão visíveis
-    let currentCategory = "all";
-  
+    let loaded = false; // Variável para verificar se os projetos 7 ao 12 foram carregados
+
     function addProjects() {
-      const fragment = document.createDocumentFragment();
-      const projectsToAddSlice = projectsToAdd.slice(currentIndex, currentIndex + 3);
-      for (let i = 0; i < projectsToAddSlice.length; i++) {
-        const projectElement = document.createElement("div");
-        projectElement.classList.add("project");
-        const category = getCategory(projectsToAddSlice[i]);
-        if (currentCategory === "all" || currentCategory === category) {
-          projectElement.innerHTML = projectsToAddSlice[i];
-          fragment.appendChild(projectElement);
-        }
-      }
-      projectsContainer.appendChild(fragment);
-      currentIndex += projectsToAddSlice.length;
-  
-      // Exibe os projetos adicionados
-      const addedProjects = document.querySelectorAll(".project");
-      addedProjects.forEach(project => {
-        project.style.display = "block";
-      });
-  
-      // Oculta o botão de "Carregar Mais" se não houver mais projetos a serem carregados
-      if (currentIndex >= projectsToAdd.length) {
-        loadMoreBtn.style.display = "none";
-      }
-    }
-  
-    function getCategory(projectHtml) {
-      const tempDiv = document.createElement("div");
-      tempDiv.innerHTML = projectHtml;
-      const projectCategory = tempDiv.querySelector(".project").classList[1];
-      return projectCategory;
-    }
-  
-    function filterProjects(category) {
-      // Esconde todos os projetos
-      projects.forEach(project => {
-        project.style.display = "none";
-      });
-  
-      // Exibe apenas os projetos da categoria selecionada
-      if (category === "all") {
-        projects.forEach(project => {
+      if (!loaded) {
+        // Altera o estilo dos projetos 7 ao 12 para display: block
+        const projectsToAdd = document.querySelectorAll("#projects-container .project:nth-child(n+7)");
+        projectsToAdd.forEach(project => {
           project.style.display = "block";
         });
+        loaded = true; // Marca que os projetos 7 ao 12 foram carregados
       } else {
-        const filteredProjects = document.querySelectorAll(`.project.${category}`);
-        filteredProjects.forEach(project => {
-          project.style.display = "block";
-        });
+        // Ação a ser realizada quando o botão "Carregar Mais" for clicado novamente (se necessário)
+        // Por exemplo, pode adicionar mais projetos aqui se necessário
+        console.log("Não há mais projetos para carregar.");
       }
-  
-      // Atualiza a categoria atual
-      currentCategory = category;
+
+      // Oculta o botão de "Carregar Mais" após exibir todos os projetos
+      loadMoreBtn.style.display = "none";
     }
-  
+
+    // Adiciona evento de clique ao botão "Carregar Mais"
+    loadMoreBtn.addEventListener("click", addProjects);
+
     // Adiciona eventos de clique aos botões de filtro
+    const filterButtons = document.querySelectorAll(".filter-btn");
     filterButtons.forEach(function(button) {
       button.addEventListener("click", function() {
         const category = this.getAttribute("data-category");
         filterProjects(category);
       });
     });
-  
-    // Adiciona evento de clique ao botão "Carregar Mais"
-    loadMoreBtn.addEventListener("click", addProjects);
+
+    function filterProjects(category) {
+      const projects = document.querySelectorAll(".project");
+      projects.forEach(project => {
+        if (category === "all") {
+          project.style.display = "block";
+        } else if (project.classList.contains(category)) {
+          project.style.display = "block";
+        } else {
+          project.style.display = "none";
+        }
+      });
+    }
   });
-  
