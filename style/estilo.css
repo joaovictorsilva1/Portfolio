@@ -724,7 +724,7 @@ footer {
   z-index: 6;
   left: 13%;
   margin: 1%;
-  bottom: 121vh;
+  bottom: 221vh;
 }
 
 .img_projects {
@@ -733,7 +733,7 @@ footer {
   /* manter a proporção original da imagem */
   display: block;
   ´position: relative;
-  z-index: 5;
+  z-index: 6;
 
 }
 
@@ -989,7 +989,7 @@ p {
   display: block;
   font-size: 5vh;
   position: relative;
-  bottom: 154vh;
+  bottom: 254vh;
   width: 33%;
   height: 10vh;
   z-index: 6;
@@ -1021,7 +1021,7 @@ p {
   border-radius: 5px;
   font-family: "Jost", sans-serif;
   position: relative;
-  bottom: 120vh;
+  bottom: 220vh;
   left: 14%;
   z-index: 6;
   border: none;
@@ -1035,7 +1035,7 @@ p {
 
 #projects-container{
   position: relative;
-  background-color: red;
-  z-index: 6;
-  bottom: 103vh;
+  background-color: blue;
+  z-index: 5;
+  bottom: 203vh;
 }
