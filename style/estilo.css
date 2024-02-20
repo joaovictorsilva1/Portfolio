@@ -1033,7 +1033,9 @@ p {
   cursor: pointer;
 }
 
-.projects-container{
+#projects-container{
   position: relative;
+  background-color: red;
   z-index: 6;
+  bottom: 103vh;
 }
