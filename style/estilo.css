@@ -1039,3 +1039,15 @@ p {
   z-index: 5;
   bottom: 0vh;
 }
+
+.title_project3{
+  color: white;
+  position: relative;
+  z-index: 7;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+  left: 59%;
+  bottom: 0vh;
+}
