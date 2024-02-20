@@ -546,7 +546,7 @@ footer {
   font-size: 4vh;
   margin-left: 5%;
   left: 59%;
-  bottom: 97vh;
+  bottom: 7vh;
 }
 
 
@@ -563,13 +563,13 @@ footer {
 .title_project2 {
   color: white;
   position: relative;
-  z-index: 6;
+  z-index: 7;
   text-align: justify;
   font-family: "Jost", sans-serif;
   font-size: 5vh;
   margin-left: 5%;
   left: 59%;
-  bottom: 96vh;
+  bottom: 6vh;
 }
 
 .area_project {
@@ -617,6 +617,7 @@ footer {
   background: red;
   font-family: "Jost", sans-serif;
   position: relative;
+  z-index: 7;
   bottom: 100px;
   left: 13%;
 
@@ -730,7 +731,6 @@ footer {
 .img_projects {
   width: 100%;
   height: auto;
-  /* manter a proporção original da imagem */
   display: block;
   ´position: relative;
   z-index: 6;
@@ -989,7 +989,7 @@ p {
   display: block;
   font-size: 5vh;
   position: relative;
-  bottom: 254vh;
+  bottom: 10vh;
   width: 33%;
   height: 10vh;
   z-index: 6;
@@ -1021,7 +1021,7 @@ p {
   border-radius: 5px;
   font-family: "Jost", sans-serif;
   position: relative;
-  bottom: 220vh;
+  bottom: 10vh;
   left: 14%;
   z-index: 6;
   border: none;
@@ -1037,5 +1037,5 @@ p {
   position: relative;
   background-color: blue;
   z-index: 5;
-  bottom: 203vh;
+  bottom: 0vh;
 }
