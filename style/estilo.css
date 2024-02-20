@@ -1000,7 +1000,7 @@ p {
   border: none;
   font-family: "Jost", sans-serif;
   border-radius: 5px;
- 
+
 }
 
 
@@ -1033,20 +1033,77 @@ p {
   cursor: pointer;
 }
 
-#projects-container{
+#projects-container {
   position: relative;
   background-color: blue;
   z-index: 5;
   bottom: 0vh;
 }
 
-.title_project3{
+.title_project3 {
   color: white;
   position: relative;
   z-index: 7;
   text-align: justify;
   font-family: "Jost", sans-serif;
   font-size: 5vh;
+  margin-left: 5%;
+  left: 59%;
+  bottom: 0vh;
+}
+
+.text_port3 {
+  color: white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 4vh;
+  margin-left: 5%;
+  left: 59%;
+  bottom: 0vh;
+}
+
+
+.area_project3 {
+  background: rgb(119, 119, 119);
+  overflow: hidden;
+  position: relative;
+  width: 33%;
+  height: 33ch;
+  z-index: 7;
+  margin-left: 5%;
+  left: 59%;
+  bottom: 7vh;
+}
+
+.img_projects2 {
+  width: 100%;
+  height: auto;
+  display: block;
+  ´position: relative;
+  z-index: 6;
+}
+
+.title_project4 {
+  color: white;
+  position: relative;
+  z-index: 7;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 5vh;
+  margin-left: 5%;
+  left: 59%;
+  bottom: 0vh;
+}
+
+.area_project4 {
+  background: rgb(119, 119, 119);
+  overflow: hidden;
+  position: relative;
+  width: 33%;
+  height: 33ch;
+  z-index: 7;
   margin-left: 5%;
   left: 59%;
   bottom: 0vh;
