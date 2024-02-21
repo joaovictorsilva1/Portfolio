@@ -1060,8 +1060,9 @@ p {
   font-family: "Jost", sans-serif;
   font-size: 4vh;
   margin-left: 5%;
-  left: 59%;
+  left: 58%;
   bottom: 0vh;
+  border: none;
 }
 
 
@@ -1170,6 +1171,8 @@ p {
   margin-left: 5%;
   left: 59%;
   bottom: 0vh;
+  white-space: normal;
+  border: none;
 }
 
 .button_code4 {
@@ -1213,3 +1216,7 @@ p {
   
 }
 
+
+.project frontend{
+  white-space: normal;
+}
