@@ -1221,3 +1221,7 @@ p {
 .project frontend{
   white-space: normal;
 }
+
+.project fullstack{
+    border: none;
+}
