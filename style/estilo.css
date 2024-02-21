@@ -1083,7 +1083,7 @@ p {
   position: relative;
   width: 33%;
   height: 33ch;
-  z-index: 6;
+  z-index: 7;
   margin-left: 5%;
   left: 59%;
   bottom: 7vh;
@@ -1113,8 +1113,8 @@ p {
 
 
 .img_projects3 {
-  width: 100%;
-  height: 100%;
+  width: 10%;
+
   display: block;
   position: relative;
   z-index: 6;
@@ -1131,7 +1131,7 @@ p {
   font-family: "Jost", sans-serif;
   position: relative;
   z-index: 7;
-  top: 180px;
+  bottom: 10px;
   left: 13%;
 }
 .button_website3:hover {
@@ -1147,7 +1147,7 @@ p {
   position: relative;
   z-index: 7;
   left: 20.1%;
-  top: 180px;
+  bottom:  10px;
   font-size: 3vh;
   border-radius: 15px;
   color: white;
