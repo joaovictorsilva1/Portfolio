@@ -1038,6 +1038,7 @@ p {
   background-color: rgb(62, 62, 62);
   z-index: 5;
   bottom: 0vh;
+  white-space: normal;
 }
 
 .title_project3 {
@@ -1048,7 +1049,7 @@ p {
   font-family: "Jost", sans-serif;
   font-size: 5vh;
   margin-left: 5%;
-  left: 59%;
+  left: 58.6%;
   bottom: 0vh;
 }
 
@@ -1107,7 +1108,7 @@ p {
   font-family: "Jost", sans-serif;
   font-size: 5vh;
   margin-left: 5%;
-  left: 59%;
+  left: 59.6%;
   bottom: 0vh;
 }
 
