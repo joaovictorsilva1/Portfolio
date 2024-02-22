@@ -40,10 +40,11 @@
       .button_contacts {
         position: fixed;
         top: 0;
-        bottom: 0;
+        bottom: 0vh;
         left: 0;
         right: 0;
         margin: auto;
+        margin-bottom: 5px;
         font-family: "Leelawadee UI";
         font-size: 4vh;
         text-align: center;
