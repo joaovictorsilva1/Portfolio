@@ -834,7 +834,7 @@ footer {
 }
 
 .text_dif1 {
-
+  white-space: wrap;
   width: 73%;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
@@ -844,6 +844,7 @@ footer {
 }
 
 .text_dif2 {
+  white-space: wrap;
   width: 73%;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
@@ -853,6 +854,7 @@ footer {
 }
 
 .text_dif3 {
+  white-space: wrap;
   width: 73%;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
@@ -907,6 +909,7 @@ p {
 
 .text_certificado1 {
   font-size: 15px;
+  white-space: wrap;
   z-index: 6;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
@@ -922,6 +925,7 @@ p {
 
 .text_certificado2 {
   font-size: 13px;
+  white-space: wrap;
   z-index: 6;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
@@ -933,6 +937,7 @@ p {
 
 .text_certificado3 {
   font-size: 13px;
+  white-space: wrap;
   z-index: 6;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
