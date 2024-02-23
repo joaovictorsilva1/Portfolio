@@ -780,6 +780,7 @@ footer {
 
 .slider-container {
   display: inline-block;
+  word-break: break-all;
   width: 300px;
   overflow: hidden;
   position: relative;
@@ -792,6 +793,14 @@ footer {
   position: relative;
   top: 10vh;
   left: 7%;
+}
+
+
+.text_certificado1,
+.text_certificado2,
+.text_certificado3 {
+  word-break: break-all;
+
 }
 
 .slider {
@@ -908,19 +917,20 @@ p {
 }
 
 .text_certificado1 {
-  font-size: 15px;
-  white-space: wrap;
+  font-size: 1vw;
+  word-break: break-all;
   z-index: 6;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
   position: relative;
   left: 49%;
   bottom: 150px;
-  overflow: hidden;
+
 }
 
 .slide_certificado {
   overflow: hidden;
+  word-break: break-all;
 }
 
 .text_certificado2 {
@@ -1138,9 +1148,10 @@ p {
   font-family: "Jost", sans-serif;
   position: relative;
   z-index: 7;
-  bottom:50px;
+  bottom: 50px;
   left: 13%;
 }
+
 .button_website3:hover {
   background: black;
   cursor: pointer;
@@ -1154,7 +1165,7 @@ p {
   position: relative;
   z-index: 7;
   left: 20.1%;
-  bottom:  50px;
+  bottom: 50px;
   font-size: 3vh;
   border-radius: 15px;
   color: white;
@@ -1216,17 +1227,17 @@ p {
 }
 
 .button_website4:hover {
-  
+
   cursor: pointer;
   background: black;
-  
+
 }
 
 
-.project frontend{
+.project frontend {
   white-space: normal;
 }
 
-.project fullstack{
-    border: none;
+.project fullstack {
+  border: none;
 }

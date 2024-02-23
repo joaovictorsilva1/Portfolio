@@ -87,7 +87,7 @@
 
   .writing-effect {
     font-family: 'Noto Sans Gujarati', sans-serif;
-    font-size: 6vh;
+    font-size: 7vw;
     color: #013170;
     overflow: hidden;
     width: 21ch;
@@ -338,7 +338,7 @@
   }
 
   .text_certificado1 {
-    width: 73%;
+    font-size: auto;
     white-space: wrap;
     z-index: 6;
     color: rgb(118, 109, 109);
@@ -347,6 +347,10 @@
     left: 49%;
     bottom: 150px;
     overflow: hidden;
+  }
+
+  .slider{
+    word-break: break-all;
   }
 
   .text_dif1 {
