@@ -261,6 +261,7 @@
 
   .slider-container {
     display: inline-block;
+    white-space: wrap;
     width: 300px;
     overflow: hidden;
     position: relative;
@@ -316,7 +317,7 @@
   }
 
   .text_certificado1 {
-    font-size: 1em;
+    width: 73%;
     white-space: wrap;
     z-index: 6;
     color: rgb(118, 109, 109);
@@ -326,8 +327,34 @@
     bottom: 150px;
     overflow: hidden;
   }
-  
 
+  .text_dif1 {
+    width: 73%;
+    white-space: wrap;
+    z-index: 6;
+    color: rgb(118, 109, 109);
+    font-family: "Jost", sans-serif;
+    position: relative;
+    left: 23%;
+    bottom: 49px;
+    overflow: hidden;
+  }
+  
+  .footer_img {
+    width: 15vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  
+  .footer_img2 {
+    width: 15vw;
+    margin: 1px;
+  }
+  
+  .footer_img3 {
+    width: 15vw;
+    margin: 1px;
+  }
 }
 
 

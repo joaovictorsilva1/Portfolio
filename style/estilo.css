@@ -504,7 +504,7 @@ footer {
 .footer_img {
   width: 5%;
   margin-top: 2vh;
-  margin-bottom: 2ch;
+  margin-bottom: 2vh;
 }
 
 .footer_img2 {
@@ -513,7 +513,7 @@ footer {
 }
 
 .footer_img3 {
-  width: 10%;
+  width: 5%;
   margin: 1px;
 }
 
@@ -523,7 +523,7 @@ footer {
   z-index: 6;
   text-align: center;
   font-family: "Jost", sans-serif;
-  font-size: 10vh;
+  font-size: 5vw;
 }
 
 .text_port {
