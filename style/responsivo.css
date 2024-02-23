@@ -1,85 +1,305 @@
 @media only screen and (max-width: 767px) {
-    /* Estilos para dispositivos móveis */
+  /* Estilos para dispositivos móveis */
+  .links_index {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(36, 30, 61, 0);
+    width: 100%;
+    position: relative;
+    z-index: 8;
+    top: 0;
+  
+  }
+  
+  .link_text {
+    margin-left: 8px;
+    font-size: 32px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 5%;
 
-    .link_text {
-        margin-left: 80px;
-        font-size: 32px;
-        display: flex;
-        text-decoration: none;
-        color: white;
-        position: relative;
-        left: 14%;
-        margin: 2%;
-      
-      }
+  }
 
-      .text_introdu {
-        margin: 0;
-        padding: 0px;
-        font-family: 'Inter', sans-serif;
-        font-size: 200%;
-        position: relative;
-        left: 50%;
-        right: 50%;
-        bottom: 385px;
-      
-      }
+  .text_introdu {
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    bottom: 5vh;
+    transform: translateX(-50%);
+  }
 
 
-      .perfil_img {
-        width: 35%;
-        margin: 25px;
-        position: relative;
-        bottom: 20px;
-        left: 1%;
-        bottom: 33vh;
-        z-index: 6;
-      
-      }
+  .perfil_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 80%; 
+    min-height: 80%;
+    z-index: 6;
 
-      .button_contacts {
-        position: fixed;
-        top: 0;
-        bottom: 0vh;
-        left: 0;
-        right: 0;
-        margin: auto;
-        margin-bottom: 5px;
-        font-family: "Leelawadee UI";
-        font-size: 4vh;
-        text-align: center;
-        width: 100%;
-        height: 47px;
-        border-radius: 20px;
-        background: #D9D9D9;
-        color: black;
-        border: 1px solid #D9D9D9;
-        position: relative;
-        bottom: 205px;
-        z-index: 6;
-      }
+  }
+
+  .button_contacts {
+    position: fixed;
+    top: 0;
+    bottom: 0vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 5px;
+    font-family: "Leelawadee UI";
+    font-size: 4vh;
+    text-align: center;
+    width: 100%;
+    height: 47px;
+    border-radius: 20px;
+    background: #D9D9D9;
+    color: black;
+    border: 1px solid #D9D9D9;
+    position: relative;
+    bottom: 205px;
+    z-index: 6;
+  }
+
+  .writing-effect {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-size: 6vh;
+    color: #013170;
+    overflow: hidden;
+    width: 21ch;
+    border-right: 4px solid #013170;
+    white-space: nowrap;
+    animation: typing 4.9s steps(21), blinking 0.75s infinite ease-in-out;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 3.3%;
+    bottom: 39px;
+    z-index: 6;
+  }
+
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+
+  @keyframes blinking {
+    50% {
+      border-color: transparent;
+    }
+  }
+ 
+  .title_about_me {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 15vw;
+    margin-left: 5%;
+  }
+  .title_about_me2 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 8vw;
+    margin-left: 2%;
+    left: 5%;
+    top: 2vh;
+  }
+  
+  .title_about_me3 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 8vw;
+    margin-left: 2%;
+    left: 5%;
+    top: 5vh;
+  }
+
+
+  
+  .text_about_me {
+    color: white;
+    white-space: wrap;
+    text-align: justify;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 7vw;
+    margin-left: 5%;
+  }
+
+
+  .text_about_me2 {
+    color: white;
+    white-space: wrap;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 7vw;
+    margin-left: 5%;
+    left: 2%;
+    top: 20px;
+  }
+  
+  .text_about_me3 {
+    color: white;
+    white-space: wrap;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 7vw;
+    margin-left: 2%;
+    left: 5%;
+    top: 20px;
+  }
+
+  .title_skills {
+    color: #3B3D3D;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 9vw;
+    text-align: center;
+    top:5vh;
+  
+  }
+  .img_skills {
+    position: relative;
+    z-index: 5;
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+    top: 5vh;
+  }
+  .text_skills {
+    color: white;
+    position: relative;
+    z-index: 6;
+    font-size: 15vw;
+    font-family: "Jost", sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5vh;
+  }
+  
+  .text_skills2 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    font-size: 15vw;
+    font-family: "Jost", sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5vh;
+  }
+  
+  
+  .text_skills3 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    font-size: 15vw;
+    font-family: "Jost", sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5vh;
+  }
+  
+  .text_skills4 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    font-size: 15vw;
+    font-family: "Jost", sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5vh;
+  }
+  
+  .text_skills5 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    font-size: 15vw;
+    font-family: "Jost", sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5vh;
+  }
+  
+  .text_skills6 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    font-size: 15vw;
+    font-family: "Jost", sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5vh;
+  }
+  
+  
+  .text_skills7 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    font-size: 15vw;
+    font-family: "Jost", sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5vh;
+  }
+
+  .slider-container {
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    background: #9FD9DB;
+    width: 90%;
+    height: 35vh;
+    z-index: 6;
+    border-radius: 20px;
+    margin: 5%;
+    position: relative;
+    bottom: 10vh;
+    left: 0%;
+  }
+
 }
 
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* Estilos para tablets */
+  /* Estilos para tablets */
 }
 
 
 @media only screen and (min-width: 1024px) {
-    /* Estilos para desktops */
+  /* Estilos para desktops */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* Estilos para dispositivos pequenos e médios */
+  /* Estilos para dispositivos pequenos e médios */
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    /* Estilos para dispositivos grandes */
+  /* Estilos para dispositivos grandes */
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (min-device-pixel-ratio: 2) {
-    /* Estilos para telas de alta resolução */
+  /* Estilos para telas de alta resolução */
 }
