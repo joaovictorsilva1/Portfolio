@@ -153,3 +153,8 @@ document.querySelectorAll('.menu-item').forEach(item => {
     }, 3000); // 3 segundos
   });
 });
+
+
+
+
+
