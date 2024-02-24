@@ -1250,7 +1250,8 @@ p {
   display: none;
   position: static;
   background-color: #f9f9f9;
-  width: 20vw;
+  width: 100%;
+  margin-left: 5vw;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   position: relative;
@@ -1267,4 +1268,19 @@ p {
 
 .dropdown-content a:hover {
   background-color: #f1f1f1;
+}
+
+.dropbtn{
+  position: static;
+  width: 10%;
+  margin-left: 5%;
+  z-index: 8;
+  border: none;
+  background: none;
+}
+
+.opcoes_img{
+ width: 80%;
+ position: relative;
+ right: 0%;
 }
