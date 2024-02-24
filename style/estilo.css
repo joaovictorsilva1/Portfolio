@@ -1277,3 +1277,12 @@ p {
   right: 40%;
   cursor: pointer; /* Adicionado cursor pointer para indicar que é clicável */
 }
+
+.menu-item {
+  transition: color 1.3s;
+}
+
+.menu-item.active {
+  color: #000; /* Cor quando ativo */
+}
+

@@ -429,6 +429,11 @@
   .dropdown:hover .dropdown-content {
     display: block; /* Mostra o conteúdo do dropdown ao passar o mouse */
   }
+
+  .title_menu1{
+    font-family: "Jost", sans-serif;
+    padding-left: 16px;
+  }
 }
 
 

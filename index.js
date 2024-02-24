@@ -138,3 +138,18 @@ document.querySelectorAll('.dropdown-content a').forEach(item => {
     menuAberto = false; // Atualiza a variável para indicar que o menu está fechado
   });
 });
+
+document.querySelectorAll('.menu-item').forEach(item => {
+  item.addEventListener('click', () => {
+    // Remove a classe 'active' de todos os itens do menu
+    document.querySelectorAll('.menu-item').forEach(item => {
+      item.classList.remove('active');
+    });
+    // Adiciona a classe 'active' apenas ao item clicado
+    item.classList.add('active');
+    // Aplica a animação de mudança de cor
+    setTimeout(() => {
+      item.classList.remove('active');
+    }, 3000); // 3 segundos
+  });
+});
