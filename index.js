@@ -113,3 +113,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+document.querySelector('.dropbtn').addEventListener('click', function() {
+  document.querySelector('.dropdown-content').style.display = 'block';
+});
+
+document.querySelectorAll('.dropdown-content a').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelector('.dropdown-content').style.display = 'none';
+  });
+});
