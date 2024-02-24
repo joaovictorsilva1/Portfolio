@@ -1283,3 +1283,7 @@ p {
  position: relative;
  right: 40%;
 }
+
+.opcoes_img:hover{
+ cursor: pointer;
+ }
