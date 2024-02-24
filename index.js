@@ -114,12 +114,27 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-document.querySelector('.dropbtn').addEventListener('click', function() {
-  document.querySelector('.dropdown-content').style.display = 'block';
+var menuAberto = false; // Variável para rastrear se o menu está aberto ou fechado
+
+document.querySelector('.opcoes_img').addEventListener('click', function() {
+  toggleMenu();
 });
+
+function toggleMenu() {
+  var menu = document.querySelector('.dropdown-content');
+  if (!menuAberto) { // Se o menu estiver fechado, abra-o
+    menu.style.display = 'block';
+    menuAberto = true;
+  } else { // Se o menu estiver aberto, feche-o
+    menu.style.display = 'none';
+    menuAberto = false;
+  }
+}
 
 document.querySelectorAll('.dropdown-content a').forEach(item => {
   item.addEventListener('click', () => {
+    // Feche o menu quando um item for clicado
     document.querySelector('.dropdown-content').style.display = 'none';
+    menuAberto = false; // Atualiza a variável para indicar que o menu está fechado
   });
 });
