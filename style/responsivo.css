@@ -122,14 +122,15 @@
     font-family: "Jost", sans-serif;
     font-size: 15vw;
     margin-left: 5%;
+    left: 5%;
   }
   .title_about_me2 {
     color: white;
     position: relative;
     z-index: 5;
     font-family: "Jost", sans-serif;
-    font-size: 8vw;
-    margin-left: 2%;
+    font-size: 7vw;
+    margin-left: 5%;
     left: 5%;
     top: 2vh;
   }
@@ -139,8 +140,8 @@
     position: relative;
     z-index: 5;
     font-family: "Jost", sans-serif;
-    font-size: 8vw;
-    margin-left: 2%;
+    font-size: 7vw;
+    margin-left: 5%;
     left: 5%;
     top: 4vh;
   }
@@ -156,6 +157,7 @@
     font-family: "Jost", sans-serif;
     font-size: 7vw;
     margin-left: 5%;
+    left: 5%;
   }
 
 
@@ -166,8 +168,7 @@
     z-index: 5;
     font-family: "Jost", sans-serif;
     font-size: 7vw;
-    margin-left: 5%;
-    left: 2%;
+    left: 5%;
     top: 2vh;
   }
   
@@ -178,7 +179,6 @@
     z-index: 5;
     font-family: "Jost", sans-serif;
     font-size: 7vw;
-    margin-left: 2%;
     left: 5%;
     top: 3vh;
   }
