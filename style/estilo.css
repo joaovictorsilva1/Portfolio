@@ -595,6 +595,7 @@ footer {
 }
 
 .button_website1 {
+  overflow: hidden;
   width: 33%;
   height: 40px;
   font-size: 3vh;
@@ -608,6 +609,7 @@ footer {
 }
 
 .button_website2 {
+  overflow: hidden;
   width: 33%;
   height: 40px;
   font-size: 3vh;
@@ -637,6 +639,7 @@ footer {
 
 
 .button_code1 {
+  overflow: hidden;
   width: 33%;
   height: 40px;
   position: relative;
@@ -650,6 +653,7 @@ footer {
 }
 
 .button_code2 {
+  overflow: hidden;
   width: 33%;
   height: 40px;
   position: relative;
@@ -1138,6 +1142,7 @@ p {
 
 
 .button_website3 {
+  overflow: hidden;
   width: 33%;
   height: 40px;
   font-size: 3vh;
@@ -1159,6 +1164,7 @@ p {
 
 
 .button_code3 {
+  overflow: hidden;
   width: 33%;
   height: 40px;
   position: relative;
@@ -1192,6 +1198,7 @@ p {
 }
 
 .button_code4 {
+  overflow: hidden;
   width: 33%;
   height: 40px;
   position: relative;
@@ -1212,6 +1219,7 @@ p {
 }
 
 .button_website4 {
+  overflow: hidden;
   width: 33%;
   height: 40px;
   font-size: 3vh;
