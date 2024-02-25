@@ -462,10 +462,10 @@ a:hover {
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
-  font-size: 8vh;
+  font-size: 4vw;
   margin-left: 5%;
-  left: 830px;
-  bottom: 300px;
+  left: 55%;
+  bottom: 44vh;
 }
 
 .title_about_me3 {
@@ -473,10 +473,10 @@ a:hover {
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
-  font-size: 8vh;
+  font-size: 3.6vw;
   margin-left: 5%;
-  left: 820px;
-  bottom: 185px;
+  left: 55%;
+  bottom: 26vh;
 }
 
 footer {
