@@ -431,10 +431,11 @@ a:hover {
 .text_about_me {
   color: white;
   position: relative;
-  z-index: 5;
+  z-index: 7;
   font-family: "Jost", sans-serif;
   font-size: 5vh;
   margin-left: 5%;
+  word-break: break-all
 }
 
 .text_about_me2 {
