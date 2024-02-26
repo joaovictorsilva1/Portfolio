@@ -521,7 +521,7 @@ footer {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 4vh;
+  font-size: 2vw;
   margin-left: 5%;
 }
 
@@ -531,7 +531,7 @@ footer {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 4vh;
+  font-size: 2vw;
   margin-left: 5%;
   left: 59%;
   bottom: 97vh;
