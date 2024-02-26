@@ -194,7 +194,7 @@ a:hover {
 .gradient-container5 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(#6A96F4,#6A96F4);
+  background: radial-gradient(#6A96F4, #6A96F4);
   background: #6A96F4;
   position: relative;
   overflow: hidden;
@@ -544,7 +544,7 @@ footer {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 5vh;
+  font-size: 2vw;
   margin-left: 5%;
 }
 
@@ -554,7 +554,7 @@ footer {
   z-index: 7;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 5vh;
+  font-size: 2vw;
   margin-left: 5%;
   left: 59%;
   bottom: 96vh;
@@ -565,7 +565,7 @@ footer {
   overflow: hidden;
   position: relative;
   width: 33%;
-  height: 33ch;
+  height: 43vh;
   z-index: 5;
   margin-left: 5%;
 
@@ -576,7 +576,7 @@ footer {
   overflow: hidden;
   position: relative;
   width: 33%;
-  height: 33ch;
+  height: 43vh;
   z-index: 7;
   margin-left: 5%;
   left: 59%;
@@ -587,28 +587,29 @@ footer {
   overflow: hidden;
   width: 33%;
   height: 40px;
-  font-size: 3vh;
-  border-radius: 15px;
-  color: white;
-  background: red;
-  font-family: "Jost", sans-serif;
-  position: relative;
-  left: 13%;
-  bottom: 100px;
-}
-
-.button_website2 {
-  overflow: hidden;
-  width: 33%;
-  height: 40px;
-  font-size: 3vh;
+  font-size: 1.5vw;
   border-radius: 15px;
   color: white;
   background: red;
   font-family: "Jost", sans-serif;
   position: relative;
   z-index: 7;
-  bottom: 100px;
+  left: 13%;
+  bottom: 14vh;
+}
+
+.button_website2 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+  position: relative;
+  z-index: 7;
+  bottom: 14vh;
   left: 13%;
 
 }
@@ -633,12 +634,13 @@ footer {
   height: 40px;
   position: relative;
   left: 20.1%;
-  bottom: 100px;
-  font-size: 3vh;
+  bottom: 14vh;
+  font-size: 1.5vw;
   border-radius: 15px;
   color: white;
   background: red;
   font-family: "Jost", sans-serif;
+  z-index: 7;
 }
 
 .button_code2 {
@@ -647,17 +649,17 @@ footer {
   height: 40px;
   position: relative;
   left: 20.1%;
-  bottom: 100px;
-  font-size: 3vh;
+  bottom: 14vh;
+  font-size: 1.5vw;
   border-radius: 15px;
   color: white;
   background: red;
   font-family: "Jost", sans-serif;
+  z-index: 7;
 }
 
 .button_code1:hover {
   background: black;
-
   cursor: pointer;
 
 }
@@ -668,50 +670,8 @@ footer {
 
 }
 
-.carregarMais1 {
-  margin-left: 2%;
-  font-size: 3vh;
-  border-radius: 20px;
-  font-family: "Jost", sans-serif;
-  background: #D9D9D9;
-  width: 403px;
-  height: 10vh;
-  z-index: 6;
-  position: relative;
-  left: 33%;
-  bottom: 87vh;
-
-}
-
-.carregarMais1:hover {
-  cursor: pointer;
-  background-color: black;
-  color: white;
-}
-
-
-.carregarMais2 {
-  margin-left: 2%;
-  border-radius: 20px;
-  font-family: "Jost", sans-serif;
-  background: #D9D9D9;
-  width: 303px;
-  height: 6vh;
-  z-index: 6;
-  position: relative;
-  left: 12%;
-  bottom: 87vh;
-}
-
-.carregarMais2:hover {
-  cursor: pointer;
-  background-color: black;
-  color: white;
-}
-
 .title_maproject {
-  font-size: 7vh;
-  margin-left: 22px;
+  font-size: 3vw;
   color: white;
   position: relative;
   z-index: 6;
@@ -724,13 +684,10 @@ footer {
   width: 100%;
   height: auto;
   display: block;
-  ´position: relative;
+  position: relative;
   z-index: 6;
 
 }
-
-
-
 
 .links_index2 {
   display: block;
@@ -743,8 +700,8 @@ footer {
 }
 
 .link_text2 {
-  margin-left: 80px;
-  font-size: 20px;
+  margin-left: 2%;
+  font-size: 2vw;
   display: inline-block;
   text-decoration: none;
   color: rgb(138, 135, 135);
@@ -910,7 +867,7 @@ p {
 
 .text_certificado1 {
   font-size: 1vw;
-  word-break: break-all;
+  white-space: wrap;
   z-index: 6;
   color: rgb(118, 109, 109);
   font-family: "Jost", sans-serif;
@@ -952,7 +909,7 @@ p {
 .coming_card {
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 6vh;
+  font-size: 2.7vw;
   width: 70%;
   height: 93vh;
   border-radius: 10px;
@@ -993,7 +950,7 @@ p {
 
 #load-more-btn {
   display: block;
-  font-size: 5vh;
+  font-size: 2vw;
   position: relative;
   bottom: 10vh;
   width: 33%;
@@ -1023,7 +980,7 @@ p {
   height: 7vh;
   margin-left: 10px;
   color: black;
-  font-size: 3vh;
+  font-size: 1.5vw;
   text-align: center;
   border-radius: 5px;
   font-family: "Jost", sans-serif;
@@ -1054,7 +1011,7 @@ p {
   z-index: 7;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 5vh;
+  font-size: 2vw;
   margin-left: 5%;
   left: 58.6%;
   bottom: 0vh;
@@ -1066,7 +1023,7 @@ p {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 4vh;
+  font-size: 1.8vw;
   margin-left: 5%;
   left: 58%;
   bottom: 0vh;
@@ -1079,7 +1036,7 @@ p {
   overflow: hidden;
   position: relative;
   width: 33%;
-  height: 33ch;
+  height: 43vh;
   z-index: 7;
   margin-left: 5%;
   left: 58.6%;
@@ -1091,7 +1048,7 @@ p {
   overflow: hidden;
   position: relative;
   width: 33%;
-  height: 33ch;
+  height: 43vh;
   z-index: 7;
   margin-left: 5%;
   left: 59.6%;
@@ -1113,7 +1070,7 @@ p {
   z-index: 7;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 5vh;
+  font-size: 2vw;
   margin-left: 5%;
   left: 59.6%;
   bottom: 0vh;
@@ -1134,14 +1091,14 @@ p {
   overflow: hidden;
   width: 33%;
   height: 40px;
-  font-size: 3vh;
+  font-size: 1.5vw;
   border-radius: 15px;
   color: white;
   background: red;
   font-family: "Jost", sans-serif;
   position: relative;
   z-index: 7;
-  bottom: 50px;
+  bottom: 5vh;
   left: 13%;
 }
 
@@ -1159,8 +1116,8 @@ p {
   position: relative;
   z-index: 7;
   left: 20.1%;
-  bottom: 50px;
-  font-size: 3vh;
+  bottom: 5vh;
+  font-size: 1.5vw;
   border-radius: 15px;
   color: white;
   background: red;
@@ -1178,7 +1135,7 @@ p {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 4vh;
+  font-size: 1.8vw;
   margin-left: 5%;
   left: 59%;
   bottom: 0vh;
@@ -1194,7 +1151,7 @@ p {
   z-index: 7;
   left: 20.1%;
   bottom: 65px;
-  font-size: 3vh;
+  font-size: 1.5vw;
   border-radius: 15px;
   color: white;
   background: red;
@@ -1211,7 +1168,7 @@ p {
   overflow: hidden;
   width: 33%;
   height: 40px;
-  font-size: 3vh;
+  font-size: 1.5vw;
   border-radius: 15px;
   color: white;
   background: red;
@@ -1223,7 +1180,6 @@ p {
 }
 
 .button_website4:hover {
-
   cursor: pointer;
   background: black;
 
@@ -1249,8 +1205,8 @@ p {
   background-color: #f9f9f9;
   width: 50%;
   height: 100%;
-  bottom:1px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  bottom: 1px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 8;
 }
 
@@ -1273,7 +1229,7 @@ p {
   width: 10%;
   position: relative;
   right: 40%;
-  cursor: pointer; /* Adicionado cursor pointer para indicar que é clicável */
+  cursor: pointer;
 }
 
 .menu-item {
@@ -1281,6 +1237,5 @@ p {
 }
 
 .menu-item.active {
-  color: #000; /* Cor quando ativo */
+  color: #000;
 }
-
