@@ -54,14 +54,17 @@
 
 
   .perfil_img {
-    display: block;
+    display: inline-block;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    min-width: 60%; 
-    min-height: auto;
+    min-width: 80%; 
+    min-height: 80%;
     max-width: 80%; 
-    max-height: auto;
+    max-height: 80%;
+    left: 50%;
+    top: 3px;
+    transform: translateX(-50%);
     z-index: 9;
 
   }
