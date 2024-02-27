@@ -1,5 +1,19 @@
 @media only screen and (max-width: 767px) {
   /* Estilos para dispositivos móveis */
+
+  body {
+    overflow: hidden; /* Oculta a barra de rolagem padrão */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .content {
+    overflow-y: scroll; /* Permite a rolagem vertical */
+    -webkit-overflow-scrolling: touch; /* Ativa o desempenho de rolagem suave no iOS */
+    height: 100vh; /* Define a altura da área de conteúdo */
+  }
+
   .links_index {
     display: none;
     flex-direction: column;
@@ -8,9 +22,9 @@
     position: relative;
     z-index: 8;
     top: 0;
-  
+
   }
-  
+
   .link_text {
     margin-left: 8px;
     font-size: 32px;
@@ -30,17 +44,17 @@
     width: 0;
     height: 2px;
     background-color: rgb(255, 255, 255);
-  
+
   }
-  
+
   .link_text:hover::before {
     width: 50%;
     transform: translateX(-50%);
   }
-  
 
 
-  
+
+
 
   .text_introdu {
     font-family: 'Inter', sans-serif;
@@ -58,9 +72,9 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    min-width: 80%; 
+    min-width: 80%;
     min-height: 80%;
-    max-width: 80%; 
+    max-width: 80%;
     max-height: 80%;
     left: 50%;
     top: 3px;
@@ -120,7 +134,7 @@
       border-color: transparent;
     }
   }
- 
+
   .title_about_me {
     color: white;
     position: relative;
@@ -130,6 +144,7 @@
     margin-left: 5%;
     left: 5%;
   }
+
   .title_about_me2 {
     color: white;
     position: relative;
@@ -140,7 +155,7 @@
     left: 5%;
     top: 2vh;
   }
-  
+
   .title_about_me3 {
     color: white;
     position: relative;
@@ -153,18 +168,18 @@
   }
 
 
-  
+
   .text_about_me {
+    display: inline-block;
     color: white;
-    white-space: normal; /* Alterando de wrap para normal */
     text-align: justify;
     position: relative;
     z-index: 5;
     font-family: "Jost", sans-serif;
-    font-size: 7vw;
-    margin-left: 5%;
-    left: 5%;
-    overflow-wrap: break-word; /* Usando overflow-wrap em vez de word-wrap */
+    font-size: 1.5rem;
+    margin: 5%;
+    overflow-wrap: anywhere;
+    hyphens: auto; 
   }
 
 
@@ -178,7 +193,7 @@
     left: 5%;
     top: 2vh;
   }
-  
+
   .text_about_me3 {
     color: white;
     white-space: wrap;
@@ -197,9 +212,10 @@
     font-family: "Jost", sans-serif;
     font-size: 9vw;
     text-align: center;
-    top:5vh;
-  
+    top: 5vh;
+
   }
+
   .img_skills {
     position: relative;
     z-index: 5;
@@ -208,6 +224,7 @@
     margin-left: 10%;
     top: 5vh;
   }
+
   .text_skills {
     color: white;
     position: relative;
@@ -218,7 +235,7 @@
     left: 50%;
     top: 5vh;
   }
-  
+
   .text_skills2 {
     color: white;
     position: relative;
@@ -229,8 +246,8 @@
     left: 50%;
     top: 5vh;
   }
-  
-  
+
+
   .text_skills3 {
     color: white;
     position: relative;
@@ -241,7 +258,7 @@
     left: 50%;
     top: 5vh;
   }
-  
+
   .text_skills4 {
     color: white;
     position: relative;
@@ -252,7 +269,7 @@
     left: 50%;
     top: 5vh;
   }
-  
+
   .text_skills5 {
     color: white;
     position: relative;
@@ -263,7 +280,7 @@
     left: 50%;
     top: 5vh;
   }
-  
+
   .text_skills6 {
     color: white;
     position: relative;
@@ -274,8 +291,8 @@
     left: 50%;
     top: 5vh;
   }
-  
-  
+
+
   .text_skills7 {
     color: white;
     position: relative;
@@ -319,21 +336,21 @@
     top: 33px;
     left: 3%;
   }
-  
+
   .slider_img2 {
     width: 15%;
     position: relative;
     top: 33px;
     left: 3%;
-  
+
   }
-  
+
   .slider_img3 {
     width: 15%;
     position: relative;
     top: 33px;
     left: 3%;
-  
+
   }
 
   .slider_img_cert {
@@ -356,7 +373,7 @@
     overflow: hidden;
   }
 
-  .slider{
+  .slider {
     word-break: break-all;
   }
 
@@ -371,18 +388,18 @@
     bottom: 49px;
     overflow: hidden;
   }
-  
+
   .footer_img {
     width: 15vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
   }
-  
+
   .footer_img2 {
     width: 15vw;
     margin: 1px;
   }
-  
+
   .footer_img3 {
     width: 15vw;
     margin: 1px;
@@ -426,18 +443,20 @@
     border-radius: 5px;
     left: 50%;
     transform: translateX(-50%);
-  
+
   }
 
   .dropdown {
-    display: inline-block; /* Torna o dropdown visível */
+    display: inline-block;
+    /* Torna o dropdown visível */
   }
 
   .dropdown:hover .dropdown-content {
-    display: block; /* Mostra o conteúdo do dropdown ao passar o mouse */
+    display: block;
+    /* Mostra o conteúdo do dropdown ao passar o mouse */
   }
 
-  .title_menu1{
+  .title_menu1 {
     font-family: "Jost", sans-serif;
     padding-left: 16px;
   }

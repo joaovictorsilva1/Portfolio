@@ -155,6 +155,19 @@ document.querySelectorAll('.menu-item').forEach(item => {
 });
 
 
+// Adiciona um evento de rolagem para controlar a exibição da barra de rolagem
+window.addEventListener('DOMContentLoaded', () => {
+  const content = document.querySelector('.content');
 
+  // Monitora o evento de rolagem na área de conteúdo
+  content.addEventListener('scroll', () => {
+    // Se o usuário rolar para baixo, a barra de rolagem será ocultada
+    if (content.scrollTop > 0) {
+      content.style.overflowY = 'hidden';
+    } else {
+      content.style.overflowY = 'scroll';
+    }
+  });
+});
 
 
