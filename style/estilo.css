@@ -423,7 +423,7 @@ a:hover {
   font-family: "Jost", sans-serif;
   font-size: 2vw;
   margin-left: 5%;
-  word-break: break-all
+  word-wrap: break-word;
 }
 
 .text_about_me2 {
