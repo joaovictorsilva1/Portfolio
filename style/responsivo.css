@@ -58,11 +58,11 @@
 
   .text_introdu {
     font-family: 'Inter', sans-serif;
-    font-size: 5vw;
+    font-size: 3rem;
     position: relative;
     text-align: center;
     left: 50%;
-    bottom: 3vh;
+    top: 0vh;
     transform: translateX(-50%);
   }
 
@@ -118,7 +118,7 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 3vh;
+    top: 0vh;
     z-index: 6;
   }
 
@@ -136,19 +136,21 @@
   }
 
   .title_about_me {
+    padding: 0;
     display: inline-block;
     color: white;
     text-align: justify;
     position: relative;
     z-index: 5;
     font-family: "Jost", sans-serif;
-    font-size: 3.5rem;
-    margin: 5%;
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto; 
     left: 0%;
-    bottom: 3vh;
+    bottom: 3.5vh;
   }
 
   .title_about_me2 {
@@ -199,7 +201,7 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto; 
-    bottom: 9vh;
+    bottom: 8vh;
   }
 
 
