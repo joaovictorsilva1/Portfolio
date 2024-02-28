@@ -178,7 +178,8 @@
     font-family: "Jost", sans-serif;
     font-size: 1.5rem;
     margin: 5%;
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
     hyphens: auto; 
   }
 
