@@ -148,6 +148,7 @@
     word-wrap: break-word;
     hyphens: auto; 
     left: 0%;
+    bottom: 3vh;
   }
 
   .title_about_me2 {
@@ -164,7 +165,7 @@
     word-wrap: break-word;
     hyphens: auto; 
     left: 0%;
-    top: 2vh;
+    top: 3vh;
   }
 
   .title_about_me3 {
@@ -181,7 +182,7 @@
     word-wrap: break-word;
     hyphens: auto; 
     left: 0%;
-    top: 3vh;
+    top: 4vh;
   }
 
 
@@ -198,6 +199,7 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto; 
+    bottom: 2vh;
   }
 
 
@@ -214,7 +216,7 @@
     word-wrap: break-word;
     hyphens: auto; 
     left: 0%;
-    top: 2vh;
+    top: 3vh;
   }
 
   .text_about_me3 {
@@ -230,7 +232,7 @@
     word-wrap: break-word;
     hyphens: auto; 
     left: 0%;
-    top: 3vh;
+    top: 4vh;
   }
 
   .title_skills {
