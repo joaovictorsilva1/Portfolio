@@ -730,7 +730,8 @@ footer {
 
 .slider-container {
   display: inline-block;
-  word-break: break-all;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
   overflow: hidden;
   position: relative;
   background: #9FD9DB;
@@ -1234,7 +1235,11 @@ p {
 }
 
 .menu-item {
+  font-size: 1rem;
   transition: color 1.3s;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .menu-item.active {
