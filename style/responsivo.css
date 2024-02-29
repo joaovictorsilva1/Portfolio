@@ -352,7 +352,7 @@
     border-radius: 20px;
     margin: 5%;
     position: relative;
-    bottom: 10vh;
+    top: -50px;
     left: 0%;
   }
 
