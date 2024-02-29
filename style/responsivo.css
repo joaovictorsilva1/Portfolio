@@ -250,92 +250,92 @@
 
   .img_skills {
     position: relative;
-    z-index: 5;
+    z-index: 7;
     width: 80%;
     height: auto;
     display: inline-block;
     margin-left: 10%;
     left: 0;
-    bottom:  -500px;
+    top: -50px;
   }
 
   .text_skills {
     color: white;
     position: relative;
-    z-index: 6;
+    z-index: 8;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 35vh;
+    top: -60px;
   }
 
   .text_skills2 {
     color: white;
     position: relative;
-    z-index: 6;
+    z-index: 8;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 5vh;
+    top: -60px;
   }
 
 
   .text_skills3 {
     color: white;
     position: relative;
-    z-index: 6;
+    z-index: 8;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 5vh;
+    top: -60px;
   }
 
   .text_skills4 {
     color: white;
     position: relative;
-    z-index: 6;
+    z-index: 8;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 5vh;
+    top: -60px;
   }
 
   .text_skills5 {
     color: white;
     position: relative;
-    z-index: 6;
+    z-index: 8;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 5vh;
+    top: -60px;
   }
 
   .text_skills6 {
     color: white;
     position: relative;
-    z-index: 6;
+    z-index: 8;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 5vh;
+    top: -60px;
   }
 
 
   .text_skills7 {
     color: white;
     position: relative;
-    z-index: 6;
+    z-index: 8;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 5vh;
+    top: -60px;
   }
 
   .slider-container {
