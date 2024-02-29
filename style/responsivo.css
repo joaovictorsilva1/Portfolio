@@ -79,7 +79,7 @@
     left: 50%;
     top: 3px;
     transform: translateX(-50%);
-    z-index: 9;
+    z-index: 7;
 
   }
 
@@ -262,7 +262,7 @@
   .text_skills {
     color: white;
     position: relative;
-    z-index: 8;
+    z-index: 7;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
@@ -273,7 +273,7 @@
   .text_skills2 {
     color: white;
     position: relative;
-    z-index: 8;
+    z-index: 7;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
@@ -285,7 +285,7 @@
   .text_skills3 {
     color: white;
     position: relative;
-    z-index: 8;
+    z-index: 7;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
@@ -296,7 +296,7 @@
   .text_skills4 {
     color: white;
     position: relative;
-    z-index: 8;
+    z-index: 7;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
@@ -307,7 +307,7 @@
   .text_skills5 {
     color: white;
     position: relative;
-    z-index: 8;
+    z-index: 7;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
@@ -318,7 +318,7 @@
   .text_skills6 {
     color: white;
     position: relative;
-    z-index: 8;
+    z-index: 7;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
@@ -330,7 +330,7 @@
   .text_skills7 {
     color: white;
     position: relative;
-    z-index: 8;
+    z-index: 7;
     font-size: 15vw;
     font-family: "Jost", sans-serif;
     transform: translateX(-50%);
