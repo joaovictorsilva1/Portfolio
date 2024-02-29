@@ -412,6 +412,7 @@ a:hover {
   z-index: 5;
   font-family: "Jost", sans-serif;
   font-size: 6vw;
+  top: 7vh;
   text-align: center;
 
 }
@@ -465,7 +466,7 @@ a:hover {
   font-size: 4vw;
   margin-left: 5%;
   left: 55%;
-  bottom: 44vh;
+  bottom: 40vh;
 }
 
 .title_about_me3 {
