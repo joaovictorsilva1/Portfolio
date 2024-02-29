@@ -951,6 +951,7 @@ p {
 
 #load-more-btn {
   display: block;
+  text-align: center;
   font-size: 2vw;
   position: relative;
   bottom: 10vh;
