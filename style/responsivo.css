@@ -342,6 +342,7 @@
     display: inline-block;
     white-space: wrap;
     width: 300px;
+    height: auto;
     overflow: hidden;
     position: relative;
     background: #9FD9DB;
