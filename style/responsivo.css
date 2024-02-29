@@ -341,7 +341,6 @@
   .slider-container {
     display: inline-block;
     white-space: wrap;
-    width: 300px;
     height: auto;
     overflow: hidden;
     position: relative;
@@ -414,6 +413,7 @@
 
   .text_dif1 {
     width: 73%;
+    height: auto;
     white-space: wrap;
     z-index: 6;
     color: rgb(118, 109, 109);
@@ -423,6 +423,40 @@
     bottom: 49px;
     overflow: hidden;
   }
+
+  .text_dif2 {
+    white-space: wrap;
+    width: 73%;
+    height: auto;
+    z-index: 6;
+    color: rgb(118, 109, 109);
+    font-family: "Jost", sans-serif;
+    position: relative;
+    left: 23%;
+    bottom: 49px;
+  }
+  
+  .text_dif3 {
+    white-space: wrap;
+    width: 73%;
+    height: auto;
+    z-index: 6;
+    color: rgb(118, 109, 109);
+    font-family: "Jost", sans-serif;
+    position: relative;
+    left: 23%;
+    bottom: 40px;
+  }
+  
+  .title_card_difere {
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
 
   .footer_img {
     width: 15vw;
