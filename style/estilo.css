@@ -412,7 +412,7 @@ a:hover {
   z-index: 5;
   font-family: "Jost", sans-serif;
   font-size: 6vw;
-  top: 7vh;
+  bottom: 10vh;
   text-align: center;
 
 }
