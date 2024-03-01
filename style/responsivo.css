@@ -143,6 +143,7 @@
     margin-right: 5%;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    word-break: break-all; /* Adicionando quebra de palavras curtas */
     hyphens: auto; 
     left: 0%;
     bottom: 3.5vh;
