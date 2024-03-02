@@ -501,10 +501,10 @@
     display: inline-block;
     overflow: hidden;
     text-align: center;
-    font-size: 1rem;
+    font-size: 6vw;
     position: relative;
     bottom: 5vh;
-    width: 33%;
+    width: 60%;
     height: auto;
     z-index: 6;
     margin-left: 0;
@@ -517,6 +517,7 @@
     transform: translateX(-50%);
     overflow-wrap: break-word;
     word-wrap: break-word;
+    padding: 10px;
 
   }
 
