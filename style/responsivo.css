@@ -557,6 +557,29 @@
   .link_text2:hover::before {
     width: 50%;
   }
+
+  .dots {
+    display: flex;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dot {
+    width: 5vw;
+    padding-bottom: 5vw;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .dot.active {
+    background-color: #333;
+  }
+  
 }
 
 

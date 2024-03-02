@@ -755,12 +755,14 @@ footer {
 }
 
 .slider {
+  overflow: hidden;
   display: flex;
   height: 35vh;
   transition: transform 0.5s ease;
 }
 
 .slide {
+  overflow: hidden;
   flex: 0 0 100%;
 }
 
