@@ -488,7 +488,7 @@
     border-radius: 5px;
     font-family: "Jost", sans-serif;
     position: relative;
-    bottom: 5vh;
+    bottom: 7vh;
     left: 50%;
     z-index: 6;
     border: none;
@@ -623,7 +623,7 @@
     text-align: center;
     font-family: "Jost", sans-serif;
     font-size: 2.5rem;
-    bottom: 110px;
+    bottom: 118px;
     overflow-wrap: break-word;
     word-wrap: break-word;
   }
@@ -636,6 +636,18 @@
     bottom: 100px;
     border: none;
     white-space: normal;
+  }
+
+  .title_maproject {
+    font-size: 2.5rem;
+    text-align: justify;
+    color: white;
+    position: relative;
+    z-index: 6;
+    left: 5%;
+    bottom: 10vh;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
   
 }
