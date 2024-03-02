@@ -615,6 +615,28 @@
     height: auto;
     flex: 0 0 100%;
   }
+
+  .title_port {
+    color: #3B3D3D;
+    position: relative;
+    z-index: 6;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 2.5rem;
+    bottom: 110px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
+  #projects-container {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(62, 62, 62);
+    z-index: 6;
+    bottom: 100px;
+    border: none;
+    white-space: normal;
+  }
   
 }
 
