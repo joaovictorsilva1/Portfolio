@@ -337,7 +337,6 @@
   .slider-container {
     display: flex;
     flex-direction: column;
-    white-space: wrap;
     height: auto;
     overflow: hidden;
     position: relative;
@@ -659,6 +658,7 @@
     position: relative;
     color: white;
     text-align: center;
+    font-size: 4vh;
     margin-top: 3%;
     overflow-wrap: break-word;
     word-wrap: break-word;
