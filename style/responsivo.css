@@ -335,7 +335,8 @@
   }
 
   .slider-container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     white-space: wrap;
     height: auto;
     overflow: hidden;
@@ -355,16 +356,18 @@
     width: 45%;
     position: relative;
     overflow: hidden;
-    top: 3px;
+    top: 5px;
     left: 3%;
   }
 
 
   .slider_img {
+    display: flex;
+    align-items: center;
     width: 15%;
     position: relative;
-    top: 33px;
     left: 3%;
+    overflow: hidden;
   }
 
   .slider_img2 {
@@ -649,6 +652,18 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
   }
+
+  .title_certificados {
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
   
 }
 

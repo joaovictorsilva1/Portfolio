@@ -826,6 +826,7 @@ footer {
 }
 
 .title_certificados {
+  overflow: hidden;
   color: white;
   text-align: center;
   margin-top: 3%;
