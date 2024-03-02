@@ -563,22 +563,47 @@
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 12;
   }
   
   .dot {
-    width: 5vw;
-    padding-bottom: 5vw;
+    width: 10px;
+    padding-bottom: 10px;
     background-color: #ffffff;
     border-radius: 50%;
     display: inline-block;
     margin: 0 5px;
     cursor: pointer;
-    z-index: 10;
+    position: relative;
   }
   
   .dot.active {
     background-color: #333;
   }
+
+  .dots_certificados {
+    display: flex;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 12;
+  }
+  
+  .dot_certificado {
+    width: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dot_certificado.active {
+    background-color: #333;
+  }
+  
   
 }
 
