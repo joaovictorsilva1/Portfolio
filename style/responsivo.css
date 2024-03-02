@@ -501,7 +501,7 @@
     display: inline-block;
     overflow: hidden;
     text-align: center;
-    font-size: 6vw;
+    font-size: 1rem;
     position: relative;
     bottom: 5vh;
     width: 60%;
