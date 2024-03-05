@@ -887,7 +887,7 @@
   }
 
   .title_about_me3 {
-    display: inline-block;
+    display: block;
     color: white;
     text-align: justify;
     position: relative;
@@ -900,7 +900,7 @@
     word-wrap: break-word;
     hyphens: auto; 
     left: 0%;
-    bottom: 10vh;
+    bottom: 100px;
   }
 
 
@@ -945,12 +945,12 @@
     z-index: 5;
     font-family: "Jost", sans-serif;
     font-size: 1.5rem;
-    margin: 5%;
+    margin-left: 5%;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto; 
     left: 0%;
-    bottom: 12vh;
+    bottom: 80px;
   }
 
   .title_skills {
@@ -958,9 +958,9 @@
     position: relative;
     z-index: 5;
     font-family: "Jost", sans-serif;
-    font-size: 9vw;
+    font-size: 3rem;
     text-align: center;
-    bottom: 12vh;
+    bottom: 55px;
 
   }
 
@@ -1437,9 +1437,6 @@
   /* Estilos para desktops */
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Estilos para dispositivos pequenos e médios */
-}
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
   /* Estilos para dispositivos grandes */
