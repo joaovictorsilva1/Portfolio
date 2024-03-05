@@ -147,7 +147,7 @@
     word-break: break-all; /* Adicionando quebra de palavras curtas */
     hyphens: auto; 
     left: 0%;
-    bottom: 2.5vh;
+    bottom: 3.5vh;
   }
 
   .title_about_me2 {
@@ -1445,7 +1445,7 @@
     text-align: justify;
     z-index: 8;
     left: 31%;
-    bottom: 40vh;
+    bottom: 35vh;
  
   }
 
@@ -1462,9 +1462,123 @@
     animation-iteration-count: infinite;
     position: relative;
     left: 31%;
-    bottom: 40vh;
+    bottom: 35vh;
     z-index: 6;
   }
+
+
+  .button_contacts {
+    font-family: "Leelawadee UI";
+    font-size: 2vw;
+    width: 22%;
+    height: 8vh;
+    border-radius: 20px;
+    background: #D9D9D9;
+    color: black;
+    border: 1px solid #D9D9D9;
+    position: relative;
+    left: 30%;
+    margin: 0.3%;
+    bottom: 20vh;
+    z-index: 6;
+  }
+  
+  .button_contacts:hover {
+    background: black;
+    color: #D9D9D9;
+    cursor: pointer;
+  }
+
+  .title_about_me {
+    padding: 0;
+    display: inline-block;
+    color: white;
+    text-align: justify;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 2.3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all; /* Adicionando quebra de palavras curtas */
+    hyphens: auto; 
+    right: 70%;
+    bottom: 5vh;
+  }
+
+  .title_about_me2 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 4vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 10vh;
+  }
+
+  .title_about_me3 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 3.6vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 6vh;
+  }
+
+  .text_about_me {
+    color: white;
+    position: relative;
+    z-index: 7;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    word-wrap: break-word;
+    bottom: 7vh;
+    right: 1%;
+    background: red;
+    width: 33%;
+  }
+  .text_about_me2 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 12vh;
+  }
+  
+
+  .text_about_me3 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 7vh;
+    
+  }
+  
+  .img_skills {
+    position: relative;
+    z-index: 7;
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    left: 0;
+    top: -50px;
+  }
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
