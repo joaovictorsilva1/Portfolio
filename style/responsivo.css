@@ -1433,6 +1433,29 @@
 
 @media only screen and (min-width: 1024px) {
   /* Estilos para desktops */
+  .text_about_me {
+    color: white;
+    position: relative;
+    z-index: 7;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    word-wrap: break-word;
+    width: 42%;
+  }
+  
+  .text_about_me2 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 42vh;
+    width: 42%;
+   
+  }
 }
 
 
@@ -1497,7 +1520,7 @@
     position: relative;
     z-index: 5;
     font-family: "Jost", sans-serif;
-    font-size: 2.3rem;
+    font-size: 4vw;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 10px;
@@ -1517,7 +1540,7 @@
     font-size: 4vw;
     margin-left: 5%;
     left: 55%;
-    bottom: 10vh;
+    bottom: 40vh;
   }
 
   .title_about_me3 {
@@ -1528,7 +1551,7 @@
     font-size: 3.6vw;
     margin-left: 5%;
     left: 55%;
-    bottom: 6vh;
+    bottom: 31vh;
   }
 
   .text_about_me {
@@ -1540,8 +1563,8 @@
     word-wrap: break-word;
     bottom: 7vh;
     right: 1%;
-    background: red;
-    width: 33%;
+    
+    width: 43%;
   }
   .text_about_me2 {
     color: white;
@@ -1551,7 +1574,7 @@
     font-size: 2vw;
     margin-left: 5%;
     left: 55%;
-    bottom: 12vh;
+    bottom: 38vh;
   }
   
 
@@ -1563,7 +1586,7 @@
     font-size: 2vw;
     margin-left: 5%;
     left: 55%;
-    bottom: 7vh;
+    bottom: 31vh;
     
   }
   

@@ -425,7 +425,6 @@ a:hover {
   font-size: 2vw;
   margin-left: 5%;
   word-wrap: break-word;
-  width: 42%;
 }
 
 .text_about_me2 {
@@ -437,7 +436,7 @@ a:hover {
   margin-left: 5%;
   left: 55%;
   bottom: 42vh;
-  width: 42%;
+ 
 }
 
 .text_about_me3 {
