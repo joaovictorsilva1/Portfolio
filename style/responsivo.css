@@ -1712,6 +1712,52 @@
   top: -30vh;
 }
 
+.title_maproject {
+  font-size: 3vw;
+  color: white;
+  position: relative;
+  z-index: 6;
+  left: 13%;
+  margin: 1%;
+  bottom: 2vh;
+}
+.filter-btn {
+  background: #D9D9D9;
+  overflow: hidden;
+  width: 13%;
+  height: 7vh;
+  margin-left: 10px;
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  position: relative;
+  bottom: 4vh;
+  left: 14%;
+  z-index: 6;
+  border: none;
+}
+
+
+#load-more-btn {
+  display: block;
+  text-align: center;
+  font-size: 2vw;
+  position: relative;
+  bottom: 10vh;
+  width: 33%;
+  height: 10vh;
+  z-index: 6;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #D9D9D9;
+  color: black;
+  border: none;
+  font-family: "Jost", sans-serif;
+  border-radius: 5px;
+  bottom: 4vh;
+}
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
