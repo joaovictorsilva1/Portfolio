@@ -1463,7 +1463,7 @@
   /* Estilos para dispositivos grandes */
   .text_introdu {
     font-family: 'Inter', sans-serif;
-    font-size: 3rem;
+    font-size: 5rem;
     position: relative;
     text-align: justify;
     z-index: 8;
@@ -1540,7 +1540,7 @@
     font-size: 4vw;
     margin-left: 5%;
     left: 55%;
-    bottom: 40vh;
+    bottom: 280px;
   }
 
   .title_about_me3 {
@@ -1593,14 +1593,124 @@
   .img_skills {
     position: relative;
     z-index: 7;
-    width: 20%;
+    width: 8%;
     height: auto;
     display: inline-block;
-    margin-left: 5%;
-    margin-right: 5%;
-    left: 0;
-    top: -50px;
+    padding: 0;
+    margin: 0;
+    left: 3%;
+    top: -160px;
   }
+
+  .title_skills {
+    color: #3B3D3D;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 6vw;
+    bottom: 25vh;
+    text-align: center;
+  
+  }
+
+  
+.text_skills {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right: 3.5%;
+  top: -18vh;
+}
+
+.text_skills2 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right: 3.2%;
+  top: -18vh;
+}
+
+
+.text_skills3 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right: 5.5%;
+  top: -18vh;
+}
+
+.text_skills4 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right: 3%;
+  top: -18vh;
+}
+
+.text_skills5 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right: 5.5%;
+  top: -18vh;
+}
+
+.text_skills6 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right: 4%;
+  top: -18vh;
+}
+
+
+.text_skills7 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  right: 3%;
+  top: -18vh;
+}
+
+.slider-container {
+  display: inline-block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
+  position: relative;
+  background: #9FD9DB;
+  width: 33%;
+  height: 35vh;
+  z-index: 6;
+  border-radius: 20px;
+  margin: 5%;
+  position: relative;
+  top: -20vh;
+  left: 7%;
+}
+.title_port {
+  color: #3B3D3D;
+  position: relative;
+  z-index: 6;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 5vw;
+  top: -30vh;
+}
 
 }
 
