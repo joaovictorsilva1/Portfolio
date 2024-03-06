@@ -1067,6 +1067,7 @@ p {
   left: 58%;
   bottom: 0vh;
   border: none;
+  width: 35%;
 }
 
 
@@ -1158,6 +1159,7 @@ p {
   bottom: 0vh;
   white-space: normal;
   border: none;
+  width: 35%;
 }
 
 .button_code4 {
