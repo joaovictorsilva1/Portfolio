@@ -411,11 +411,12 @@
     font-family: "Jost", sans-serif;
     position: relative;
     left: 49%;
-    top: -150px;
+    top: -120px;
     overflow: hidden;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
+    width: 40%;
   }
 
   .text_certificado2 {
@@ -717,6 +718,41 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
+  }
+  .area_project2 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 66vh;
+  }
+
+  .text_port2 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 66vh;
+  }
+  
+  .title_project2 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 66vh;
   }
 
 

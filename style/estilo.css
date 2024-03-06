@@ -525,6 +525,7 @@ footer {
   font-family: "Jost", sans-serif;
   font-size: 2vw;
   margin-left: 5%;
+  width: 33%;
 }
 
 .text_port2 {
@@ -536,7 +537,8 @@ footer {
   font-size: 2vw;
   margin-left: 5%;
   left: 59%;
-  bottom: 97vh;
+  bottom: 112vh;
+  width: 33%;
 }
 
 
@@ -559,7 +561,7 @@ footer {
   font-size: 2vw;
   margin-left: 5%;
   left: 59%;
-  bottom: 96vh;
+  bottom: 112vh;
 }
 
 .area_project {
@@ -582,7 +584,31 @@ footer {
   z-index: 7;
   margin-left: 5%;
   left: 59%;
-  bottom: 95.4vh;
+  bottom: 113vh;
+}
+
+.area_project3 {
+  background: rgb(119, 119, 119);
+  overflow: hidden;
+  position: relative;
+  width: 33%;
+  height: 43vh;
+  z-index: 7;
+  margin-left: 5%;
+  left: 58.6%;
+  bottom: 0vh;
+}
+
+.area_project4 {
+  background: rgb(119, 119, 119);
+  overflow: hidden;
+  position: relative;
+  width: 33%;
+  height: 43vh;
+  z-index: 7;
+  margin-left: 5%;
+  left: 59.6%;
+  bottom: 0vh;
 }
 
 .button_website1 {
@@ -684,7 +710,7 @@ footer {
 
 .img_projects {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   position: relative;
   z-index: 6;
@@ -880,6 +906,8 @@ p {
   position: relative;
   left: 49%;
   bottom: 150px;
+  width: 45%;
+  hyphens: auto;
 
 }
 
@@ -1009,7 +1037,9 @@ p {
   background-color: rgb(62, 62, 62);
   z-index: 5;
   bottom: 0vh;
+  height: auto;
   white-space: normal;
+  border: none;
 }
 
 .title_project3 {
@@ -1038,29 +1068,7 @@ p {
 }
 
 
-.area_project3 {
-  background: rgb(119, 119, 119);
-  overflow: hidden;
-  position: relative;
-  width: 33%;
-  height: 43vh;
-  z-index: 7;
-  margin-left: 5%;
-  left: 58.6%;
-  bottom: 0vh;
-}
 
-.area_project4 {
-  background: rgb(119, 119, 119);
-  overflow: hidden;
-  position: relative;
-  width: 33%;
-  height: 43vh;
-  z-index: 7;
-  margin-left: 5%;
-  left: 59.6%;
-  bottom: 0vh;
-}
 
 
 .img_projects2 {
@@ -1195,9 +1203,11 @@ p {
 
 .project frontend {
   white-space: normal;
+  border: none;
 }
 
 .project fullstack {
+  border: none;
   border: none;
 }
 
@@ -1251,3 +1261,9 @@ p {
 .menu-item.active {
   color: #000;
 } 
+
+.project {
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
