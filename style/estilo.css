@@ -1116,7 +1116,7 @@ p {
   font-family: "Jost", sans-serif;
   position: relative;
   z-index: 7;
-  bottom: 5vh;
+  bottom: 8vh;
   left: 13%;
 }
 
@@ -1134,7 +1134,7 @@ p {
   position: relative;
   z-index: 7;
   left: 20.1%;
-  bottom: 5vh;
+  bottom: 8vh;
   font-size: 1.5vw;
   border-radius: 15px;
   color: white;
