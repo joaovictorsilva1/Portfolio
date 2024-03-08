@@ -9,6 +9,10 @@
     box-sizing: border-box;
   }
 
+
+  a:active{
+    color:black;
+  }
   .content {
     overflow-y: scroll;
     /* Permite a rolagem vertical */
@@ -582,10 +586,7 @@
     /* Torna o dropdown visível */
   }
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-    /* Mostra o conteúdo do dropdown ao passar o mouse */
-  }
+ 
 
   .title_menu1 {
     font-family: "Jost", sans-serif;

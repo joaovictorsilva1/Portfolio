@@ -180,3 +180,29 @@ function toggleDropdown() {
   }
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  const menuIcon = document.getElementById("menuIcon");
+  const menuContent = document.getElementById("menuContent");
+
+  // Initially hide the menu
+  menuContent.style.display = "none";
+
+  // Event listener for clicking the menu icon
+  menuIcon.addEventListener("click", function (event) {
+    // Toggle menu visibility
+    if (menuContent.style.display === "none") {
+      menuContent.style.display = "block";
+    } else {
+      menuContent.style.display = "none";
+    }
+  });
+
+  // Event listener for clicking outside the menu
+  document.addEventListener("click", function (event) {
+    if (!menuContent.contains(event.target) && event.target !== menuIcon) {
+      menuContent.style.display = "none";
+    }
+  });
+});
+
+

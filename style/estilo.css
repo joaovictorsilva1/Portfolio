@@ -1245,6 +1245,7 @@ p {
   top: 0;
   z-index: 8;
   border: none;
+  cursor: pointer;
 }
 
 .opcoes_img {
@@ -1254,16 +1255,23 @@ p {
   cursor: pointer;
 }
 
+.opcoes_img:hover {
+ opacity: 0.6;
+}
+
 .menu-item {
   font-size: 1rem;
-  transition: color 1.3s;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
+  color: rgb(109, 101, 101);
+}
+.menu-item:hover {
+  color: black;
 }
 
 .menu-item.active {
-  color: #000;
+  color: black;
 } 
 
 .project {
