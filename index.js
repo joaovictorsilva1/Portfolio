@@ -227,3 +227,17 @@ backdrop.addEventListener('click', () => {
   document.body.removeChild(backdrop);
 });
 
+
+document.addEventListener('click', function(event) {
+  var menu = document.querySelector('.dropdown-content');
+  var button = document.querySelector('.opcoes_img'); // substitua '.opcoes_img' pelo seletor correto do seu botão de menu
+
+  // Verifique se o clique foi fora do menu e não no botão
+  if (!menu.contains(event.target) && !button.contains(event.target)) {
+    // Se o menu estiver aberto, feche-o
+    if (menuAberto) {
+      menu.style.display = 'none';
+      menuAberto = false;
+    }
+  }
+});
