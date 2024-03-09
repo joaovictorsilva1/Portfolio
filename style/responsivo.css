@@ -1549,6 +1549,90 @@
   }
 
 
+  .img_skills {
+    position: relative;
+    z-index: 7;
+    width: 6%;
+    height: auto;
+    display: inline-block;
+    margin-right: 5px;
+    left: 0;
+    top: -50px;
+  }
+
+  .text_skills {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    right: 3.5%;
+    top: -0vh;
+  }
+
+  .text_skills2 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    right: 3.2%;
+    top: -0vh;
+  }
+
+
+  .text_skills3 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    right: 5.5%;
+    top: -0vh;
+  }
+
+  .text_skills4 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    right: 3%;
+    top: -0vh;
+  }
+
+  .text_skills5 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    right: 5.5%;
+    top: -0vh;
+  }
+
+  .text_skills6 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    right: 4%;
+    top: -0vh;
+  }
+
+
+  .text_skills7 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    right: 3%;
+    top: -0vh;
+  }
+
+
 
 }
 
