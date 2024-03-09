@@ -206,3 +206,24 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+const menuButton = document.querySelector('.dropbtn');
+const menuContent = document.querySelector('.dropdown-content');
+const backdrop = document.createElement('div');
+backdrop.className = 'backdrop';
+
+// Abre ou fecha o menu quando o botão é clicado
+menuButton.addEventListener('click', () => {
+  menuContent.classList.toggle('open');
+  if (menuContent.classList.contains('open')) {
+    document.body.appendChild(backdrop); // Adiciona o elemento de cobertura
+  } else {
+    document.body.removeChild(backdrop); // Remove o elemento de cobertura
+  }
+});
+
+// Fecha o menu quando o usuário clica fora dele
+backdrop.addEventListener('click', () => {
+  menuContent.classList.remove('open');
+  document.body.removeChild(backdrop);
+});
+
