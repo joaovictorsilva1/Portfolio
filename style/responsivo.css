@@ -1646,6 +1646,23 @@
     background-color: rgb(0, 0, 0);
   }
 
+  .slider-container {
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    position: relative;
+    background: #9FD9DB;
+    width: 33%;
+    height: 35vh;
+    z-index: 6;
+    border-radius: 20px;
+    margin: 5%;
+    position: relative;
+    top: -20vh;
+    left: 7%;
+  }
+
 
 
 }
@@ -1955,22 +1972,7 @@
     background-color: green;
   }
 
-  .slider-container {
-    display: inline-block;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    overflow: hidden;
-    position: relative;
-    background: #9FD9DB;
-    width: 33%;
-    height: 35vh;
-    z-index: 6;
-    border-radius: 20px;
-    margin: 5%;
-    position: relative;
-    top: -20vh;
-    left: 0%;
-  }
+ 
 
   .title_port {
     color: #3B3D3D;
