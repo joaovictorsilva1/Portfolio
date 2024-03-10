@@ -1499,6 +1499,17 @@
     box-sizing: border-box;
   }
 
+  .perfil_img {
+    width: 30%;
+    margin: 1%;
+    position: relative;
+    bottom: 2vh;
+    left: 2%;
+    z-index: 6;
+  
+  }
+  
+
   /* Estilos para dispositivos grandes */
   .text_introdu {
     font-family: 'Inter', sans-serif;
@@ -1507,7 +1518,7 @@
     position: relative;
     text-align: justify;
     z-index: 8;
-    left: 31%;
+    left: 35%;
     bottom: 250px;
 
   }
@@ -1524,7 +1535,7 @@
     animation: typing 4.9s steps(21), blinking 0.75s infinite ease-in-out;
     animation-iteration-count: infinite;
     position: relative;
-    left: 31%;
+    left: 35%;
     bottom: 255px;
     z-index: 6;
   }
@@ -1570,7 +1581,7 @@
     /* Adicionando quebra de palavras curtas */
     hyphens: auto;
     right: 70%;
-    bottom: 5px;
+    top: 35px;
   }
 
   .title_about_me2 {
@@ -1585,6 +1596,7 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
+    bottom: 200px;
   }
 
   .title_about_me3 {
@@ -1611,6 +1623,7 @@
     bottom: 7vh;
     right: 1%;
     width: 43%;
+    top: 25px;
 
   }
 
@@ -1623,6 +1636,7 @@
     margin-left: 5%;
     left: 55%;
     bottom: 38vh;
+    bottom: 205px;
   }
 
 
