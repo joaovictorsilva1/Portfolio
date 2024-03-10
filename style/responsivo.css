@@ -1665,6 +1665,8 @@
     left: 7%;
   }
 
+  
+
 
 
 }
@@ -2053,5 +2055,15 @@
     left: 7%;
     margin: 1%;
     bottom: 28vh;
+  }
+
+  .title_port {
+    color: #3B3D3D;
+    position: relative;
+    z-index: 8;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 4vw;
+    top: -200px;
   }
 }
