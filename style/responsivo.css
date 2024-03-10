@@ -1487,189 +1487,7 @@
 }
 
 
-@media only screen and (min-width: 1023px) {
-  /* Estilos para desktops */
 
-  .text_introdu {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    font-size: 5rem;
-    position: relative;
-    left: 32%;
-    top: -250px;
-    z-index: 7;
-
-  }
-
-  .writing-effect {
-    font-family: 'Noto Sans Gujarati', sans-serif;
-    font-size: 3rem;
-    color: #013170;
-    overflow: hidden;
-    width: 21ch;
-    border-right: 4px solid #013170;
-    white-space: nowrap;
-    animation: typing 4.9s steps(21), blinking 0.75s infinite ease-in-out;
-    animation-iteration-count: infinite;
-    position: relative;
-    left: 32.3%;
-    bottom: 100px;
-    z-index: 6;
-  }
-
-  .perfil_img {
-    display: block;
-    width: 25%;
-    height: auto;
-    margin: 1%;
-    position: relative;
-    bottom: 2vh;
-    left: 2%;
-    z-index: 6;
-
-  }
-
-
-  .text_about_me {
-    color: white;
-    position: relative;
-    z-index: 7;
-    font-family: "Jost", sans-serif;
-    font-size: 2vw;
-    margin-left: 5%;
-    word-wrap: break-word;
-    width: 42%;
-  }
-
-  .text_about_me2 {
-    color: white;
-    position: relative;
-    z-index: 7;
-    font-family: "Jost", sans-serif;
-    font-size: 2vw;
-    margin-left: 5%;
-    left: 55%;
-    bottom: 42vh;
-    width: 42%;
-
-  }
-
-
-  .img_skills {
-    position: relative;
-    z-index: 7;
-    width: 6%;
-    height: auto;
-    display: inline-block;
-    top: -50px;
-  }
-
-  .text_skills {
-    display: inline-block;
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    font-size: 18px;
-    right: 4.5%;
-    top: -0vh;
-  }
-
-  .text_skills2 {
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 4.5%;
-    top: -0vh;
-  }
-
-
-  .text_skills3 {
-    margin: 0;
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 6.3%;
-    top: -0vh;
-  }
-
-  .text_skills4 {
-    margin: 0;
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 4.5%;
-    top: -0vh;
-  }
-
-  .text_skills5 {
-    margin: 0;
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 6%;
-    top: -0vh;
-  }
-
-  .text_skills6 {
-    margin: 0;
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 5%;
-    top: -0vh;
-  }
-
-
-  .text_skills7 {
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    top: -0vh;
-    background-color: rgb(0, 0, 0);
-  }
-
-  .slider-container {
-    display: inline-block;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    overflow: hidden;
-    position: relative;
-    background: #9FD9DB;
-    width: 33%;
-    height: 35vh;
-    z-index: 6;
-    border-radius: 20px;
-    margin: 5%;
-    position: relative;
-    top: -20vh;
-    left: 7%;
-  }
-
-  
-
-
-
-}
 
 
 @media only screen and (min-width: 1023px) and (max-width: 1279px) {
@@ -1684,19 +1502,20 @@
   /* Estilos para dispositivos grandes */
   .text_introdu {
     font-family: 'Inter', sans-serif;
+    color:purple;
     font-size: 5rem;
     position: relative;
     text-align: justify;
     z-index: 8;
     left: 31%;
-    bottom: 40vh;
+    bottom: 250px;
 
   }
 
 
   .writing-effect {
     font-family: 'Noto Sans Gujarati', sans-serif;
-    font-size: 4vw;
+    font-size: 3rem;
     color: #013170;
     overflow: hidden;
     width: 21ch;
@@ -1706,7 +1525,7 @@
     animation-iteration-count: infinite;
     position: relative;
     left: 31%;
-    bottom: 250px;
+    bottom: 255px;
     z-index: 6;
   }
 
@@ -1751,7 +1570,7 @@
     /* Adicionando quebra de palavras curtas */
     hyphens: auto;
     right: 70%;
-    bottom: 5vh;
+    bottom: 5px;
   }
 
   .title_about_me2 {
@@ -2066,4 +1885,190 @@
     font-size: 4vw;
     top: -200px;
   }
+}
+
+
+@media only screen and (min-width: 1279px) {
+  /* Estilos para desktops */
+
+  .text_introdu {
+    margin: 0;
+    color: red;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    position: relative;
+    left: 32%;
+    top: -240px;
+    z-index: 7;
+
+  }
+
+  .writing-effect {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-size: 3rem;
+    color: #013170;
+    overflow: hidden;
+    width: 21ch;
+    border-right: 4px solid #013170;
+    white-space: nowrap;
+    animation: typing 4.9s steps(21), blinking 0.75s infinite ease-in-out;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 32.3%;
+    top: -240px;
+    z-index: 6;
+  }
+
+  .perfil_img {
+    display: block;
+    width: 25%;
+    height: auto;
+    margin: 1%;
+    position: relative;
+    bottom: 2vh;
+    left: 2%;
+    z-index: 6;
+
+  }
+
+
+  .text_about_me {
+    color: white;
+    position: relative;
+    z-index: 7;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    word-wrap: break-word;
+    width: 42%;
+  }
+
+  .text_about_me2 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 42vh;
+    width: 42%;
+
+  }
+
+
+  .img_skills {
+    position: relative;
+    z-index: 7;
+    width: 6%;
+    height: auto;
+    display: inline-block;
+    top: -50px;
+  }
+
+  .text_skills {
+    display: inline-block;
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    right: 4.5%;
+    top: -0vh;
+  }
+
+  .text_skills2 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    right: 4.5%;
+    top: -0vh;
+  }
+
+
+  .text_skills3 {
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    right: 6.3%;
+    top: -0vh;
+  }
+
+  .text_skills4 {
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    right: 4.5%;
+    top: -0vh;
+  }
+
+  .text_skills5 {
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    right: 6%;
+    top: -0vh;
+  }
+
+  .text_skills6 {
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    right: 5%;
+    top: -0vh;
+  }
+
+
+  .text_skills7 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    top: -0vh;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .slider-container {
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    position: relative;
+    background: #9FD9DB;
+    width: 33%;
+    height: 35vh;
+    z-index: 6;
+    border-radius: 20px;
+    margin: 5%;
+    position: relative;
+    top: -20vh;
+    left: 7%;
+  }
+
+  
+
+
+
 }
