@@ -1497,14 +1497,14 @@
     font-size: 5rem;
     position: relative;
     left: 32%;
-    top: -10%;
+    top: -250px;
     z-index: 7;
 
   }
 
   .writing-effect {
     font-family: 'Noto Sans Gujarati', sans-serif;
-    font-size: 2.5vw;
+    font-size: 3rem;
     color: #013170;
     overflow: hidden;
     width: 21ch;
@@ -1514,7 +1514,7 @@
     animation-iteration-count: infinite;
     position: relative;
     left: 32.3%;
-    bottom: 55vh;
+    bottom: 100px;
     z-index: 6;
   }
 
