@@ -333,14 +333,26 @@ a:hover {
   top: 5vh;
 }
 
-.text_skills {
+.text_skillsofc {
   color: white;
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
   display: inline-block;
+}
+
+.text_skills1 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Jost", sans-serif;
+  display: none;
   right: 5%;
   top: 10vh;
+}
+
+.flex_text_skill {
+  display: none;
 }
 
 .text_skills2 {
@@ -348,7 +360,7 @@ a:hover {
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
-  display: inline-block;
+  display: none;
   right: 5%;
   top: 10vh;
 }
@@ -359,7 +371,7 @@ a:hover {
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
-  display: inline-block;
+  display: none;
   right: 6.5%;
   top: 10vh;
 }
@@ -369,7 +381,7 @@ a:hover {
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
-  display: inline-block;
+  display: none;
   right: 5%;
   top: 10vh;
 }
@@ -379,7 +391,7 @@ a:hover {
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
-  display: inline-block;
+  display: none;
   right: 6.5%;
   top: 10vh;
 }
@@ -389,7 +401,7 @@ a:hover {
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
-  display: inline-block;
+  display: none;
   right: 6%;
   top: 10vh;
 }
@@ -400,7 +412,7 @@ a:hover {
   position: relative;
   z-index: 5;
   font-family: "Jost", sans-serif;
-  display: inline-block;
+  display: none;
   right: 5%;
   top: 10vh;
 }
@@ -436,7 +448,7 @@ a:hover {
   margin-left: 5%;
   left: 55%;
   bottom: 42vh;
- 
+
 }
 
 .text_about_me3 {
@@ -1256,7 +1268,7 @@ p {
 }
 
 .opcoes_img:hover {
- opacity: 0.6;
+  opacity: 0.6;
 }
 
 .menu-item {
@@ -1266,13 +1278,14 @@ p {
   hyphens: auto;
   color: rgb(109, 101, 101);
 }
+
 .menu-item:hover {
   color: black;
 }
 
 .menu-item.active {
   color: black;
-} 
+}
 
 .project {
   border: none;
@@ -1280,3 +1293,6 @@ p {
   margin-bottom: 10px;
 }
 
+.flex_skills {
+  display: none;
+}
