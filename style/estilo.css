@@ -1099,6 +1099,7 @@ footer {
 }
 
 #load-more-btn {
+  overflow: hidden;
   display: block;
   text-align: center;
   font-size: 2vw;
