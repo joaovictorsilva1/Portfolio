@@ -1650,9 +1650,11 @@
     font-family: "Jost", sans-serif;
     font-size: 2vw;
     margin-left: 5%;
+    width: 33%;
     left: 55%;
-    bottom: 38vh;
     bottom: 205px;
+    word-wrap: break-word;
+    word-break: break-all;
   }
 
 
