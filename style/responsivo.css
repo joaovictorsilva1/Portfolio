@@ -1954,8 +1954,6 @@
 
 @media only screen and (min-width: 1279px) {
   /* Estilos para desktops */
-
-  /* Estilos para dispositivos grandes */
   body {
     overflow: hidden;
     margin: 0;
@@ -1976,12 +1974,13 @@
   .text_introdu {
     font-family: 'Inter', sans-serif;
     color: yellow;
-    font-size: 5rem;
+    font-size: 5vw;
+    width: 80%;
     position: relative;
     text-align: justify;
     z-index: 8;
     left: 35%;
-    bottom: 250px;
+    bottom: 390px;
 
   }
 
@@ -1998,7 +1997,7 @@
     animation-iteration-count: infinite;
     position: relative;
     left: 35%;
-    bottom: 255px;
+    bottom: 395px;
     z-index: 6;
   }
 
@@ -2008,8 +2007,8 @@
     font-size: 2rem;
     width: 22%;
     height: 8vh;
-    border-radius: 20px;
-    background: #D9D9D9;
+    border-radius: 15%;
+    background: #d9d9d9;
     color: black;
     border: 1px solid #D9D9D9;
     position: relative;
@@ -2043,7 +2042,7 @@
     word-wrap: break-word;
     word-break: break-all;
     hyphens: auto;
-    right: 70%;
+    right: 69.5%;
     top: 35px;
   }
 
