@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 var menuAberto = false; // Variável para rastrear se o menu está aberto ou fechado
 
-document.querySelector('.opcoes_img').addEventListener('click', function() {
+document.querySelector('.opcoes_img').addEventListener('click', function () {
   toggleMenu();
 });
 
@@ -228,7 +228,7 @@ backdrop.addEventListener('click', () => {
 });
 
 
-document.addEventListener('click', function(event) {
+document.addEventListener('click', function (event) {
   var menu = document.querySelector('.dropdown-content');
   var button = document.querySelector('.opcoes_img'); // substitua '.opcoes_img' pelo seletor correto do seu botão de menu
 
