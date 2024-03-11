@@ -3,7 +3,6 @@
 
   body {
     overflow: hidden;
-    /* Oculta a barra de rolagem padrão */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,11 +15,9 @@
 
   .content {
     overflow-y: scroll;
-    /* Permite a rolagem vertical */
     -webkit-overflow-scrolling: touch;
-    /* Ativa o desempenho de rolagem suave no iOS */
     height: 100vh;
-    /* Define a altura da área de conteúdo */
+   
   }
 
   .links_index {
@@ -62,9 +59,6 @@
   }
 
 
-
-
-
   .text_introdu {
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
@@ -78,16 +72,12 @@
 
   .perfil_img {
     display: block;
-    /* Alterei para 'block' para garantir que o 'auto' funcione corretamente */
     margin-left: auto;
     margin-right: auto;
     margin-top: 13%;
     width: 80%;
-    /* Mudei de min-width/max-width para width */
     height: auto;
-    /* Mantive o mesmo margem superior */
     z-index: 7;
-
   }
 
   .button_contacts {
@@ -164,7 +154,6 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
-    /* Adicionando quebra de palavras curtas */
     hyphens: auto;
     left: 0%;
     bottom: 3.5vh;
@@ -592,7 +581,6 @@
 
   .dropdown {
     display: inline-block;
-    /* Torna o dropdown visível */
   }
 
 
@@ -777,7 +765,6 @@
   /* Estilos para tablets */
   body {
     overflow: hidden;
-    /* Oculta a barra de rolagem padrão */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -785,11 +772,9 @@
 
   .content {
     overflow-y: scroll;
-    /* Permite a rolagem vertical */
     -webkit-overflow-scrolling: touch;
-    /* Ativa o desempenho de rolagem suave no iOS */
     height: 100vh;
-    /* Define a altura da área de conteúdo */
+  
   }
 
   .links_index {
@@ -822,7 +807,6 @@
     width: 0;
     height: 2px;
     background-color: rgb(255, 255, 255);
-
   }
 
   .link_text:hover::before {
@@ -847,16 +831,12 @@
 
   .perfil_img {
     display: block;
-    /* Alterei para 'block' para garantir que o 'auto' funcione corretamente */
     margin-left: auto;
     margin-right: auto;
     margin-top: 13%;
     width: 80%;
-    /* Mudei de min-width/max-width para width */
     height: auto;
-    /* Mantive o mesmo margem superior */
     z-index: 7;
-
   }
 
   .button_contacts {
@@ -933,7 +913,6 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
-    /* Adicionando quebra de palavras curtas */
     hyphens: auto;
     left: 0%;
     bottom: 2.5vh;
@@ -1134,7 +1113,6 @@
     background: #9FD9DB;
     width: 90%;
     height: auto;
-    /* Talvez você precise ajustar isso conforme necessário */
     z-index: 6;
     border-radius: 20px;
     margin: 5%;
@@ -1362,7 +1340,6 @@
 
   .dropdown {
     display: inline-block;
-    /* Torna o dropdown visível */
   }
 
 
@@ -1505,9 +1482,9 @@
 
 
 @media only screen and (min-width: 1023px) and (max-width: 1279px) {
+   /* Estilos para dispositivos grandes */
   body {
     overflow: hidden;
-    /* Oculta a barra de rolagem padrão */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1523,8 +1500,6 @@
 
   }
 
-
-  /* Estilos para dispositivos grandes */
   .text_introdu {
     font-family: 'Inter', sans-serif;
     color: black;
@@ -1594,7 +1569,6 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
-    /* Adicionando quebra de palavras curtas */
     hyphens: auto;
     right: 70%;
     top: 35px;
@@ -1667,7 +1641,6 @@
     margin-left: 5%;
     left: 55%;
     bottom: 31vh;
-
   }
 
 
@@ -1680,7 +1653,6 @@
     font-size: 4vw;
     bottom: 25vh;
     text-align: center;
-
   }
 
   .slider-container {
@@ -1721,7 +1693,6 @@
   .img_skills1 {
     position: relative;
     z-index: 8;
-
   }
 
   .text_skillsofc1 {
@@ -1732,8 +1703,6 @@
     font-family: "Jost", sans-serif;
     display: inline-block;
     left: 2%;
-
-
   }
 
   .text_skillsofc2 {
@@ -1745,8 +1714,6 @@
     display: inline-block;
     padding-left: 6%;
     left: 3%;
-
-
   }
 
   .text_skillsofc3 {
@@ -1758,7 +1725,6 @@
     display: inline-block;
     padding-left: 6%;
     left: 3%;
-
   }
 
   .text_skillsofc4 {
@@ -1770,7 +1736,6 @@
     display: inline-block;
     padding-left: 6%;
     left: 1%;
-
   }
 
   .text_skillsofc5 {
@@ -1782,7 +1747,6 @@
     display: inline-block;
     padding-left: 6%;
     left: 0%;
-
   }
   .text_skillsofc6 {
     color: white;
@@ -1793,7 +1757,6 @@
     display: inline-block;
     padding-left: 6%;
     right: 3%;
-
   }
   .text_skillsofc7 {
     color: white;
@@ -1804,7 +1767,6 @@
     display: inline-block;
     padding-left: 6%;
     right: 3%;
-
   }
 
   .flex_text_skill {
@@ -2175,8 +2137,5 @@
     color: #D9D9D9;
     cursor: pointer;
   }
-
-
-
 
 }
