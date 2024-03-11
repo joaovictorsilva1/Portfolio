@@ -1241,23 +1241,6 @@ footer {
   display: none;
 }
 
-.content {
-  transition: opacity 0.3s ease; /* Adiciona uma transição suave para a mudança de opacidade */
-}
-
-.menu-item {
-  transition: opacity 0.3s ease; /* Adiciona uma transição suave para a mudança de opacidade */
-}
-
-.content.menu-open, .menu-item.menu-open {
-  opacity: -1; /* Define a opacidade reduzida para os elementos fora do menu */
-  background: green;
-}
-.menu-aberto .content,
-.menu-aberto .menu-item {
-  opacity: 0.5;
-}
-
 .backdrop {
   display: none;
   position: fixed;
