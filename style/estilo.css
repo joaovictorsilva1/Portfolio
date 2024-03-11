@@ -356,67 +356,7 @@ a:hover {
   display: none;
 }
 
-.text_skills2 {
-  color: white;
-  position: relative;
-  z-index: 5;
-  font-family: "Jost", sans-serif;
-  display: none;
-  right: 5%;
-  top: 10vh;
-}
 
-
-.text_skills3 {
-  color: white;
-  position: relative;
-  z-index: 5;
-  font-family: "Jost", sans-serif;
-  display: none;
-  right: 6.5%;
-  top: 10vh;
-}
-
-.text_skills4 {
-  color: white;
-  position: relative;
-  z-index: 5;
-  font-family: "Jost", sans-serif;
-  display: none;
-  right: 5%;
-  top: 10vh;
-}
-
-.text_skills5 {
-  color: white;
-  position: relative;
-  z-index: 5;
-  font-family: "Jost", sans-serif;
-  display: none;
-  right: 6.5%;
-  top: 10vh;
-}
-
-.text_skills6 {
-  color: white;
-  position: relative;
-  z-index: 5;
-  font-family: "Jost", sans-serif;
-  display: none;
-  right: 6%;
-  top: 10vh;
-}
-
-
-.text_skills7 {
-  color: white;
-  position: relative;
-  z-index: 5;
-  font-family: "Jost", sans-serif;
-  display: none;
-  right: 5%;
-  top: 10vh;
-}
 
 
 .title_skills {
