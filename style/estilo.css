@@ -10,6 +10,13 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.11), #C8EBF7);
 }
 
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 
 a {
   text-decoration: none;
@@ -78,19 +85,7 @@ a:hover {
   z-index: 4;
 }
 
-.blur-circle {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  background-color: #86408F;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: fixed;
-  filter: blur(150px);
-  z-index: 4;
-}
+
 
 .gradient-container2 {
   width: 1000px;
@@ -103,23 +98,6 @@ a:hover {
   position: fixed;
   left: 500px;
   bottom: 100px;
-  z-index: 4;
-}
-
-.blur-circle2 {
-  width: 700px;
-  height: 700px;
-  border-radius: 50%;
-  background-color: #884A94;
-  ;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: fixed;
-  right: 500px;
-  top: 300px;
-  filter: blur(200px);
   z-index: 4;
 }
 
@@ -136,6 +114,62 @@ a:hover {
   top: 500px;
   z-index: 4;
 }
+.gradient-container4 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(#251A66, #251A66);
+  position: relative;
+  overflow: hidden;
+  filter: blur(300px);
+  position: fixed;
+  left: 1200px;
+  border-radius: 20%;
+  z-index: 4;
+}
+
+.gradient-container5 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(#6A96F4, #6A96F4);
+  background: #6A96F4;
+  position: relative;
+  overflow: hidden;
+  filter: blur(190px);
+  position: fixed;
+  top: 400px;
+  z-index: 4;
+}
+
+.blur-circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #86408F;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  filter: blur(150px);
+  z-index: 4;
+}
+
+.blur-circle2 {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background-color: #884A94;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  right: 500px;
+  top: 300px;
+  filter: blur(200px);
+  z-index: 4;
+}
+
 
 .blur-circle3 {
   width: 600px;
@@ -166,20 +200,7 @@ a:hover {
 
 }
 
-.gradient-container4 {
 
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(#251A66, #251A66);
-  position: relative;
-  overflow: hidden;
-  filter: blur(300px);
-  position: fixed;
-  left: 1200px;
-  border-radius: 20%;
-  z-index: 4;
-
-}
 
 .pentagon2 {
   width: 500px;
@@ -191,18 +212,7 @@ a:hover {
   z-index: 4;
 }
 
-.gradient-container5 {
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(#6A96F4, #6A96F4);
-  background: #6A96F4;
-  position: relative;
-  overflow: hidden;
-  filter: blur(190px);
-  position: fixed;
-  top: 400px;
-  z-index: 4;
-}
+
 
 .perfil_img {
   width: 25%;
@@ -293,6 +303,91 @@ a:hover {
   font-size: 2em;
   padding: 15px;
 }
+
+.title_certificados {
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.dots_certificados {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot_certificado {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 6;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot_certificado.active {
+  background-color: #333;
+}
+
+
+
+.slider_img_cert {
+  width: 45%;
+  position: relative;
+  overflow: hidden;
+  top: 3px;
+  left: 3%;
+}
+
+.slide_certificado {
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.text_certificado1 {
+  font-size: 1vw;
+  white-space: wrap;
+  z-index: 6;
+  color: rgb(118, 109, 109);
+  font-family: "Jost", sans-serif;
+  position: relative;
+  left: 49%;
+  bottom: 150px;
+  width: 45%;
+  hyphens: auto;
+
+}
+.text_certificado2 {
+  font-size: 13px;
+  white-space: wrap;
+  z-index: 6;
+  color: rgb(118, 109, 109);
+  font-family: "Jost", sans-serif;
+  position: relative;
+  left: 49%;
+  bottom: 150px;
+  overflow: hidden;
+  width: 45%;
+}
+
+.text_certificado3 {
+  font-size: 13px;
+  white-space: wrap;
+  z-index: 6;
+  color: rgb(118, 109, 109);
+  font-family: "Jost", sans-serif;
+  position: relative;
+  left: 49%;
+  bottom: 150px;
+  overflow: hidden;
+  width: 45%;
+}
+
 
 
 
@@ -495,6 +590,36 @@ footer {
 }
 
 
+.text_port3 {
+  color: white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 1.8vw;
+  margin-left: 5%;
+  left: 58%;
+  bottom: 0vh;
+  border: none;
+  width: 35%;
+}
+
+.text_port4 {
+  color: white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 1.8vw;
+  margin-left: 5%;
+  left: 59%;
+  bottom: 0vh;
+  white-space: normal;
+  border: none;
+  width: 35%;
+}
+
+
 .title_project1 {
   color: white;
   position: relative;
@@ -516,6 +641,31 @@ footer {
   left: 59%;
   bottom: 112vh;
 }
+
+.title_project3 {
+  color: white;
+  position: relative;
+  z-index: 7;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 2vw;
+  margin-left: 5%;
+  left: 58.6%;
+  bottom: 0vh;
+}
+
+.title_project4 {
+  color: white;
+  position: relative;
+  z-index: 7;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 2vw;
+  margin-left: 5%;
+  left: 59.6%;
+  bottom: 0vh;
+}
+
 
 .area_project {
   background: rgb(119, 119, 119);
@@ -607,6 +757,48 @@ footer {
 
 }
 
+.button_website3 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+  position: relative;
+  z-index: 7;
+  bottom: 8vh;
+  left: 13%;
+}
+
+.button_website3:hover {
+  background: black;
+  cursor: pointer;
+
+}
+
+.button_website4 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+  position: relative;
+  z-index: 7;
+  bottom: 65px;
+  left: 13%;
+}
+
+.button_website4:hover {
+  cursor: pointer;
+  background: black;
+
+}
+
 
 
 .button_code1 {
@@ -651,6 +843,48 @@ footer {
 
 }
 
+.button_code3 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  position: relative;
+  z-index: 7;
+  left: 20.1%;
+  bottom: 8vh;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+.button_code3:hover {
+  background: black;
+  cursor: pointer;
+}
+
+.button_code4 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  position: relative;
+  z-index: 7;
+  left: 20.1%;
+  bottom: 65px;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+
+.button_code4:hover {
+  cursor: pointer;
+  background: black;
+}
+
+
 .title_maproject {
   font-size: 3vw;
   color: white;
@@ -668,6 +902,22 @@ footer {
   position: relative;
   z-index: 6;
 
+}
+
+.img_projects2 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  z-index: 6;
+}
+
+.img_projects3 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  z-index: 6;
 }
 
 .links_index2 {
@@ -805,95 +1055,6 @@ footer {
   bottom: 40px;
 }
 
-.title_certificados {
-  overflow: hidden;
-  color: white;
-  text-align: center;
-  margin-top: 3%;
-}
-
-.dots_certificados {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.dot_certificado {
-  width: 10px;
-  height: 10px;
-  background-color: #ffffff;
-  position: relative;
-  z-index: 6;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.dot_certificado.active {
-  background-color: #333;
-}
-
-body,
-h1,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-.slider_img_cert {
-  width: 45%;
-  position: relative;
-  overflow: hidden;
-  top: 3px;
-  left: 3%;
-}
-
-.text_certificado1 {
-  font-size: 1vw;
-  white-space: wrap;
-  z-index: 6;
-  color: rgb(118, 109, 109);
-  font-family: "Jost", sans-serif;
-  position: relative;
-  left: 49%;
-  bottom: 150px;
-  width: 45%;
-  hyphens: auto;
-
-}
-
-.slide_certificado {
-  overflow: hidden;
-  word-break: break-all;
-}
-
-.text_certificado2 {
-  font-size: 13px;
-  white-space: wrap;
-  z-index: 6;
-  color: rgb(118, 109, 109);
-  font-family: "Jost", sans-serif;
-  position: relative;
-  left: 49%;
-  bottom: 150px;
-  overflow: hidden;
-  width: 45%;
-}
-
-.text_certificado3 {
-  font-size: 13px;
-  white-space: wrap;
-  z-index: 6;
-  color: rgb(118, 109, 109);
-  font-family: "Jost", sans-serif;
-  position: relative;
-  left: 49%;
-  bottom: 150px;
-  overflow: hidden;
-  width: 45%;
-}
 
 .coming_card {
   text-align: justify;
@@ -997,165 +1158,6 @@ p {
   border: none;
 }
 
-.title_project3 {
-  color: white;
-  position: relative;
-  z-index: 7;
-  text-align: justify;
-  font-family: "Jost", sans-serif;
-  font-size: 2vw;
-  margin-left: 5%;
-  left: 58.6%;
-  bottom: 0vh;
-}
-
-.text_port3 {
-  color: white;
-  position: relative;
-  z-index: 6;
-  text-align: justify;
-  font-family: "Jost", sans-serif;
-  font-size: 1.8vw;
-  margin-left: 5%;
-  left: 58%;
-  bottom: 0vh;
-  border: none;
-  width: 35%;
-}
-
-
-
-
-
-.img_projects2 {
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: relative;
-  z-index: 6;
-}
-
-.title_project4 {
-  color: white;
-  position: relative;
-  z-index: 7;
-  text-align: justify;
-  font-family: "Jost", sans-serif;
-  font-size: 2vw;
-  margin-left: 5%;
-  left: 59.6%;
-  bottom: 0vh;
-}
-
-
-
-.img_projects3 {
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: relative;
-  z-index: 6;
-}
-
-
-.button_website3 {
-  overflow: hidden;
-  width: 33%;
-  height: 40px;
-  font-size: 1.5vw;
-  border-radius: 15px;
-  color: white;
-  background: red;
-  font-family: "Jost", sans-serif;
-  position: relative;
-  z-index: 7;
-  bottom: 8vh;
-  left: 13%;
-}
-
-.button_website3:hover {
-  background: black;
-  cursor: pointer;
-
-}
-
-
-.button_code3 {
-  overflow: hidden;
-  width: 33%;
-  height: 40px;
-  position: relative;
-  z-index: 7;
-  left: 20.1%;
-  bottom: 8vh;
-  font-size: 1.5vw;
-  border-radius: 15px;
-  color: white;
-  background: red;
-  font-family: "Jost", sans-serif;
-}
-
-.button_code3:hover {
-  background: black;
-  cursor: pointer;
-}
-
-.text_port4 {
-  color: white;
-  position: relative;
-  z-index: 6;
-  text-align: justify;
-  font-family: "Jost", sans-serif;
-  font-size: 1.8vw;
-  margin-left: 5%;
-  left: 59%;
-  bottom: 0vh;
-  white-space: normal;
-  border: none;
-  width: 35%;
-}
-
-.button_code4 {
-  overflow: hidden;
-  width: 33%;
-  height: 40px;
-  position: relative;
-  z-index: 7;
-  left: 20.1%;
-  bottom: 65px;
-  font-size: 1.5vw;
-  border-radius: 15px;
-  color: white;
-  background: red;
-  font-family: "Jost", sans-serif;
-}
-
-
-.button_code4:hover {
-  cursor: pointer;
-  background: black;
-}
-
-.button_website4 {
-  overflow: hidden;
-  width: 33%;
-  height: 40px;
-  font-size: 1.5vw;
-  border-radius: 15px;
-  color: white;
-  background: red;
-  font-family: "Jost", sans-serif;
-  position: relative;
-  z-index: 7;
-  bottom: 65px;
-  left: 13%;
-}
-
-.button_website4:hover {
-  cursor: pointer;
-  background: black;
-
-}
 
 
 .project frontend {
