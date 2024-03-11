@@ -1955,18 +1955,36 @@
 @media only screen and (min-width: 1279px) {
   /* Estilos para desktops */
 
-  .text_introdu {
+  /* Estilos para dispositivos grandes */
+  body {
+    overflow: hidden;
     margin: 0;
-    color: red;
     padding: 0;
-    font-family: 'Inter', sans-serif;
-    font-size: 5rem;
+    box-sizing: border-box;
+  }
+
+  .perfil_img {
+    width: 30%;
+    margin: 1%;
     position: relative;
-    left: 32%;
-    top: -240px;
-    z-index: 7;
+    bottom: 2vh;
+    left: 2%;
+    z-index: 6;
 
   }
+
+  .text_introdu {
+    font-family: 'Inter', sans-serif;
+    color: yellow;
+    font-size: 5rem;
+    position: relative;
+    text-align: justify;
+    z-index: 8;
+    left: 35%;
+    bottom: 250px;
+
+  }
+
 
   .writing-effect {
     font-family: 'Noto Sans Gujarati', sans-serif;
@@ -1979,23 +1997,84 @@
     animation: typing 4.9s steps(21), blinking 0.75s infinite ease-in-out;
     animation-iteration-count: infinite;
     position: relative;
-    left: 32.3%;
-    top: -240px;
+    left: 35%;
+    bottom: 255px;
     z-index: 6;
   }
 
-  .perfil_img {
-    display: block;
-    width: 25%;
-    height: auto;
-    margin: 1%;
+
+  .button_contacts {
+    font-family: "Leelawadee UI";
+    font-size: 2rem;
+    width: 22%;
+    height: 8vh;
+    border-radius: 20px;
+    background: #D9D9D9;
+    color: black;
+    border: 1px solid #D9D9D9;
     position: relative;
-    bottom: 2vh;
-    left: 2%;
+    left: 30%;
+    margin: 0.3%;
+    bottom: 250px;
     z-index: 6;
-
   }
 
+
+  .button_contacts:hover {
+    background: black;
+    border: 1px solid black;
+    color: #D9D9D9;
+    cursor: pointer;
+  }
+
+  .title_about_me {
+    padding: 0;
+    display: inline-block;
+    color: white;
+    text-align: justify;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 4vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    hyphens: auto;
+    right: 70%;
+    top: 35px;
+  }
+
+  .title_about_me2 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 4vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 280px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    bottom: 200px;
+  }
+
+  .title_about_me3 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    font-size: 3.6vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 31vh;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
 
   .text_about_me {
     color: white;
@@ -2003,9 +2082,12 @@
     z-index: 7;
     font-family: "Jost", sans-serif;
     font-size: 2vw;
-    margin-left: 5%;
     word-wrap: break-word;
-    width: 42%;
+    bottom: 7vh;
+    right: 1%;
+    width: 43%;
+    top: 25px;
+
   }
 
   .text_about_me2 {
@@ -2015,103 +2097,35 @@
     font-family: "Jost", sans-serif;
     font-size: 2vw;
     margin-left: 5%;
+    width: 33%;
     left: 55%;
-    bottom: 42vh;
-    width: 42%;
-
+    bottom: 205px;
+    word-wrap: break-word;
+    word-break: break-all;
   }
 
 
-  .img_skills {
+  .text_about_me3 {
+    color: white;
     position: relative;
     z-index: 7;
-    width: 6%;
-    height: auto;
-    display: inline-block;
-    top: -50px;
-  }
-
-  .text_skills {
-    display: inline-block;
-    color: white;
-    position: relative;
-    z-index: 5;
     font-family: "Jost", sans-serif;
-    font-size: 18px;
-    right: 4.5%;
-    top: -0vh;
-  }
-
-  .text_skills2 {
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 4.5%;
-    top: -0vh;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 55%;
+    bottom: 31vh;
   }
 
 
-  .text_skills3 {
-    margin: 0;
-    color: white;
+
+  .title_skills {
+    color: #3B3D3D;
     position: relative;
     z-index: 5;
     font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 6.3%;
-    top: -0vh;
-  }
-
-  .text_skills4 {
-    margin: 0;
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 4.5%;
-    top: -0vh;
-  }
-
-  .text_skills5 {
-    margin: 0;
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 6%;
-    top: -0vh;
-  }
-
-  .text_skills6 {
-    margin: 0;
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    right: 5%;
-    top: -0vh;
-  }
-
-
-  .text_skills7 {
-    color: white;
-    position: relative;
-    z-index: 5;
-    font-family: "Jost", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    top: -0vh;
-    background-color: rgb(0, 0, 0);
+    font-size: 4vw;
+    bottom: 25vh;
+    text-align: center;
   }
 
   .slider-container {
@@ -2131,11 +2145,281 @@
     left: 7%;
   }
 
-  .button_contacts:hover {
-    background: black;
-    border: 1px solid black;
-    color: #D9D9D9;
-    cursor: pointer;
+  .flex_skills {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    bottom: 25vh;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    left: 8%;
+    position: relative;
   }
 
+  .img_skills {
+    display: none;
+  }
+
+
+  .img_skills1 {
+    position: relative;
+    z-index: 8;
+  }
+
+  .text_skillsofc1 {
+    color: white;
+    position: relative;
+    z-index: 8;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    left: 2%;
+  }
+
+  .text_skillsofc2 {
+    color: white;
+    position: relative;
+    z-index: 8;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    padding-left: 6%;
+    left: 3%;
+  }
+
+  .text_skillsofc3 {
+    color: white;
+    position: relative;
+    z-index: 8;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    padding-left: 6%;
+    left: 3%;
+  }
+
+  .text_skillsofc4 {
+    color: white;
+    position: relative;
+    z-index: 8;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    padding-left: 6%;
+    left: 1%;
+  }
+
+  .text_skillsofc5 {
+    color: white;
+    position: relative;
+    z-index: 8;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    padding-left: 6%;
+    left: 0%;
+  }
+  .text_skillsofc6 {
+    color: white;
+    position: relative;
+    z-index: 8;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    padding-left: 6%;
+    right: 3%;
+  }
+  .text_skillsofc7 {
+    color: white;
+    position: relative;
+    z-index: 8;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    padding-left: 6%;
+    right: 3%;
+  }
+
+  .flex_text_skill {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 7;
+    position: relative;
+    bottom: 23vh;
+  }
+
+  .text_skills {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: none;
+    right: 3.5%;
+    top: -18vh;
+    background-color: green;
+  }
+
+  .text_skills2 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: none;
+    right: 3.2%;
+    top: -18vh;
+    background-color: green;
+  }
+
+
+  .text_skills3 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: none;
+    right: 5.5%;
+    top: -18vh;
+    background-color: green;
+  }
+
+  .text_skills4 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: none;
+    right: 3%;
+    top: -18vh;
+    background-color: green;
+  }
+
+  .text_skills5 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: none;
+    right: 5.5%;
+    top: -18vh;
+    background-color: green;
+  }
+
+  .text_skills6 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: none;
+    right: 4%;
+    top: -18vh;
+    background-color: green;
+  }
+
+
+  .text_skills7 {
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: "Jost", sans-serif;
+    display: none;
+    right: 4%;
+    top: -115px;
+    background-color: green;
+  }
+
+
+
+  .title_port {
+    color: #3B3D3D;
+    position: relative;
+    z-index: 6;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 5vw;
+    top: -30vh;
+  }
+
+  .title_maproject {
+    font-size: 3vw;
+    color: white;
+    position: relative;
+    z-index: 6;
+    left: 13%;
+    margin: 1%;
+    bottom: 2vh;
+  }
+
+  .filter-btn {
+    background: #D9D9D9;
+    overflow: hidden;
+    width: 20%;
+    height: 7vh;
+    margin-left: 10px;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    bottom: 27vh;
+    left: 7%;
+    z-index: 6;
+    border: none;
+  }
+
+
+  #load-more-btn {
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    bottom: 10vh;
+    width: 33%;
+    height: 10vh;
+    z-index: 6;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #D9D9D9;
+    color: black;
+    border: none;
+    font-family: "Jost", sans-serif;
+    border-radius: 5px;
+    left: 1%;
+    bottom: 20vh;
+  }
+
+  #projects-container {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(62, 62, 62);
+    z-index: 6;
+    bottom: 200px;
+    border: none;
+    white-space: normal;
+  }
+
+  .title_maproject {
+    font-size: 4vw;
+    color: white;
+    position: relative;
+    z-index: 6;
+    left: 7%;
+    margin: 1%;
+    bottom: 28vh;
+  }
+
+  .title_port {
+    color: #3B3D3D;
+    position: relative;
+    z-index: 8;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 4vw;
+    top: -200px;
+  }
 }
