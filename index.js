@@ -114,6 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+
 var menuAberto = false; // Variável para rastrear se o menu está aberto ou fechado
 
 document.querySelector('.opcoes_img').addEventListener('click', function () {
@@ -122,12 +123,35 @@ document.querySelector('.opcoes_img').addEventListener('click', function () {
 
 function toggleMenu() {
   var menu = document.querySelector('.dropdown-content');
+  var backdrop = document.querySelector('.backdrop');
+
   if (!menuAberto) { // Se o menu estiver fechado, abra-o
     menu.style.display = 'block';
     menuAberto = true;
+
+    // Criar e adicionar a camada semi-transparente
+    if (!backdrop) {
+      backdrop = document.createElement('div');
+      backdrop.className = 'backdrop';
+      document.body.appendChild(backdrop);
+    }
+
+    // Mostra a camada semi-transparente
+    backdrop.style.display = 'block';
+
+    // Adiciona um event listener para fechar o menu quando clicar fora dele
+    document.addEventListener('click', closeMenuOutside);
   } else { // Se o menu estiver aberto, feche-o
     menu.style.display = 'none';
     menuAberto = false;
+
+    // Esconde a camada semi-transparente
+    if (backdrop) {
+      backdrop.style.display = 'none';
+    }
+
+    // Remove o event listener para fechar o menu fora dele
+    document.removeEventListener('click', closeMenuOutside);
   }
 }
 
@@ -135,7 +159,15 @@ document.querySelectorAll('.dropdown-content a').forEach(item => {
   item.addEventListener('click', () => {
     // Feche o menu quando um item for clicado
     document.querySelector('.dropdown-content').style.display = 'none';
-    menuAberto = false; // Atualiza a variável para indicar que o menu está fechado
+    menuAberto = false;
+
+    var backdrop = document.querySelector('.backdrop');
+    if (backdrop) {
+      backdrop.style.display = 'none';
+    }
+
+    // Remove o event listener para fechar o menu fora dele
+    document.removeEventListener('click', closeMenuOutside);
   });
 });
 
@@ -154,92 +186,24 @@ document.querySelectorAll('.menu-item').forEach(item => {
   });
 });
 
-
-// Adiciona um evento de rolagem para controlar a exibição da barra de rolagem
-window.addEventListener('DOMContentLoaded', () => {
-  const content = document.querySelector('.content');
-
-  // Monitora o evento de rolagem na área de conteúdo
-  content.addEventListener('scroll', () => {
-    // Se o usuário rolar para baixo, a barra de rolagem será ocultada
-    if (content.scrollTop > 0) {
-      content.style.overflowY = 'hidden';
-    } else {
-      content.style.overflowY = 'scroll';
-    }
-  });
-});
-
-
-function toggleDropdown() {
-  var dropdownContent = document.getElementById("dropdownContent");
-  if (dropdownContent.style.display === "block") {
-    dropdownContent.style.display = "none";
-  } else {
-    dropdownContent.style.display = "block";
-  }
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  const menuIcon = document.getElementById("menuIcon");
-  const menuContent = document.getElementById("menuContent");
-
-  // Initially hide the menu
-  menuContent.style.display = "none";
-
-  // Event listener for clicking the menu icon
-  menuIcon.addEventListener("click", function (event) {
-    // Toggle menu visibility
-    if (menuContent.style.display === "none") {
-      menuContent.style.display = "block";
-    } else {
-      menuContent.style.display = "none";
-    }
-  });
-
-  // Event listener for clicking outside the menu
-  document.addEventListener("click", function (event) {
-    if (!menuContent.contains(event.target) && event.target !== menuIcon) {
-      menuContent.style.display = "none";
-    }
-  });
-});
-
-
-const menuButton = document.querySelector('.dropbtn');
-const menuContent = document.querySelector('.dropdown-content');
-const backdrop = document.createElement('div');
-backdrop.className = 'backdrop';
-
-// Abre ou fecha o menu quando o botão é clicado
-menuButton.addEventListener('click', () => {
-  menuContent.classList.toggle('open');
-  if (menuContent.classList.contains('open')) {
-    document.body.appendChild(backdrop); // Adiciona o elemento de cobertura
-  } else {
-    document.body.removeChild(backdrop); // Remove o elemento de cobertura
-  }
-});
-
-// Fecha o menu quando o usuário clica fora dele
-backdrop.addEventListener('click', () => {
-  menuContent.classList.remove('open');
-  document.body.removeChild(backdrop);
-});
-
-
-document.addEventListener('click', function (event) {
+function closeMenuOutside(event) {
   var menu = document.querySelector('.dropdown-content');
-  var button = document.querySelector('.opcoes_img'); // substitua '.opcoes_img' pelo seletor correto do seu botão de menu
+  var button = document.querySelector('.opcoes_img');
 
-  // Verifique se o clique foi fora do menu e não no botão
+  // Verifica se o clique foi fora do menu e não no botão
   if (!menu.contains(event.target) && !button.contains(event.target)) {
     // Se o menu estiver aberto, feche-o
     if (menuAberto) {
       menu.style.display = 'none';
       menuAberto = false;
+
+      var backdrop = document.querySelector('.backdrop');
+      if (backdrop) {
+        backdrop.style.display = 'none';
+      }
+
+      // Remove o event listener para fechar o menu fora dele
+      document.removeEventListener('click', closeMenuOutside);
     }
   }
-});
-
-
+}
