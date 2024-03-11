@@ -2007,10 +2007,11 @@
     font-size: 2rem;
     width: 22%;
     height: 8vh;
-    border-radius: 15%;
+    border-radius: 18px;
     background: #d9d9d9;
     color: black;
     border: 1px solid #D9D9D9;
+    padding: 0;
     position: relative;
     left: 30%;
     margin: 0.3%;
@@ -2058,7 +2059,7 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
-    bottom: 200px;
+    bottom: 305px;
   }
 
   .title_about_me3 {
@@ -2069,7 +2070,7 @@
     font-size: 3.6vw;
     margin-left: 5%;
     left: 55%;
-    bottom: 31vh;
+    bottom: 41vh;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
@@ -2098,7 +2099,7 @@
     margin-left: 5%;
     width: 33%;
     left: 55%;
-    bottom: 205px;
+    bottom: 305px;
     word-wrap: break-word;
     word-break: break-all;
   }
@@ -2112,7 +2113,7 @@
     font-size: 2vw;
     margin-left: 5%;
     left: 55%;
-    bottom: 31vh;
+    bottom: 41vh;
   }
 
 
