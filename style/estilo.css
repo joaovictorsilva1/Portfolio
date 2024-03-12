@@ -1076,6 +1076,7 @@ footer {
 }
 
 .logo_index {
+  display: block;
   position: relative;
   z-index: 6;
   width: 7%;

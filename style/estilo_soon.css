@@ -2,68 +2,456 @@
   overflow: hidden;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   .coming_card {
     display: flex;
-    flex-direction: column;
-    text-align: justify;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     font-family: "Jost", sans-serif;
-    width: 70%;
-    height: 93vh;
-    font-size: 100%;
+    width: 90%;
+    height: 92%;
     border-radius: 10px;
     background-color: rgb(33, 30, 42);
     color: white;
-    z-index: 6;
-    position: relative;
-    left: 15%;
-    top: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
     padding: 4%;
     overflow: hidden;
-    word-wrap: break-word;
-    word-break: break-all;
+    hyphens: auto;
+    flex-wrap: wrap;
+    /* Permite que os itens quebrem para a próxima linha */
   }
 
   .text_coming {
-    font-family: "Jost", sans-serif;
+    font-size: 1rem;
     text-align: justify;
-    color: white;
-    font-size: 5vw;
-    
+    font-weight: 300;
+  }
+
+  .text_coming p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
   }
 
   .text_contacts {
-    font-family: "Jost", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
     text-align: center;
-    color: white;
   }
 
-
   .logo_index {
+    display: inline-block;
+    text-align: center;
     width: 20%;
-    overflow: hidden;
+    left: 39%;
     height: auto;
-    position: relative;
-    z-index: 6;
     border-radius: 10px;
-    left: 45%;
-
+    margin-bottom: 0vh;
   }
 
   .footer_img {
-    display: inline-block;
+    display: block;
+    text-align: center;
     width: 20%;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    position: relative;
-    right: 5%;
+    left: 39%;
+    height: auto;
   }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 571px) {
+  .coming_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: rgb(196, 0, 121);
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4%;
+    overflow: hidden;
+    hyphens: auto;
+    flex-wrap: wrap;
+}
+
+.text_coming {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.text_coming p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
+}
+
+.text_contacts {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logo_index {
+  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  width: 20%; /* Definir a largura desejada */
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_img {
+  display: block;
+  width: auto; /* Tornar a largura automática para manter a proporção */
+  height: auto; /* Tornar a altura automática para manter a proporção */
+  max-width: 15%; /* Limitar a largura máxima para 100% do contêiner pai */
+  max-height: 15%; /* Limitar a altura máxima para 100% do contêiner pai */
+}
+
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {}
+@media only screen and (min-width: 571px) and (max-width: 768px) {
+  .coming_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: rgb(196, 13, 0);
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4%;
+    overflow: hidden;
+    hyphens: auto;
+    flex-wrap: wrap;
+}
+
+.text_coming {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.text_coming p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
+}
+
+.text_contacts {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logo_index {
+  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  width: 20%; /* Definir a largura desejada */
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_img {
+  display: block;
+  width: auto; /* Tornar a largura automática para manter a proporção */
+  height: auto; /* Tornar a altura automática para manter a proporção */
+  max-width: 11.5%; /* Limitar a largura máxima para 100% do contêiner pai */
+  max-height: 11.5%; /* Limitar a altura máxima para 100% do contêiner pai */
+}
 
 
-@media only screen and (min-width: 1023px) and (max-width: 1279px) {}
+}
 
-@media only screen and (min-width: 1279px) {}
+@media only screen and (min-width: 768px) and (max-width: 815px) {
+  .coming_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: rgb(143, 109, 244);
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4%;
+    overflow: hidden;
+    hyphens: auto;
+    flex-wrap: wrap;
+}
+
+.text_coming {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.text_coming p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
+}
+
+.text_contacts {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logo_index {
+  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  width: 20%; /* Definir a largura desejada */
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_img {
+  display: block;
+  width: auto; /* Tornar a largura automática para manter a proporção */
+  height: auto; /* Tornar a altura automática para manter a proporção */
+  max-width: 10.5%; /* Limitar a largura máxima para 100% do contêiner pai */
+  max-height: 10.5%; /* Limitar a altura máxima para 100% do contêiner pai */
+}
+}
+@media only screen and (min-width: 815px) and (max-width: 956px) {
+  .coming_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: rgb(244, 109, 181);
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4%;
+    overflow: hidden;
+    hyphens: auto;
+    flex-wrap: wrap;
+}
+
+.text_coming {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.text_coming p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
+}
+
+.text_contacts {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logo_index {
+  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  width: 20%; /* Definir a largura desejada */
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_img {
+  display: block;
+  width: auto; /* Tornar a largura automática para manter a proporção */
+  height: auto; /* Tornar a altura automática para manter a proporção */
+  max-width: 9%; /* Limitar a largura máxima para 100% do contêiner pai */
+  max-height: 9%; /* Limitar a altura máxima para 100% do contêiner pai */
+}
+}
+
+@media only screen and (min-width: 956px) and (max-width: 1023px) {
+  .coming_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: rgb(109, 244, 181);
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4%;
+    overflow: hidden;
+    hyphens: auto;
+    flex-wrap: wrap;
+}
+
+.text_coming {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.text_coming p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
+}
+
+.text_contacts {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logo_index {
+  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  width: 20%; /* Definir a largura desejada */
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_img {
+  display: block;
+  width: auto; /* Tornar a largura automática para manter a proporção */
+  height: auto; /* Tornar a altura automática para manter a proporção */
+  max-width: 8%; /* Limitar a largura máxima para 100% do contêiner pai */
+  max-height: 8%; /* Limitar a altura máxima para 100% do contêiner pai */
+}
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1279px) {
+  .coming_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: rgb(244, 181, 109);
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4%;
+    overflow: hidden;
+    hyphens: auto;
+    flex-wrap: wrap;
+}
+
+.text_coming {
+    font-size: 2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.text_coming p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
+}
+
+.text_contacts {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logo_index {
+  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  width: 20%; /* Definir a largura desejada */
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_img {
+  display: inline-block;
+  width: auto; /* Tornar a largura automática para manter a proporção */
+  height: auto; /* Tornar a altura automática para manter a proporção */
+  max-width: 8%; /* Limitar a largura máxima para 100% do contêiner pai */
+  max-height: 8%; /* Limitar a altura máxima para 100% do contêiner pai */
+}
+}
+
+@media only screen and (min-width: 1279px) {
+  .coming_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: rgb(244, 109, 120);
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4%;
+    overflow: hidden;
+    hyphens: auto;
+    flex-wrap: wrap;
+}
+
+.text_coming {
+    font-size: 2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.text_coming p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
+}
+
+.text_contacts {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logo_index {
+  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+  width: 20%; /* Definir a largura desejada */
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_img {
+  display: inline-block;
+  width: auto; /* Tornar a largura automática para manter a proporção */
+  height: auto; /* Tornar a altura automática para manter a proporção */
+  max-width: 8%; /* Limitar a largura máxima para 100% do contêiner pai */
+  max-height: 8%; /* Limitar a altura máxima para 100% do contêiner pai */
+}
+}

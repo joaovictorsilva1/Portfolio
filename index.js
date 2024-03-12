@@ -221,3 +221,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('resize', ajustarTamanhoTexto);
 });
+
+
