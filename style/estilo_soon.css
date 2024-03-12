@@ -1,20 +1,69 @@
 * {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 768px) {
+  .coming_card {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    width: 70%;
+    height: 93vh;
+    font-size: 100%;
+    border-radius: 10px;
+    background-color: rgb(33, 30, 42);
+    color: white;
+    z-index: 6;
+    position: relative;
+    left: 15%;
+    top: 25px;
+    padding: 4%;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
 
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-
-}
-
-
-@media only screen and (min-width: 1023px) and (max-width: 1279px) {
-
-}
-
-@media only screen and (min-width: 1279px) {
+  .text_coming {
+    font-family: "Jost", sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 5vw;
     
+  }
+
+  .text_contacts {
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+
+  .logo_index {
+    width: 20%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    z-index: 6;
+    border-radius: 10px;
+    left: 45%;
+
+  }
+
+  .footer_img {
+    display: inline-block;
+    width: 20%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    position: relative;
+    right: 5%;
+  }
+
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {}
+
+
+@media only screen and (min-width: 1023px) and (max-width: 1279px) {}
+
+@media only screen and (min-width: 1279px) {}

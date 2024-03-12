@@ -207,3 +207,17 @@ function closeMenuOutside(event) {
     }
   }
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+  const pai = document.querySelector('.pai');
+  const texto = document.querySelector('.texto');
+
+  function ajustarTamanhoTexto() {
+    const proporcao = pai.offsetHeight / texto.scrollHeight;
+    texto.style.fontSize = `${proporcao * 100}%`;
+  }
+
+  ajustarTamanhoTexto();
+
+  window.addEventListener('resize', ajustarTamanhoTexto);
+});

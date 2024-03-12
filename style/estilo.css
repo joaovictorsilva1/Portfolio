@@ -1071,6 +1071,8 @@ footer {
   top: 25px;
   padding: 4%;
   overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .logo_index {
@@ -1251,4 +1253,7 @@ footer {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7); /* Cor semi-transparente */
   z-index: 9; /* Garante que a camada semi-transparente esteja acima de outros elementos */
+}
+.text_coming{
+  text-align: justify;
 }
