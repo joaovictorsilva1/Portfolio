@@ -2,6 +2,13 @@
   overflow: hidden;
 }
 
+a  {
+   position: relative;
+   left: 0;
+   margin: 0;
+   padding: 0;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 400px) {
   .coming_card {
     display: flex;
@@ -52,7 +59,7 @@
     margin-bottom: 0vh;
   }
 
-  .footer_img {
+  .footer_imgcard {
     display: block;
     text-align: center;
     width: 20%;
@@ -81,40 +88,47 @@
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
-}
+  }
 
-.text_coming {
+  .text_coming {
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
-}
+  }
 
-.text_coming p {
+  .text_coming p {
     margin: 0;
     /* Remove a margem padrão dos parágrafos */
-}
+  }
 
-.text_contacts {
+  .text_contacts {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
-}
+  }
 
-.logo_index {
-  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
-  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-  width: 20%; /* Definir a largura desejada */
-  left: 0;
-  border-radius: 10px;
-}
+  .logo_index {
+    display: block;
+    /* Tornar a imagem um bloco para definir margens automaticamente */
+    margin: 0 auto;
+    /* Define margens automáticas para centralizar horizontalmente */
+    width: 20%;
+    /* Definir a largura desejada */
+    left: 0;
+    border-radius: 10px;
+  }
 
-.footer_img {
-  display: block;
-  width: auto; /* Tornar a largura automática para manter a proporção */
-  height: auto; /* Tornar a altura automática para manter a proporção */
-  max-width: 15%; /* Limitar a largura máxima para 100% do contêiner pai */
-  max-height: 15%; /* Limitar a altura máxima para 100% do contêiner pai */
-}
+  .footer_imgcard {
+    display: block;
+    width: auto;
+    /* Tornar a largura automática para manter a proporção */
+    height: auto;
+    /* Tornar a altura automática para manter a proporção */
+    max-width: 15%;
+    /* Limitar a largura máxima para 100% do contêiner pai */
+    max-height: 15%;
+    /* Limitar a altura máxima para 100% do contêiner pai */
+  }
 
 
 }
@@ -139,40 +153,47 @@
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
-}
+  }
 
-.text_coming {
+  .text_coming {
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
-}
+  }
 
-.text_coming p {
+  .text_coming p {
     margin: 0;
     /* Remove a margem padrão dos parágrafos */
-}
+  }
 
-.text_contacts {
+  .text_contacts {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
-}
+  }
 
-.logo_index {
-  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
-  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-  width: 20%; /* Definir a largura desejada */
-  left: 0;
-  border-radius: 10px;
-}
+  .logo_index {
+    display: block;
+    /* Tornar a imagem um bloco para definir margens automaticamente */
+    margin: 0 auto;
+    /* Define margens automáticas para centralizar horizontalmente */
+    width: 20%;
+    /* Definir a largura desejada */
+    left: 0;
+    border-radius: 10px;
+  }
 
-.footer_img {
-  display: block;
-  width: auto; /* Tornar a largura automática para manter a proporção */
-  height: auto; /* Tornar a altura automática para manter a proporção */
-  max-width: 11.5%; /* Limitar a largura máxima para 100% do contêiner pai */
-  max-height: 11.5%; /* Limitar a altura máxima para 100% do contêiner pai */
-}
+  .footer_imgcard {
+    display: block;
+    width: auto;
+    /* Tornar a largura automática para manter a proporção */
+    height: auto;
+    /* Tornar a altura automática para manter a proporção */
+    max-width: 11.5%;
+    /* Limitar a largura máxima para 100% do contêiner pai */
+    max-height: 11.5%;
+    /* Limitar a altura máxima para 100% do contêiner pai */
+  }
 
 
 }
@@ -197,41 +218,49 @@
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
-}
+  }
 
-.text_coming {
+  .text_coming {
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
-}
+  }
 
-.text_coming p {
+  .text_coming p {
     margin: 0;
     /* Remove a margem padrão dos parágrafos */
-}
+  }
 
-.text_contacts {
+  .text_contacts {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
+  }
+
+  .logo_index {
+    display: block;
+    /* Tornar a imagem um bloco para definir margens automaticamente */
+    margin: 0 auto;
+    /* Define margens automáticas para centralizar horizontalmente */
+    width: 20%;
+    /* Definir a largura desejada */
+    left: 0;
+    border-radius: 10px;
+  }
+
+  .footer_imgcard {
+    display: block;
+    width: auto;
+    /* Tornar a largura automática para manter a proporção */
+    height: auto;
+    /* Tornar a altura automática para manter a proporção */
+    max-width: 10.5%;
+    /* Limitar a largura máxima para 100% do contêiner pai */
+    max-height: 10.5%;
+    /* Limitar a altura máxima para 100% do contêiner pai */
+  }
 }
 
-.logo_index {
-  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
-  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-  width: 20%; /* Definir a largura desejada */
-  left: 0;
-  border-radius: 10px;
-}
-
-.footer_img {
-  display: block;
-  width: auto; /* Tornar a largura automática para manter a proporção */
-  height: auto; /* Tornar a altura automática para manter a proporção */
-  max-width: 10.5%; /* Limitar a largura máxima para 100% do contêiner pai */
-  max-height: 10.5%; /* Limitar a altura máxima para 100% do contêiner pai */
-}
-}
 @media only screen and (min-width: 815px) and (max-width: 956px) {
   .coming_card {
     display: flex;
@@ -252,40 +281,47 @@
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
-}
+  }
 
-.text_coming {
+  .text_coming {
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
-}
+  }
 
-.text_coming p {
+  .text_coming p {
     margin: 0;
     /* Remove a margem padrão dos parágrafos */
-}
+  }
 
-.text_contacts {
+  .text_contacts {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
-}
+  }
 
-.logo_index {
-  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
-  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-  width: 20%; /* Definir a largura desejada */
-  left: 0;
-  border-radius: 10px;
-}
+  .logo_index {
+    display: block;
+    /* Tornar a imagem um bloco para definir margens automaticamente */
+    margin: 0 auto;
+    /* Define margens automáticas para centralizar horizontalmente */
+    width: 20%;
+    /* Definir a largura desejada */
+    left: 0;
+    border-radius: 10px;
+  }
 
-.footer_img {
-  display: block;
-  width: auto; /* Tornar a largura automática para manter a proporção */
-  height: auto; /* Tornar a altura automática para manter a proporção */
-  max-width: 9%; /* Limitar a largura máxima para 100% do contêiner pai */
-  max-height: 9%; /* Limitar a altura máxima para 100% do contêiner pai */
-}
+  .footer_imgcard {
+    display: block;
+    width: auto;
+    /* Tornar a largura automática para manter a proporção */
+    height: auto;
+    /* Tornar a altura automática para manter a proporção */
+    max-width: 9%;
+    /* Limitar a largura máxima para 100% do contêiner pai */
+    max-height: 9%;
+    /* Limitar a altura máxima para 100% do contêiner pai */
+  }
 }
 
 @media only screen and (min-width: 956px) and (max-width: 1023px) {
@@ -308,40 +344,47 @@
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
-}
+  }
 
-.text_coming {
+  .text_coming {
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
-}
+  }
 
-.text_coming p {
+  .text_coming p {
     margin: 0;
     /* Remove a margem padrão dos parágrafos */
-}
+  }
 
-.text_contacts {
+  .text_contacts {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
-}
+  }
 
-.logo_index {
-  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
-  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-  width: 20%; /* Definir a largura desejada */
-  left: 0;
-  border-radius: 10px;
-}
+  .logo_index {
+    display: block;
+    /* Tornar a imagem um bloco para definir margens automaticamente */
+    margin: 0 auto;
+    /* Define margens automáticas para centralizar horizontalmente */
+    width: 20%;
+    /* Definir a largura desejada */
+    left: 0;
+    border-radius: 10px;
+  }
 
-.footer_img {
-  display: block;
-  width: auto; /* Tornar a largura automática para manter a proporção */
-  height: auto; /* Tornar a altura automática para manter a proporção */
-  max-width: 8%; /* Limitar a largura máxima para 100% do contêiner pai */
-  max-height: 8%; /* Limitar a altura máxima para 100% do contêiner pai */
-}
+  .footer_imgcard {
+    display: block;
+    width: auto;
+    /* Tornar a largura automática para manter a proporção */
+    height: auto;
+    /* Tornar a altura automática para manter a proporção */
+    max-width: 8%;
+    /* Limitar a largura máxima para 100% do contêiner pai */
+    max-height: 8%;
+    /* Limitar a altura máxima para 100% do contêiner pai */
+  }
 }
 
 @media only screen and (min-width: 1023px) and (max-width: 1279px) {
@@ -364,40 +407,47 @@
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
-}
+  }
 
-.text_coming {
+  .text_coming {
     font-size: 2rem;
     text-align: justify;
     font-weight: 300;
-}
+  }
 
-.text_coming p {
+  .text_coming p {
     margin: 0;
     /* Remove a margem padrão dos parágrafos */
-}
+  }
 
-.text_contacts {
+  .text_contacts {
     font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
-}
+  }
 
-.logo_index {
-  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
-  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-  width: 20%; /* Definir a largura desejada */
-  left: 0;
-  border-radius: 10px;
-}
+  .logo_index {
+    display: block;
+    /* Tornar a imagem um bloco para definir margens automaticamente */
+    margin: 0 auto;
+    /* Define margens automáticas para centralizar horizontalmente */
+    width: 20%;
+    /* Definir a largura desejada */
+    left: 0;
+    border-radius: 10px;
+  }
 
-.footer_img {
-  display: inline-block;
-  width: auto; /* Tornar a largura automática para manter a proporção */
-  height: auto; /* Tornar a altura automática para manter a proporção */
-  max-width: 8%; /* Limitar a largura máxima para 100% do contêiner pai */
-  max-height: 8%; /* Limitar a altura máxima para 100% do contêiner pai */
-}
+  .footer_imgcard {
+    display: inline-block;
+    width: auto;
+    /* Tornar a largura automática para manter a proporção */
+    height: auto;
+    /* Tornar a altura automática para manter a proporção */
+    max-width: 8%;
+    /* Limitar a largura máxima para 100% do contêiner pai */
+    max-height: 8%;
+    /* Limitar a altura máxima para 100% do contêiner pai */
+  }
 }
 
 @media only screen and (min-width: 1279px) {
@@ -420,38 +470,44 @@
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
-}
+  }
 
-.text_coming {
+  .text_coming {
     font-size: 2rem;
     text-align: justify;
     font-weight: 300;
-}
+  }
 
-.text_coming p {
+  .text_coming p {
     margin: 0;
     /* Remove a margem padrão dos parágrafos */
-}
+  }
 
-.text_contacts {
+  .text_contacts {
     font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
-}
+  }
 
-.logo_index {
-  display: block; /* Tornar a imagem um bloco para definir margens automaticamente */
-  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-  width: 20%; /* Definir a largura desejada */
-  left: 0;
-  border-radius: 10px;
-}
+  .logo_index {
+    display: block;
+    /* Tornar a imagem um bloco para definir margens automaticamente */
+    margin: 0 auto;
+    /* Define margens automáticas para centralizar horizontalmente */
+    width: 20%;
+    /* Definir a largura desejada */
+    left: 0;
+    border-radius: 10px;
+  }
 
-.footer_img {
-  display: inline-block;
-  width: auto; /* Tornar a largura automática para manter a proporção */
-  height: auto; /* Tornar a altura automática para manter a proporção */
-  max-width: 8%; /* Limitar a largura máxima para 100% do contêiner pai */
-  max-height: 8%; /* Limitar a altura máxima para 100% do contêiner pai */
-}
+  .footer_imgcard {
+    display: inline-block;
+    width: 8%;
+    margin: 0 auto; /* Define margem superior e inferior como 2vh e centraliza horizontalmente */
+    position: relative; /* Isso é necessário para usar 'left: 50%;' */
+    /* Move o elemento 50% para a direita em relação ao seu contêiner */
+    left: 0;
+   
+
+  }
 }

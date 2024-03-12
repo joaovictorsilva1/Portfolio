@@ -1258,3 +1258,8 @@ footer {
 .text_coming{
   text-align: justify;
 }
+
+.footer_imgcard {
+  width: 5%; /* Define margem superior e inferior como 2vh e centraliza horizontalmente */
+  position: relative; /* Isso é necessário para usar 'left: 50%;' */
+}

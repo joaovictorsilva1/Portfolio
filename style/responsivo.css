@@ -17,7 +17,7 @@
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     height: 100vh;
-   
+
   }
 
   .links_index {
@@ -774,7 +774,7 @@
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     height: 100vh;
-  
+
   }
 
   .links_index {
@@ -1482,7 +1482,8 @@
 
 
 @media only screen and (min-width: 1023px) and (max-width: 1279px) {
-   /* Estilos para dispositivos grandes */
+
+  /* Estilos para dispositivos grandes */
   body {
     overflow: hidden;
     margin: 0;
@@ -1748,6 +1749,7 @@
     padding-left: 6%;
     left: 0%;
   }
+
   .text_skillsofc6 {
     color: white;
     position: relative;
@@ -1758,6 +1760,7 @@
     padding-left: 6%;
     right: 3%;
   }
+
   .text_skillsofc7 {
     color: white;
     position: relative;
@@ -1953,6 +1956,7 @@
 
 
 @media only screen and (min-width: 1279px) {
+
   /* Estilos para desktops */
   body {
     overflow: hidden;
@@ -2221,6 +2225,7 @@
     padding-left: 6%;
     left: 0%;
   }
+
   .text_skillsofc6 {
     color: white;
     position: relative;
@@ -2231,6 +2236,7 @@
     padding-left: 6%;
     right: 3%;
   }
+
   .text_skillsofc7 {
     color: white;
     position: relative;
