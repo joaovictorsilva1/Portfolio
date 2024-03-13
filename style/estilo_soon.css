@@ -13,7 +13,7 @@ a {
 @media only screen and (min-width: 0px) and (max-width: 400px) {
   .coming_card {
     display: flex;
-    flex-direction: column; /* Alterado para uma coluna para centralizar o .footer_imgcard */
+    flex-direction: row; /* Alterado para uma coluna para centralizar o .footer_imgcard */
     align-items: center; /* Centraliza os elementos na direção principal (verticalmente) */
     justify-content: center; /* Centraliza os elementos na direção secundária (horizontalmente) */
     font-family: "Jost", sans-serif;
@@ -68,14 +68,21 @@ a {
   }
 
   .footer_imgcard {
-    display: block;
+    display: flex;
+    flex-direction: column; /* Alterado para uma coluna para centralizar o .footer_imgcard */
+    align-items: center;
     width: auto;
     height: auto;
-    max-width: 15%;
-    max-height: 15%;
+    width: 150%;
+    height: 150%;
     margin: 10px;
   }
-
+  .center_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
  
 }
 
