@@ -2,19 +2,20 @@
   overflow: hidden;
 }
 
-a  {
-   position: relative;
-   left: 0;
-   margin: 0;
-   padding: 0;
+a {
+  position: relative;
+  text-align: center;
+  left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 400px) {
   .coming_card {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column; /* Alterado para uma coluna para centralizar o .footer_imgcard */
+    align-items: center; /* Centraliza os elementos na direção principal (verticalmente) */
+    justify-content: center; /* Centraliza os elementos na direção secundária (horizontalmente) */
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
@@ -29,13 +30,13 @@ a  {
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
-    /* Permite que os itens quebrem para a próxima linha */
   }
 
   .text_coming {
     font-size: 1rem;
     text-align: justify;
     font-weight: 300;
+    hyphens: auto;
   }
 
   .text_coming p {
@@ -49,7 +50,6 @@ a  {
     text-align: center;
   }
 
-  
   .logo_index {
     display: block;
     margin: 0 auto;
@@ -62,11 +62,23 @@ a  {
     display: block;
     width: auto;
     height: auto;
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 15%;
+    max-height: 15%;
     margin: 10px;
   }
+
+  .footer_imgcard {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 15%;
+    max-height: 15%;
+    margin: 10px;
+  }
+
+ 
 }
+
 
 @media only screen and (min-width: 401px) and (max-width: 571px) {
   .coming_card {
@@ -150,7 +162,7 @@ a  {
     left: 0;
     right: 0;
     margin: auto;
-    padding: 4%;
+    padding: 2%;
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
@@ -158,7 +170,7 @@ a  {
 
   .text_coming {
     font-size: 1.2rem;
-    text-align: justify;
+    text-align: left;
     font-weight: 300;
   }
 
@@ -168,8 +180,8 @@ a  {
   }
 
   .text_contacts {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 2.5rem;
+    font-weight: 200;
     text-align: center;
   }
 
@@ -210,13 +222,13 @@ a  {
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(143, 109, 244);
+    background-color: rgb(53, 241, 241);
     color: white;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-    padding: 4%;
+    padding: 2%;
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
@@ -224,8 +236,10 @@ a  {
 
   .text_coming {
     font-size: 1.2rem;
-    text-align: justify;
-    font-weight: 300;
+    text-align: left;
+    font-weight: 200;
+    flex: 1 1 100%;
+    /* Adicionando flexível ao texto */
   }
 
   .text_coming p {
@@ -234,34 +248,50 @@ a  {
   }
 
   .text_contacts {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 2.5rem;
+    font-weight: 200;
     text-align: center;
+    flex: 1 1 100%;
+    /* Adicionando flexível ao texto de contatos */
   }
 
   .logo_index {
     display: block;
-    /* Tornar a imagem um bloco para definir margens automaticamente */
     margin: 0 auto;
-    /* Define margens automáticas para centralizar horizontalmente */
-    width: 20%;
-    /* Definir a largura desejada */
-    left: 0;
+    max-width: 100%;
+    /* Definindo a largura máxima como 100% */
+    height: auto;
     border-radius: 10px;
   }
 
   .footer_imgcard {
     display: block;
     width: auto;
-    /* Tornar a largura automática para manter a proporção */
     height: auto;
-    /* Tornar a altura automática para manter a proporção */
-    max-width: 10.5%;
-    /* Limitar a largura máxima para 100% do contêiner pai */
-    max-height: 10.5%;
-    /* Limitar a altura máxima para 100% do contêiner pai */
+    max-width: 11%;
+    max-height: 11%;
     margin: 10px;
   }
+}
+
+.logo_index {
+  display: block;
+  /* Tornar a imagem um bloco para definir margens automaticamente */
+  margin: 0 auto;
+  /* Define margens automáticas para centralizar horizontalmente */
+  width: 20%;
+  /* Definir a largura desejada */
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_imgcard {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 11%;
+  max-height: 11%;
+  margin: 10px;
 }
 
 @media only screen and (min-width: 815px) and (max-width: 956px) {
@@ -301,32 +331,27 @@ a  {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
+    flex: 1 1 100%; /* Adicionando flexível ao texto de contatos */
   }
 
   .logo_index {
     display: block;
-    /* Tornar a imagem um bloco para definir margens automaticamente */
     margin: 0 auto;
-    /* Define margens automáticas para centralizar horizontalmente */
-    width: 20%;
-    /* Definir a largura desejada */
-    left: 0;
+    max-width: 100%; /* Definindo a largura máxima como 100% */
+    height: auto;
     border-radius: 10px;
   }
 
   .footer_imgcard {
     display: block;
     width: auto;
-    /* Tornar a largura automática para manter a proporção */
     height: auto;
-    /* Tornar a altura automática para manter a proporção */
     max-width: 9%;
-    /* Limitar a largura máxima para 100% do contêiner pai */
     max-height: 9%;
-    /* Limitar a altura máxima para 100% do contêiner pai */
     margin: 10px;
   }
 }
+
 
 @media only screen and (min-width: 956px) and (max-width: 1023px) {
   .coming_card {
@@ -365,32 +390,33 @@ a  {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
+    flex: 1 1 100%; /* Adicionando flexível ao texto de contatos */
   }
 
   .logo_index {
     display: block;
-    /* Tornar a imagem um bloco para definir margens automaticamente */
     margin: 0 auto;
-    /* Define margens automáticas para centralizar horizontalmente */
-    width: 20%;
-    /* Definir a largura desejada */
-    left: 0;
+    max-width: 20%; /* Definindo a largura máxima como 20% */
+    width: 100%; /* Definindo a largura como 100% */
     border-radius: 10px;
   }
 
   .footer_imgcard {
     display: block;
     width: auto;
-    /* Tornar a largura automática para manter a proporção */
     height: auto;
-    /* Tornar a altura automática para manter a proporção */
     max-width: 8%;
-    /* Limitar a largura máxima para 100% do contêiner pai */
     max-height: 8%;
-    /* Limitar a altura máxima para 100% do contêiner pai */
-    margin: 10px;
+    margin: 10px auto; /* Centralizando horizontalmente */
+    position: relative;
+    left: 0;
   }
 }
+
+
+
+
+
 
 @media only screen and (min-width: 1023px) and (max-width: 1279px) {
   .coming_card {
@@ -445,15 +471,16 @@ a  {
   .footer_imgcard {
     display: inline-block;
     width: auto;
-    /* Tornar a largura automática para manter a proporção */
     height: auto;
-    /* Tornar a altura automática para manter a proporção */
     max-width: 8%;
-    /* Limitar a largura máxima para 100% do contêiner pai */
     max-height: 8%;
-    /* Limitar a altura máxima para 100% do contêiner pai */
     margin: 10px;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
   }
+
+
 }
 
 @media only screen and (min-width: 1279px) {
@@ -509,9 +536,8 @@ a  {
   .footer_imgcard {
     display: inline-block;
     width: 8%;
-    margin: 0 auto; /* Define margem superior e inferior como 2vh e centraliza horizontalmente */
-    position: relative; /* Isso é necessário para usar 'left: 50%;' */
-    /* Move o elemento 50% para a direita em relação ao seu contêiner */
+    margin: 0 auto;
+    position: relative;
     left: 0;
     margin: 10px;
 

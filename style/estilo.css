@@ -1090,9 +1090,12 @@ footer {
 }
 
 .center_img {
+  text-align: center;
   position: relative;
   z-index: 6;
-  left: 41%;
+  left: 0%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project {
@@ -1252,14 +1255,26 @@ footer {
   width: 100%;
   background: purple;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Cor semi-transparente */
-  z-index: 9; /* Garante que a camada semi-transparente esteja acima de outros elementos */
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9; 
 }
 .text_coming{
   text-align: justify;
 }
 
 .footer_imgcard {
-  width: 5%; /* Define margem superior e inferior como 2vh e centraliza horizontalmente */
-  position: relative; /* Isso é necessário para usar 'left: 50%;' */
+  width: 5%; 
+  position: relative; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo_index {
+  display: block;
+  position: relative;
+  z-index: 6;
+  width: 7%;
+  border-radius: 10px;
+  left: 45%;
+
 }
