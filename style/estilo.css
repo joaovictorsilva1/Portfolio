@@ -1075,27 +1075,15 @@ footer {
   word-break: break-all;
 }
 
-.logo_index {
-  display: block;
-  position: relative;
-  z-index: 6;
-  width: 7%;
-  border-radius: 10px;
-  left: 45%;
 
-}
 
 .text_contacts {
   text-align: center;
 }
 
 .center_img {
-  text-align: center;
   position: relative;
   z-index: 6;
-  left: 0%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .project {
@@ -1265,16 +1253,16 @@ footer {
 .footer_imgcard {
   width: 5%; 
   position: relative; 
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .logo_index {
   display: block;
-  position: relative;
+  position: absolute;
   z-index: 6;
   width: 7%;
   border-radius: 10px;
   left: 45%;
+  bottom: 33vh;
+  z-index: 20;
 
 }

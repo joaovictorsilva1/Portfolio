@@ -5,17 +5,34 @@
 a {
   position: relative;
   text-align: center;
-  left: 0;
   margin: 0;
   padding: 0;
 }
 
+.logo_index {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  left: 0;
+  border-radius: 10px;
+}
+
+.footer_imgcard {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 11%;
+  max-height: 11%;
+  margin: 10px;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 400px) {
+  * {
+    overflow: hidden;
+  }
+
   .coming_card {
-    display: flex;
-    flex-direction: row; /* Alterado para uma coluna para centralizar o .footer_imgcard */
-    align-items: center; /* Centraliza os elementos na direção principal (verticalmente) */
-    justify-content: center; /* Centraliza os elementos na direção secundária (horizontalmente) */
+    display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
@@ -33,66 +50,69 @@ a {
   }
 
   .text_coming {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
-    hyphens: auto;
+    position: relative;
+    top: 10vh;
   }
 
   .text_coming p {
     margin: 0;
-    /* Remove a margem padrão dos parágrafos */
   }
 
   .text_contacts {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
+    top: 0vh;
+    z-index: 8;
   }
 
   .logo_index {
+    position: relative;
     display: block;
     margin: 0 auto;
     width: 20%;
     left: 0;
     border-radius: 10px;
+    top: 5vh;
+    z-index: 9;
   }
 
   .footer_imgcard {
-    display: block;
+    position: relative;
     width: auto;
     height: auto;
-    max-width: 15%;
-    max-height: 15%;
-    margin: 10px;
+    width: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
   }
 
-  .footer_imgcard {
-    display: flex;
-    flex-direction: column; /* Alterado para uma coluna para centralizar o .footer_imgcard */
-    align-items: center;
-    width: auto;
-    height: auto;
-    width: 150%;
-    height: 150%;
-    margin: 10px;
-  }
   .center_img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+    height: auto;
+    z-index: 10;
+    bottom: 10vh;
+
   }
-  
- 
+
+
 }
 
 
 @media only screen and (min-width: 401px) and (max-width: 571px) {
+  * {
+    overflow: hidden;
+  }
+
   .coming_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
@@ -113,63 +133,75 @@ a {
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
+    position: relative;
+    top: 20vh;
   }
 
   .text_coming p {
     margin: 0;
-    /* Remove a margem padrão dos parágrafos */
   }
 
   .text_contacts {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
+    top: 0vh;
+    z-index: 8;
   }
 
   .logo_index {
+    position: relative;
     display: block;
-    /* Tornar a imagem um bloco para definir margens automaticamente */
     margin: 0 auto;
-    /* Define margens automáticas para centralizar horizontalmente */
     width: 20%;
-    /* Definir a largura desejada */
     left: 0;
     border-radius: 10px;
+    top: 5vh;
+    z-index: 9;
   }
 
   .footer_imgcard {
-    display: block;
+    position: relative;
     width: auto;
-    /* Tornar a largura automática para manter a proporção */
     height: auto;
-    /* Tornar a altura automática para manter a proporção */
-    max-width: 15%;
-    /* Limitar a largura máxima para 100% do contêiner pai */
-    max-height: 15%;
-    /* Limitar a altura máxima para 100% do contêiner pai */
-    margin: 10px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
   }
+
+  .center_img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    z-index: 10;
+  }
+
 
 
 }
 
 @media only screen and (min-width: 571px) and (max-width: 768px) {
+  * {
+    overflow: hidden;
+  }
+
   .coming_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(196, 13, 0);
+    background-color: rgb(196, 0, 20);
     color: white;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-    padding: 2%;
+    padding: 4%;
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
@@ -177,65 +209,77 @@ a {
 
   .text_coming {
     font-size: 1.2rem;
-    text-align: left;
+    text-align: justify;
     font-weight: 300;
+    position: relative;
+    top: 20vh;
   }
 
   .text_coming p {
     margin: 0;
-    /* Remove a margem padrão dos parágrafos */
   }
 
   .text_contacts {
-    font-size: 2.5rem;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 500;
     text-align: center;
+    top: 0vh;
+    z-index: 8;
   }
 
   .logo_index {
+    position: relative;
     display: block;
-    /* Tornar a imagem um bloco para definir margens automaticamente */
     margin: 0 auto;
-    /* Define margens automáticas para centralizar horizontalmente */
     width: 20%;
-    /* Definir a largura desejada */
     left: 0;
     border-radius: 10px;
+    top: 4vh;
+    z-index: 9;
   }
 
   .footer_imgcard {
-    display: block;
+    position: relative;
     width: auto;
-    /* Tornar a largura automática para manter a proporção */
     height: auto;
-    /* Tornar a altura automática para manter a proporção */
-    max-width: 11.5%;
-    /* Limitar a largura máxima para 100% do contêiner pai */
-    max-height: 11.5%;
-    /* Limitar a altura máxima para 100% do contêiner pai */
-    margin: 10px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  .center_img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: auto;
+    z-index: 10;
+
   }
 
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 815px) {
+  * {
+    overflow: hidden;
+  }
+
   .coming_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(53, 241, 241);
+    background-color: rgb(0, 190, 196);
     color: white;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-    padding: 2%;
+    padding: 4%;
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
@@ -243,51 +287,141 @@ a {
 
   .text_coming {
     font-size: 1.2rem;
-    text-align: left;
-    font-weight: 200;
-    flex: 1 1 100%;
-    /* Adicionando flexível ao texto */
+    text-align: justify;
+    font-weight: 300;
+    position: relative;
+    top: 21vh;
   }
 
   .text_coming p {
     margin: 0;
-    /* Remove a margem padrão dos parágrafos */
   }
 
   .text_contacts {
-    font-size: 2.5rem;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 500;
     text-align: center;
-    flex: 1 1 100%;
-    /* Adicionando flexível ao texto de contatos */
+    bottom: 2vh;
+    position: relative;
+    z-index: 8;
   }
 
   .logo_index {
+    position: relative;
     display: block;
     margin: 0 auto;
-    max-width: 100%;
-    /* Definindo a largura máxima como 100% */
-    height: auto;
+    width: 19%;
+    left: 0;
     border-radius: 10px;
+    top: 4vh;
+    z-index: 9;
   }
 
   .footer_imgcard {
-    display: block;
+    position: relative;
     width: auto;
     height: auto;
-    max-width: 11%;
-    max-height: 11%;
-    margin: 10px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
   }
+
+  .center_img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: auto;
+    z-index: 10;
+
+  }
+
+}
+
+@media only screen and (min-width: 815px) and (max-width: 956px) {
+  * {
+    overflow: hidden;
+  }
+
+  .coming_card {
+    display: inline-block;
+    font-family: "Jost", sans-serif;
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: rgb(232, 30, 228);
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 4%;
+    overflow: hidden;
+    hyphens: auto;
+    flex-wrap: wrap;
+  }
+
+  .text_coming {
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 300;
+    position: relative;
+    top: 20vh;
+  }
+
+  .text_coming p {
+    margin: 0;
+  }
+
+  .text_contacts {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    bottom: 2vh;
+    position: relative;
+    z-index: 8;
+  }
+
+  .logo_index {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    left: 0;
+    border-radius: 10px;
+    top: 4vh;
+    z-index: 9;
+  }
+
+  .footer_imgcard {
+    position: relative;
+    width: auto;
+    height: auto;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  .center_img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: auto;
+    z-index: 10;
+
+  }
+
 }
 
 .logo_index {
   display: block;
-  /* Tornar a imagem um bloco para definir margens automaticamente */
   margin: 0 auto;
-  /* Define margens automáticas para centralizar horizontalmente */
-  width: 20%;
-  /* Definir a largura desejada */
+  width: 10%;
   left: 0;
   border-radius: 10px;
 }
@@ -301,76 +435,18 @@ a {
   margin: 10px;
 }
 
-@media only screen and (min-width: 815px) and (max-width: 956px) {
-  .coming_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: "Jost", sans-serif;
-    width: 90%;
-    height: 92%;
-    border-radius: 10px;
-    background-color: rgb(244, 109, 181);
-    color: white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    padding: 4%;
-    overflow: hidden;
-    hyphens: auto;
-    flex-wrap: wrap;
-  }
-
-  .text_coming {
-    font-size: 1.2rem;
-    text-align: justify;
-    font-weight: 300;
-  }
-
-  .text_coming p {
-    margin: 0;
-    /* Remove a margem padrão dos parágrafos */
-  }
-
-  .text_contacts {
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    flex: 1 1 100%; /* Adicionando flexível ao texto de contatos */
-  }
-
-  .logo_index {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%; /* Definindo a largura máxima como 100% */
-    height: auto;
-    border-radius: 10px;
-  }
-
-  .footer_imgcard {
-    display: block;
-    width: auto;
-    height: auto;
-    max-width: 9%;
-    max-height: 9%;
-    margin: 10px;
-  }
-}
-
-
 @media only screen and (min-width: 956px) and (max-width: 1023px) {
+  * {
+    overflow: hidden;
+  }
+
   .coming_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(109, 244, 181);
+    background-color: rgb(84, 232, 30);
     color: white;
     position: absolute;
     left: 0;
@@ -383,170 +459,275 @@ a {
   }
 
   .text_coming {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: justify;
     font-weight: 300;
+    position: relative;
+    top: 20vh;
   }
 
   .text_coming p {
     margin: 0;
-    /* Remove a margem padrão dos parágrafos */
   }
 
   .text_contacts {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
-    flex: 1 1 100%; /* Adicionando flexível ao texto de contatos */
+    bottom: 2vh;
+    position: relative;
+    z-index: 8;
   }
 
   .logo_index {
+    position: relative;
     display: block;
     margin: 0 auto;
-    max-width: 20%; /* Definindo a largura máxima como 20% */
-    width: 100%; /* Definindo a largura como 100% */
+    width: 10%;
+    left: 0;
     border-radius: 10px;
+    top: 4vh;
+    z-index: 9;
   }
 
   .footer_imgcard {
-    display: block;
+    position: relative;
     width: auto;
     height: auto;
-    max-width: 8%;
-    max-height: 8%;
-    margin: 10px auto; /* Centralizando horizontalmente */
-    position: relative;
-    left: 0;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
   }
+
+  .center_img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: auto;
+    z-index: 10;
+
+  }
+
 }
 
+.logo_index {
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  left: 0;
+  border-radius: 10px;
+}
 
-
-
-
+.footer_imgcard {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 10%;
+  max-height: 10%;
+  margin: 10px;
+}
 
 @media only screen and (min-width: 1023px) and (max-width: 1279px) {
+  * {
+    overflow: hidden;
+  }
+
   .coming_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(244, 181, 109);
+    background-color: rgb(232, 161, 30);
     color: white;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
     padding: 4%;
-    overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
+    z-index: 6;
   }
 
   .text_coming {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
     font-weight: 300;
+    position: relative;
+    top: 20vh;
   }
 
   .text_coming p {
     margin: 0;
-    /* Remove a margem padrão dos parágrafos */
+   
   }
 
   .text_contacts {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
+    bottom: 2vh;
+    position: relative;
+    z-index: 8;
   }
 
   .logo_index {
+    position: relative;
     display: block;
-    /* Tornar a imagem um bloco para definir margens automaticamente */
     margin: 0 auto;
-    /* Define margens automáticas para centralizar horizontalmente */
-    width: 20%;
-    /* Definir a largura desejada */
+    width: 10%;
     left: 0;
     border-radius: 10px;
+    top: 4vh;
+    z-index: 9;
   }
 
   .footer_imgcard {
+    position: relative;
     display: inline-block;
     width: auto;
     height: auto;
-    max-width: 8%;
-    max-height: 8%;
-    margin: 10px;
-    margin: 0 auto;
-    position: relative;
-    left: 0;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
   }
 
+  .center_img {
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: auto;
+    z-index: 10;
+
+  }
+  .logo_index {
+    display:  block;
+    margin: 0 auto;
+    width: 10%;
+    left: 0;
+    border-radius: 10px;
+  }
+  
+  .footer_imgcard {
+    display:  inline-block;;
+    width: auto;
+    height: auto;
+    max-width: 10%;
+    max-height: 10%;
+    position: relative;
+    bottom:3vh;
+    margin: 5px;
+  }
 
 }
 
+
+
+
 @media only screen and (min-width: 1279px) {
+  * {
+    overflow: hidden;
+  }
+
   .coming_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(244, 109, 120);
+    background-color: rgb(248, 178, 178);
     color: white;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
     padding: 4%;
-    overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
+    z-index: 6;
   }
 
   .text_coming {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: justify;
     font-weight: 300;
+    position: relative;
+    top: 10vh;
   }
 
   .text_coming p {
     margin: 0;
-    /* Remove a margem padrão dos parágrafos */
   }
 
   .text_contacts {
     font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
+    bottom: 10px;
+    z-index: 8;
   }
 
   .logo_index {
+    position: relative;
     display: block;
-    /* Tornar a imagem um bloco para definir margens automaticamente */
     margin: 0 auto;
-    /* Define margens automáticas para centralizar horizontalmente */
-    width: 20%;
-    /* Definir a largura desejada */
+    width: 10%;
     left: 0;
     border-radius: 10px;
+    top: 4vh;
+    z-index: 9;
   }
 
   .footer_imgcard {
-    display: inline-block;
-    width: 8%;
-    margin: 0 auto;
     position: relative;
-    left: 0;
-    margin: 10px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  .center_img {
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: auto;
+    z-index: 10;
 
   }
+
+  .logo_index {
+    display:  block;
+    margin: 0 auto;
+    width: 7%;
+    left: 0;
+    border-radius: 10px;
+  }
+  
+  .footer_imgcard {
+    display:  inline-block;;
+    width: auto;
+    height: auto;
+    max-width: 10%;
+    max-height: 10%;
+    position: relative;
+    bottom:3vh;
+    margin: 5px;
+  }
+
 }
+
+
