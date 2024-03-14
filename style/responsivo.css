@@ -732,17 +732,7 @@
     bottom: 66vh;
   }
 
-  .text_port2 {
-    color: white;
-    position: relative;
-    z-index: 6;
-    text-align: justify;
-    font-family: "Jost", sans-serif;
-    font-size: 2vw;
-    margin-left: 5%;
-    left: 59%;
-    bottom: 66vh;
-  }
+  
 
   .title_project2 {
     color: white;
@@ -810,10 +800,12 @@
     z-index: 6;
     text-align: justify;
     font-family: "Jost", sans-serif;
-    font-size: 2vw;
+    font-size: 4.8vw;
     margin-left: 5%;
+    left: 3%;
     width: 85%;
   }
+
   
   .text_port2 {
     color: white;
@@ -821,9 +813,9 @@
     z-index: 6;
     text-align: justify;
     font-family: "Jost", sans-serif;
-    font-size: 2vw;
+    font-size: 4.8vw;
     margin-left: 5%;
-    left: 9%;
+    left: 4%;
     bottom: -1vh;
     width: 85%;
   }
@@ -835,9 +827,9 @@
     z-index: 6;
     text-align: justify;
     font-family: "Jost", sans-serif;
-    font-size: 2.8vw;
+    font-size: 4.8vw;
     margin-left: 5%;
-    left: 8%;
+    left: 0%;
     bottom: 0vh;
     border: none;
     width: 85%;
@@ -849,9 +841,9 @@
     z-index: 6;
     text-align: justify;
     font-family: "Jost", sans-serif;
-    font-size: 2.8vw;
+    font-size: 4.8vw;
     margin-left: 5%;
-    left: 9%;
+    left: 0%;
     bottom: 0vh;
     white-space: normal;
     border: none;
@@ -861,11 +853,12 @@
   .title_project1 {
     color: white;
     position: relative;
-    z-index: 6;
+    z-index: 7;
     text-align: justify;
     font-family: "Jost", sans-serif;
-    font-size: 3vw;
+    font-size: 4.8vw;
     margin-left: 5%;
+    left: 3%;
   }
   
   .title_project2 {
@@ -874,9 +867,9 @@
     z-index: 7;
     text-align: justify;
     font-family: "Jost", sans-serif;
-    font-size: 3vw;
+    font-size: 4.8vw;
     margin-left: 5%;
-    left: 9%;
+    left: 4%;
     bottom: -1vh;
   }
   
@@ -886,9 +879,9 @@
     z-index: 7;
     text-align: justify;
     font-family: "Jost", sans-serif;
-    font-size: 3vw;
+    font-size: 4.8vw;
     margin-left: 5%;
-    left: 8%;
+    left:3%;
     bottom: 0vh;
   }
   
@@ -898,9 +891,9 @@
     z-index: 7;
     text-align: justify;
     font-family: "Jost", sans-serif;
-    font-size: 3vw;
+    font-size: 4.8vw;
     margin-left: 5%;
-    left: 9.6%;
+    left: 3%;
     bottom: 0vh;
   }
   .img_projects {
