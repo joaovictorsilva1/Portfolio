@@ -2,6 +2,10 @@
   overflow: hidden;
 }
 
+.center_imgofc{
+  display: none;
+}
+
 a {
   position: relative;
   text-align: center;
@@ -30,6 +34,9 @@ a {
   * {
     overflow: hidden;
   }
+  body {
+    overflow: hidden;
+}
 
   .coming_card {
     display: inline-block;
@@ -40,13 +47,12 @@ a {
     background-color: rgb(33, 30, 42);
     color: white;
     position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    padding: 4%;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     overflow: hidden;
     hyphens: auto;
-    flex-wrap: wrap;
+
   }
 
   .text_coming {
@@ -110,6 +116,9 @@ a {
   * {
     overflow: hidden;
   }
+  body {
+    overflow: hidden;
+}
 
   .coming_card {
     display: inline-block;
@@ -117,16 +126,17 @@ a {
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(196, 0, 121);
+    background-color: rgb(33, 30, 42);
     color: white;
     position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     padding: 4%;
     overflow: hidden;
     hyphens: auto;
     flex-wrap: wrap;
+   
   }
 
   .text_coming {
@@ -189,13 +199,17 @@ a {
     overflow: hidden;
   }
 
+  body {
+    overflow: hidden;
+}
+
   .coming_card {
     display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(196, 0, 20);
+    background-color: rgb(33, 30, 42);
     color: white;
     position: absolute;
     left: 0;
@@ -266,18 +280,21 @@ a {
   * {
     overflow: hidden;
   }
-
+  body {
+    overflow: hidden;
+}
   .coming_card {
     display: inline-block;
     font-family: "Jost", sans-serif;
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(0, 190, 196);
+    background-color: rgb(33, 30, 42);
     color: white;
     position: absolute;
-    left: 0;
-    right: 0;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     margin: auto;
     padding: 4%;
     overflow: hidden;
@@ -344,6 +361,9 @@ a {
   * {
     overflow: hidden;
   }
+  body {
+    overflow: hidden;
+}
 
   .coming_card {
     display: inline-block;
@@ -351,11 +371,12 @@ a {
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(232, 30, 228);
+    background-color: rgb(33, 30, 42);
     color: white;
     position: absolute;
-    left: 0;
-    right: 0;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     margin: auto;
     padding: 4%;
     overflow: hidden;
@@ -439,6 +460,9 @@ a {
   * {
     overflow: hidden;
   }
+  body {
+    overflow: hidden;
+}
 
   .coming_card {
     display: inline-block;
@@ -446,11 +470,12 @@ a {
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(84, 232, 30);
+    background-color: rgb(33, 30, 42);
     color: white;
     position: absolute;
-    left: 0;
-    right: 0;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     margin: auto;
     padding: 4%;
     overflow: hidden;
@@ -534,6 +559,9 @@ a {
   * {
     overflow: hidden;
   }
+  body {
+    overflow: hidden;
+}
 
   .coming_card {
     display: inline-block;
@@ -541,11 +569,12 @@ a {
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(232, 161, 30);
+    background-color: rgb(33, 30, 42);
     color: white;
     position: absolute;
-    left: 0;
-    right: 0;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     margin: auto;
     padding: 4%;
     hyphens: auto;
@@ -597,34 +626,31 @@ a {
     z-index: 10;
   }
 
-  .center_img {
-    position: absolute;
-    display: block;
-    bottom: 20px;
-    left: 45%;
-    transform: translateX(-50%);
-    width: 60%;
-    height: auto;
-    z-index: 10;
-
-  }
-  .logo_index {
-    display:  block;
-    margin: 0 auto;
-    width: 10%;
-    left: 0;
-    border-radius: 10px;
-  }
-  
   .footer_imgcard {
-    display:  inline-block;;
+    display: inline-block;
     width: auto;
     height: auto;
-    max-width: 10%;
+    position: relative;
+    left: 0%;
+    transform: translateX(-0%);
+    z-index: 10;
+    margin: 5px; 
+    max-width: 10%; 
+    max-height: 10%; 
+ 
+  }
+
+  .center_img{
+    display: none;
+  }
+
+  .center_imgofc{
+    text-align: center; 
+    display: inline-block;
+    max-width: 100%;
     max-height: 10%;
     position: relative;
-    bottom:3vh;
-    margin: 5px;
+    z-index: 20;
   }
 
 }
@@ -636,6 +662,9 @@ a {
   * {
     overflow: hidden;
   }
+  body {
+    overflow: hidden;
+}
 
   .coming_card {
     display: inline-block;
@@ -643,11 +672,12 @@ a {
     width: 90%;
     height: 92%;
     border-radius: 10px;
-    background-color: rgb(248, 178, 178);
+    background-color: rgb(33, 30, 42);
     color: white;
     position: absolute;
-    left: 0;
-    right: 0;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     margin: auto;
     padding: 4%;
     hyphens: auto;
@@ -675,28 +705,7 @@ a {
     z-index: 8;
   }
 
-  .logo_index {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    width: 10%;
-    left: 0;
-    border-radius: 10px;
-    top: 4vh;
-    z-index: 9;
-  }
-
-  .footer_imgcard {
-    position: relative;
-    display: inline-block;
-    width: auto;
-    height: auto;
-    width: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-  }
-
+  
   .center_img {
     position: absolute;
     display: block;
@@ -708,25 +717,44 @@ a {
     z-index: 10;
 
   }
+  
 
   .logo_index {
+    position: relative;
     display:  block;
     margin: 0 auto;
     width: 7%;
     left: 0;
+    top: 4vh;
     border-radius: 10px;
+    z-index: 9;
   }
   
   .footer_imgcard {
-    display:  inline-block;;
-    width: auto;
-    height: auto;
+    display:  inline-block;
     max-width: 10%;
     max-height: 10%;
     position: relative;
-    bottom:3vh;
+    left: 0%;
     margin: 5px;
+    z-index: 9;
   }
+
+  .center_img{
+    display: none;
+  }
+
+  .center_imgofc{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom:0vh;
+    left: 35%;
+    margin: 5px;
+    z-index: 9;
+  }
+  
 
 }
 
