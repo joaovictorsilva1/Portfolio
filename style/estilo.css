@@ -1144,6 +1144,7 @@ footer {
 }
 
 #projects-container {
+  overflow: hidden;
   position: relative;
   background-color: rgb(62, 62, 62);
   z-index: 5;
@@ -1162,6 +1163,7 @@ footer {
 
 .project fullstack {
   border: none;
+  overflow: hidden;
   border: none;
 }
 
