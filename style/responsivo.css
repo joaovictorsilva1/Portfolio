@@ -413,7 +413,7 @@
     font-family: "Jost", sans-serif;
     position: relative;
     left: 49%;
-    top: -120px;
+    top: -110px;
     overflow: hidden;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -435,6 +435,7 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
+    width: 40%;
   }
 
   .text_certificado3 {
@@ -451,6 +452,7 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
+    width: 40%;
   }
 
   .slider {
@@ -753,6 +755,168 @@
     left: 59%;
     bottom: 66vh;
   }
+
+  .area_project {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 5;
+    margin-left: 5%;
+  
+  }
+  
+  .area_project2 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 193vh;
+  }
+  
+  .area_project3 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 83%;
+    height: auto;
+    z-index: 7;
+    margin-left: 5%;
+    left: 8.6%;
+    bottom: 0vh;
+  }
+
+  .text_port {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    width: 33%;
+  }
+  
+  .text_port2 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 3vw;
+    margin-left: 5%;
+    left: 9%;
+    bottom: 2vh;
+    width: 85%;
+  }
+  
+  
+  .text_port3 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2.8vw;
+    margin-left: 5%;
+    left: 8%;
+    bottom: 0vh;
+    border: none;
+    width: 85%;
+  }
+  
+  .text_port4 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2.8vw;
+    margin-left: 5%;
+    left: 9%;
+    bottom: 0vh;
+    white-space: normal;
+    border: none;
+    width: 85%;
+  }
+
+  .title_project1 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+  }
+  
+  .title_project2 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 112vh;
+  }
+  
+  .title_project3 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 3vw;
+    margin-left: 5%;
+    left: 8%;
+    bottom: 0vh;
+  }
+  
+  .title_project4 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 3vw;
+    margin-left: 5%;
+    left: 9.6%;
+    bottom: 0vh;
+  }
+  .img_projects {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  
+  }
+  
+  .img_projects2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+  
+  .img_projects3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+  
+  
+  
 
 
 }
@@ -1475,6 +1639,8 @@
     word-wrap: break-word;
     hyphens: auto;
   }
+
+  
 }
 
 
