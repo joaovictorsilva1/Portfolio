@@ -596,9 +596,9 @@ footer {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 1.8vw;
+  font-size: 2vw;
   margin-left: 5%;
-  left: 58%;
+  right: 0.5%;
   bottom: 0vh;
   border: none;
   width: 35%;
@@ -610,14 +610,42 @@ footer {
   z-index: 6;
   text-align: justify;
   font-family: "Jost", sans-serif;
-  font-size: 1.8vw;
+  font-size: 2vw;
   margin-left: 5%;
-  left: 59%;
+  right: 0.5%;
   bottom: 0vh;
   white-space: normal;
   border: none;
   width: 35%;
 }
+.text_port5 {
+  color: white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 2vw;
+  margin-left: 5%;
+  left: 58%;
+  bottom: 136vh;
+  border: none;
+  width: 35%;
+}
+.text_port6 {
+  color: white;
+  position: relative;
+  z-index: 6;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 2vw;
+  margin-left: 5%;
+  left: 59%;
+  bottom: 105vh;
+  white-space: normal;
+  border: none;
+  width: 35%;
+}
+
 
 
 .title_project1 {
@@ -650,7 +678,7 @@ footer {
   font-family: "Jost", sans-serif;
   font-size: 2vw;
   margin-left: 5%;
-  left: 58.6%;
+  left: 0%;
   bottom: 0vh;
 }
 
@@ -662,8 +690,30 @@ footer {
   font-family: "Jost", sans-serif;
   font-size: 2vw;
   margin-left: 5%;
-  left: 59.6%;
+  left: 0%;
   bottom: 0vh;
+}
+.title_project5 {
+  color: white;
+  position: relative;
+  z-index: 7;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 2vw;
+  margin-left: 5%;
+  left: 58.6%;
+  bottom: 136vh;
+}
+.title_project6 {
+  color: white;
+  position: relative;
+  z-index: 7;
+  text-align: justify;
+  font-family: "Jost", sans-serif;
+  font-size: 2vw;
+  margin-left: 5%;
+  left: 59.6%;
+  bottom: 104vh;
 }
 
 
@@ -698,7 +748,7 @@ footer {
   height: 43vh;
   z-index: 7;
   margin-left: 5%;
-  left: 58.6%;
+  left: 0%;
   bottom: 0vh;
 }
 
@@ -710,8 +760,30 @@ footer {
   height: 43vh;
   z-index: 7;
   margin-left: 5%;
-  left: 59.6%;
+  left: 0%;
   bottom: 0vh;
+}
+.area_project5 {
+  background: rgb(119, 119, 119);
+  overflow: hidden;
+  position: relative;
+  width: 33%;
+  height: 43vh;
+  z-index: 7;
+  margin-left: 5%;
+  left: 58.6%;
+  bottom: 136vh;
+}
+.area_project6 {
+  background: rgb(119, 119, 119);
+  overflow: hidden;
+  position: relative;
+  width: 33%;
+  height: 43vh;
+  z-index: 7;
+  margin-left: 5%;
+  left: 59.6%;
+  bottom: 104vh;
 }
 
 .button_website1 {
@@ -798,6 +870,45 @@ footer {
   background: black;
 
 }
+.button_website5 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+  position: relative;
+  z-index: 7;
+  bottom: 65px;
+  left: 13%;
+}
+
+.button_website5:hover {
+  cursor: pointer;
+  background: black;
+
+}
+.button_website6 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+  position: relative;
+  z-index: 7;
+  bottom: 8vh;
+  left: 13%;
+}
+
+.button_website6:hover {
+  background: black;
+  cursor: pointer;
+}
 
 
 
@@ -883,7 +994,45 @@ footer {
   cursor: pointer;
   background: black;
 }
+.button_code5 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  position: relative;
+  z-index: 7;
+  left: 20.1%;
+  bottom: 65px;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
 
+
+.button_code5:hover {
+  cursor: pointer;
+  background: black;
+}
+.button_code6 {
+  overflow: hidden;
+  width: 33%;
+  height: 40px;
+  position: relative;
+  z-index: 7;
+  left: 20.1%;
+  bottom: 8vh;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  font-family: "Jost", sans-serif;
+}
+
+.button_code6:hover {
+  background: black;
+  cursor: pointer;
+}
 
 .title_maproject {
   font-size: 3vw;
@@ -919,6 +1068,21 @@ footer {
   position: relative;
   z-index: 6;
 }
+.img_projects4 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  z-index: 6;
+}
+.img_projects5 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  z-index: 6;
+}
+
 
 .links_index2 {
   display: block;
@@ -1159,12 +1323,19 @@ footer {
 .project frontend {
   white-space: normal;
   border: none;
+  height: auto;
 }
 
 .project fullstack {
   border: none;
   overflow: hidden;
+  height: auto;
+}
+
+.project backend {
   border: none;
+  overflow: hidden;
+  height: auto;
 }
 
 .dropdown {
