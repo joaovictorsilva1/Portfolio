@@ -720,11 +720,11 @@
     hyphens: auto;
   }
 
-  
 
-  
 
- 
+
+
+
   .area_project {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -734,9 +734,9 @@
     z-index: 5;
     margin-left: 5%;
     left: 3.6%;
-  
+
   }
-  
+
   .area_project2 {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -748,7 +748,7 @@
     left: 3.6%;
     bottom: 0vh;
   }
-  
+
   .area_project3 {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -771,6 +771,7 @@
     left: 3.6%;
     bottom: 0vh;
   }
+
   .area_project5 {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -781,6 +782,7 @@
     left: 3.6%;
     bottom: 0vh;
   }
+
   .area_project6 {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -792,7 +794,7 @@
     left: 3.6%;
     bottom: 0vh;
   }
-  
+
 
   .text_port {
     color: white;
@@ -806,7 +808,7 @@
     width: 85%;
   }
 
-  
+
   .text_port2 {
     color: white;
     position: relative;
@@ -820,7 +822,7 @@
     width: 85%;
   }
 
-  
+
   .text_port3 {
     color: white;
     position: relative;
@@ -834,7 +836,7 @@
     border: none;
     width: 85%;
   }
-  
+
   .text_port4 {
     color: white;
     position: relative;
@@ -849,6 +851,7 @@
     border: none;
     width: 85%;
   }
+
   .text_port5 {
     color: white;
     position: relative;
@@ -862,6 +865,7 @@
     border: none;
     width: 85%;
   }
+
   .text_port6 {
     color: white;
     position: relative;
@@ -887,7 +891,7 @@
     margin-left: 5%;
     left: 3%;
   }
-  
+
   .title_project2 {
     color: white;
     position: relative;
@@ -899,7 +903,7 @@
     left: 4%;
     bottom: -1vh;
   }
-  
+
   .title_project3 {
     color: white;
     position: relative;
@@ -908,10 +912,10 @@
     font-family: "Jost", sans-serif;
     font-size: 4.8vw;
     margin-left: 5%;
-    left:3%;
+    left: 3%;
     bottom: 0vh;
   }
-  
+
   .title_project4 {
     color: white;
     position: relative;
@@ -923,6 +927,7 @@
     left: 3%;
     bottom: 0vh;
   }
+
   .title_project5 {
     color: white;
     position: relative;
@@ -931,7 +936,7 @@
     font-family: "Jost", sans-serif;
     font-size: 4.8vw;
     margin-left: 5%;
-    left:3%;
+    left: 3%;
     bottom: 0vh;
   }
 
@@ -946,15 +951,16 @@
     left: 3%;
     bottom: 0vh;
   }
+
   .img_projects {
     width: 100%;
     height: 100%;
     display: block;
     position: relative;
     z-index: 6;
-  
+
   }
-  
+
   .img_projects2 {
     width: 100%;
     height: 100%;
@@ -962,7 +968,7 @@
     position: relative;
     z-index: 6;
   }
-  
+
   .img_projects3 {
     width: 100%;
     height: 100%;
@@ -970,6 +976,7 @@
     position: relative;
     z-index: 6;
   }
+
   .img_projects4 {
     width: 100%;
     height: 100%;
@@ -977,6 +984,7 @@
     position: relative;
     z-index: 6;
   }
+
   .img_projects5 {
     width: 100%;
     height: 100%;
@@ -984,8 +992,8 @@
     position: relative;
     z-index: 6;
   }
-  
-  
+
+
   .button_website1 {
     overflow: hidden;
     width: 33%;
@@ -1000,7 +1008,7 @@
     left: 13%;
     bottom: 14vh;
   }
-  
+
   .button_website2 {
     overflow: hidden;
     width: 33%;
@@ -1014,21 +1022,21 @@
     z-index: 7;
     bottom: 14vh;
     left: 13%;
-  
+
   }
-  
+
   .button_website1:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_website2:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_website3 {
     overflow: hidden;
     width: 33%;
@@ -1043,13 +1051,13 @@
     bottom: 8vh;
     left: 13%;
   }
-  
+
   .button_website3:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_website4 {
     overflow: hidden;
     width: 33%;
@@ -1064,12 +1072,13 @@
     bottom: 65px;
     left: 13%;
   }
-  
+
   .button_website4:hover {
     cursor: pointer;
     background: black;
-  
+
   }
+
   .button_website5 {
     overflow: hidden;
     width: 33%;
@@ -1084,12 +1093,13 @@
     bottom: 65px;
     left: 13%;
   }
-  
+
   .button_website5:hover {
     cursor: pointer;
     background: black;
-  
+
   }
+
   .button_website6 {
     overflow: hidden;
     width: 33%;
@@ -1104,15 +1114,15 @@
     bottom: 8vh;
     left: 13%;
   }
-  
+
   .button_website6:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
-  
-  
+
+
+
   .button_code1 {
     overflow: hidden;
     width: 33%;
@@ -1127,7 +1137,7 @@
     font-family: "Jost", sans-serif;
     z-index: 7;
   }
-  
+
   .button_code2 {
     overflow: hidden;
     width: 33%;
@@ -1142,19 +1152,19 @@
     font-family: "Jost", sans-serif;
     z-index: 7;
   }
-  
+
   .button_code1:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_code2:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_code3 {
     overflow: hidden;
     width: 33%;
@@ -1169,12 +1179,12 @@
     background: red;
     font-family: "Jost", sans-serif;
   }
-  
+
   .button_code3:hover {
     background: black;
     cursor: pointer;
   }
-  
+
   .button_code4 {
     overflow: hidden;
     width: 33%;
@@ -1189,12 +1199,13 @@
     background: red;
     font-family: "Jost", sans-serif;
   }
-  
-  
+
+
   .button_code4:hover {
     cursor: pointer;
     background: black;
   }
+
   .button_code5 {
     overflow: hidden;
     width: 33%;
@@ -1209,12 +1220,13 @@
     background: red;
     font-family: "Jost", sans-serif;
   }
-  
-  
+
+
   .button_code5:hover {
     cursor: pointer;
     background: black;
   }
+
   .button_code6 {
     overflow: hidden;
     width: 33%;
@@ -1229,14 +1241,14 @@
     background: red;
     font-family: "Jost", sans-serif;
   }
-  
+
   .button_code6:hover {
     background: black;
     cursor: pointer;
   }
 
-  
-  
+
+
 
 
 }
@@ -1959,6 +1971,7 @@
     word-wrap: break-word;
     hyphens: auto;
   }
+
   .area_project {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -1968,9 +1981,9 @@
     z-index: 5;
     margin-left: 5%;
     left: 3.6%;
-  
+
   }
-  
+
   .area_project2 {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -1982,7 +1995,7 @@
     left: 3.6%;
     bottom: 0vh;
   }
-  
+
   .area_project3 {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -2005,6 +2018,7 @@
     left: 3.6%;
     bottom: 0vh;
   }
+
   .area_project5 {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -2015,6 +2029,7 @@
     left: 3.6%;
     bottom: 0vh;
   }
+
   .area_project6 {
     background: rgb(119, 119, 119);
     overflow: hidden;
@@ -2026,7 +2041,7 @@
     left: 3.6%;
     bottom: 0vh;
   }
-  
+
 
   .text_port {
     color: white;
@@ -2040,7 +2055,7 @@
     width: 85%;
   }
 
-  
+
   .text_port2 {
     color: white;
     position: relative;
@@ -2054,7 +2069,7 @@
     width: 85%;
   }
 
-  
+
   .text_port3 {
     color: white;
     position: relative;
@@ -2063,12 +2078,12 @@
     font-family: "Jost", sans-serif;
     font-size: 4.8vw;
     margin-left: 5%;
-    left: 0%;
+    left: 1.7%;
     bottom: 0vh;
     border: none;
     width: 85%;
   }
-  
+
   .text_port4 {
     color: white;
     position: relative;
@@ -2077,12 +2092,13 @@
     font-family: "Jost", sans-serif;
     font-size: 4.8vw;
     margin-left: 5%;
-    left: 0%;
+    left: 1.7%;
     bottom: 0vh;
     white-space: normal;
     border: none;
     width: 85%;
   }
+
   .text_port5 {
     color: white;
     position: relative;
@@ -2091,11 +2107,12 @@
     font-family: "Jost", sans-serif;
     font-size: 4.8vw;
     margin-left: 5%;
-    left: 0%;
+    left: 1.7%;
     bottom: 0vh;
     border: none;
     width: 85%;
   }
+
   .text_port6 {
     color: white;
     position: relative;
@@ -2104,7 +2121,7 @@
     font-family: "Jost", sans-serif;
     font-size: 4.8vw;
     margin-left: 5%;
-    left: 0%;
+    left: 1.7%;
     bottom: 0vh;
     white-space: normal;
     border: none;
@@ -2121,7 +2138,7 @@
     margin-left: 5%;
     left: 3%;
   }
-  
+
   .title_project2 {
     color: white;
     position: relative;
@@ -2133,7 +2150,7 @@
     left: 4%;
     bottom: -1vh;
   }
-  
+
   .title_project3 {
     color: white;
     position: relative;
@@ -2142,10 +2159,10 @@
     font-family: "Jost", sans-serif;
     font-size: 4.8vw;
     margin-left: 5%;
-    left:3%;
+    left: 3%;
     bottom: 0vh;
   }
-  
+
   .title_project4 {
     color: white;
     position: relative;
@@ -2157,6 +2174,7 @@
     left: 3%;
     bottom: 0vh;
   }
+
   .title_project5 {
     color: white;
     position: relative;
@@ -2165,7 +2183,7 @@
     font-family: "Jost", sans-serif;
     font-size: 4.8vw;
     margin-left: 5%;
-    left:3%;
+    left: 3%;
     bottom: 0vh;
   }
 
@@ -2188,9 +2206,9 @@
     display: block;
     position: relative;
     z-index: 6;
-  
+
   }
-  
+
   .img_projects2 {
     width: 100%;
     height: 100%;
@@ -2198,7 +2216,7 @@
     position: relative;
     z-index: 6;
   }
-  
+
   .img_projects3 {
     width: 100%;
     height: 100%;
@@ -2206,6 +2224,7 @@
     position: relative;
     z-index: 6;
   }
+
   .img_projects4 {
     width: 100%;
     height: 100%;
@@ -2213,6 +2232,7 @@
     position: relative;
     z-index: 6;
   }
+
   .img_projects5 {
     width: 100%;
     height: 100%;
@@ -2220,8 +2240,8 @@
     position: relative;
     z-index: 6;
   }
-  
-  
+
+
   .button_website1 {
     overflow: hidden;
     width: 33%;
@@ -2236,7 +2256,7 @@
     left: 13%;
     bottom: 14vh;
   }
-  
+
   .button_website2 {
     overflow: hidden;
     width: 33%;
@@ -2250,21 +2270,21 @@
     z-index: 7;
     bottom: 14vh;
     left: 13%;
-  
+
   }
-  
+
   .button_website1:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_website2:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_website3 {
     overflow: hidden;
     width: 33%;
@@ -2279,13 +2299,13 @@
     bottom: 8vh;
     left: 13%;
   }
-  
+
   .button_website3:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_website4 {
     overflow: hidden;
     width: 33%;
@@ -2300,12 +2320,13 @@
     bottom: 65px;
     left: 13%;
   }
-  
+
   .button_website4:hover {
     cursor: pointer;
     background: black;
-  
+
   }
+
   .button_website5 {
     overflow: hidden;
     width: 33%;
@@ -2320,12 +2341,13 @@
     bottom: 65px;
     left: 13%;
   }
-  
+
   .button_website5:hover {
     cursor: pointer;
     background: black;
-  
+
   }
+
   .button_website6 {
     overflow: hidden;
     width: 33%;
@@ -2340,15 +2362,15 @@
     bottom: 8vh;
     left: 13%;
   }
-  
+
   .button_website6:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
-  
-  
+
+
+
   .button_code1 {
     overflow: hidden;
     width: 33%;
@@ -2363,7 +2385,7 @@
     font-family: "Jost", sans-serif;
     z-index: 7;
   }
-  
+
   .button_code2 {
     overflow: hidden;
     width: 33%;
@@ -2378,19 +2400,19 @@
     font-family: "Jost", sans-serif;
     z-index: 7;
   }
-  
+
   .button_code1:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_code2:hover {
     background: black;
     cursor: pointer;
-  
+
   }
-  
+
   .button_code3 {
     overflow: hidden;
     width: 33%;
@@ -2405,12 +2427,12 @@
     background: red;
     font-family: "Jost", sans-serif;
   }
-  
+
   .button_code3:hover {
     background: black;
     cursor: pointer;
   }
-  
+
   .button_code4 {
     overflow: hidden;
     width: 33%;
@@ -2425,12 +2447,13 @@
     background: red;
     font-family: "Jost", sans-serif;
   }
-  
-  
+
+
   .button_code4:hover {
     cursor: pointer;
     background: black;
   }
+
   .button_code5 {
     overflow: hidden;
     width: 33%;
@@ -2445,12 +2468,13 @@
     background: red;
     font-family: "Jost", sans-serif;
   }
-  
-  
+
+
   .button_code5:hover {
     cursor: pointer;
     background: black;
   }
+
   .button_code6 {
     overflow: hidden;
     width: 33%;
@@ -2465,18 +2489,18 @@
     background: red;
     font-family: "Jost", sans-serif;
   }
-  
+
   .button_code6:hover {
     background: black;
     cursor: pointer;
   }
-  
-
-  
-  
 
 
-  
+
+
+
+
+
 }
 
 
@@ -2954,6 +2978,527 @@
     font-size: 4vw;
     top: -200px;
   }
+  .text_port {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    width: 33%;
+  }
+
+  .text_port2 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 568px;
+    width: 33%;
+  }
+
+
+  .text_port3 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    right: 0.9%;
+    bottom: 0vh;
+    border: none;
+    width: 35%;
+  }
+
+  .text_port4 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    right: 0.9%;
+    bottom: 0vh;
+    white-space: normal;
+    border: none;
+    width: 35%;
+  }
+
+  .text_port5 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 57.7%;
+    bottom: 136vh;
+    border: none;
+    width: 35%;
+  }
+
+  .text_port6 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 58.7%;
+    bottom: 104vh;
+    white-space: normal;
+    border: none;
+    width: 35%;
+  }
+
+
+
+  .title_project1 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+  }
+
+  .title_project2 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 96vh;
+  }
+
+  .title_project3 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 0%;
+    bottom: 0vh;
+  }
+
+  .title_project4 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 0%;
+    bottom: 0vh;
+  }
+
+  .title_project5 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 58.6%;
+    bottom: 136vh;
+  }
+
+  .title_project6 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59.6%;
+    bottom: 104vh;
+  }
+
+
+  .area_project {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+
+  }
+
+  .area_project2 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 590px;
+  }
+
+  .area_project3 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 0%;
+    bottom: 0vh;
+  }
+
+  .area_project4 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 0%;
+    bottom: 0vh;
+  }
+
+  .area_project5 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 58.6%;
+    bottom: 136vh;
+  }
+
+  .area_project6 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 59.6%;
+    bottom: 104vh;
+  }
+
+  .button_website1 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    left: 13%;
+    bottom: 14vh;
+  }
+
+  .button_website2 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 14vh;
+    left: 13%;
+
+  }
+
+  .button_website1:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_website2:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_website3 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 8vh;
+    left: 13%;
+  }
+
+  .button_website3:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_website4 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 65px;
+    left: 13%;
+  }
+
+  .button_website4:hover {
+    cursor: pointer;
+    background: black;
+
+  }
+
+  .button_website5 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 65px;
+    left: 13%;
+  }
+
+  .button_website5:hover {
+    cursor: pointer;
+    background: black;
+
+  }
+
+  .button_website6 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 8vh;
+    left: 13%;
+  }
+
+  .button_website6:hover {
+    background: black;
+    cursor: pointer;
+  }
+
+
+
+  .button_code1 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    left: 20.1%;
+    bottom: 14vh;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    z-index: 7;
+  }
+
+  .button_code2 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    left: 20.1%;
+    bottom: 14vh;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    z-index: 7;
+  }
+
+  .button_code1:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_code2:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_code3 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    z-index: 7;
+    left: 20.1%;
+    bottom: 8vh;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+  }
+
+  .button_code3:hover {
+    background: black;
+    cursor: pointer;
+  }
+
+  .button_code4 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    z-index: 7;
+    left: 20.1%;
+    bottom: 65px;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+  }
+
+
+  .button_code4:hover {
+    cursor: pointer;
+    background: black;
+  }
+
+  .button_code5 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    z-index: 7;
+    left: 20.1%;
+    bottom: 65px;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+  }
+
+
+  .button_code5:hover {
+    cursor: pointer;
+    background: black;
+  }
+
+  .button_code6 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    z-index: 7;
+    left: 20.1%;
+    bottom: 8vh;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+  }
+
+  .button_code6:hover {
+    background: black;
+    cursor: pointer;
+  }
+
+
+  .img_projects {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+
+  }
+
+  .img_projects2 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+
+  .img_projects3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+
+  .img_projects4 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+
+  .img_projects5 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+
 }
 
 
@@ -3412,7 +3957,7 @@
   }
 
   .title_maproject {
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
     position: relative;
     z-index: 6;
@@ -3429,524 +3974,527 @@
     font-family: "Jost", sans-serif;
     font-size: 4vw;
     top: -200px;
-
-
-    .text_port {
-      color: white;
-      position: relative;
-      z-index: 6;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 2vw;
-      margin-left: 5%;
-      width: 33%;
-    }
-    
-    .text_port2 {
-      color: white;
-      position: relative;
-      z-index: 6;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 2vw;
-      margin-left: 5%;
-      left: 59%;
-      bottom: 112vh;
-      width: 33%;
-    }
-    
-    
-    .text_port3 {
-      color: white;
-      position: relative;
-      z-index: 6;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 1.8vw;
-      margin-left: 5%;
-      left: 58%;
-      bottom: 0vh;
-      border: none;
-      width: 35%;
-    }
-    
-    .text_port4 {
-      color: white;
-      position: relative;
-      z-index: 6;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 1.8vw;
-      margin-left: 5%;
-      left: 59%;
-      bottom: 0vh;
-      white-space: normal;
-      border: none;
-      width: 35%;
-    }
-    .text_port5 {
-      color: white;
-      position: relative;
-      z-index: 6;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 1.8vw;
-      margin-left: 5%;
-      left: 58%;
-      bottom: 0vh;
-      border: none;
-      width: 35%;
-    }
-    .text_port6 {
-      color: white;
-      position: relative;
-      z-index: 6;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 1.8vw;
-      margin-left: 5%;
-      left: 59%;
-      bottom: 0vh;
-      white-space: normal;
-      border: none;
-      width: 35%;
-    }
-    
-    
-    
-    .title_project1 {
-      color: white;
-      position: relative;
-      z-index: 6;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 2vw;
-      margin-left: 5%;
-    }
-    
-    .title_project2 {
-      color: white;
-      position: relative;
-      z-index: 7;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 2vw;
-      margin-left: 5%;
-      left: 59%;
-      bottom: 112vh;
-    }
-    
-    .title_project3 {
-      color: white;
-      position: relative;
-      z-index: 7;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 2vw;
-      margin-left: 5%;
-      left: 58.6%;
-      bottom: 0vh;
-    }
-    
-    .title_project4 {
-      color: white;
-      position: relative;
-      z-index: 7;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 2vw;
-      margin-left: 5%;
-      left: 59.6%;
-      bottom: 0vh;
-    }
-    .title_project5 {
-      color: white;
-      position: relative;
-      z-index: 7;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 2vw;
-      margin-left: 5%;
-      left: 58.6%;
-      bottom: 0vh;
-    }
-    .title_project6 {
-      color: white;
-      position: relative;
-      z-index: 7;
-      text-align: justify;
-      font-family: "Jost", sans-serif;
-      font-size: 2vw;
-      margin-left: 5%;
-      left: 59.6%;
-      bottom: 0vh;
-    }
-    
-    
-    .area_project {
-      background: rgb(119, 119, 119);
-      overflow: hidden;
-      position: relative;
-      width: 33%;
-      height: 43vh;
-      z-index: 5;
-      margin-left: 5%;
-    
-    }
-    
-    .area_project2 {
-      background: rgb(119, 119, 119);
-      overflow: hidden;
-      position: relative;
-      width: 33%;
-      height: 43vh;
-      z-index: 7;
-      margin-left: 5%;
-      left: 59%;
-      bottom: 113vh;
-    }
-    
-    .area_project3 {
-      background: rgb(119, 119, 119);
-      overflow: hidden;
-      position: relative;
-      width: 93%;
-      height: 43vh;
-      z-index: 7;
-      margin-left: 5%;
-      left: 8.6%;
-      bottom: 0vh;
-    }
-    
-    .area_project4 {
-      background: rgb(119, 119, 119);
-      overflow: hidden;
-      position: relative;
-      width: 33%;
-      height: 43vh;
-      z-index: 7;
-      margin-left: 5%;
-      left: 59.6%;
-      bottom: 0vh;
-    }
-    .area_project5 {
-      background: rgb(119, 119, 119);
-      overflow: hidden;
-      position: relative;
-      width: 33%;
-      height: 43vh;
-      z-index: 7;
-      margin-left: 5%;
-      left: 58.6%;
-      bottom: 0vh;
-    }
-    .area_project6 {
-      background: rgb(119, 119, 119);
-      overflow: hidden;
-      position: relative;
-      width: 33%;
-      height: 43vh;
-      z-index: 7;
-      margin-left: 5%;
-      left: 59.6%;
-      bottom: 0vh;
-    }
-    
-    .button_website1 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-      position: relative;
-      z-index: 7;
-      left: 13%;
-      bottom: 14vh;
-    }
-    
-    .button_website2 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-      position: relative;
-      z-index: 7;
-      bottom: 14vh;
-      left: 13%;
-    
-    }
-    
-    .button_website1:hover {
-      background: black;
-      cursor: pointer;
-    
-    }
-    
-    .button_website2:hover {
-      background: black;
-      cursor: pointer;
-    
-    }
-    
-    .button_website3 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-      position: relative;
-      z-index: 7;
-      bottom: 8vh;
-      left: 13%;
-    }
-    
-    .button_website3:hover {
-      background: black;
-      cursor: pointer;
-    
-    }
-    
-    .button_website4 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-      position: relative;
-      z-index: 7;
-      bottom: 65px;
-      left: 13%;
-    }
-    
-    .button_website4:hover {
-      cursor: pointer;
-      background: black;
-    
-    }
-    .button_website5 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-      position: relative;
-      z-index: 7;
-      bottom: 65px;
-      left: 13%;
-    }
-    
-    .button_website5:hover {
-      cursor: pointer;
-      background: black;
-    
-    }
-    .button_website6 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-      position: relative;
-      z-index: 7;
-      bottom: 8vh;
-      left: 13%;
-    }
-    
-    .button_website6:hover {
-      background: black;
-      cursor: pointer;
-    }
-    
-    
-    
-    .button_code1 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      position: relative;
-      left: 20.1%;
-      bottom: 14vh;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-      z-index: 7;
-    }
-    
-    .button_code2 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      position: relative;
-      left: 20.1%;
-      bottom: 14vh;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-      z-index: 7;
-    }
-    
-    .button_code1:hover {
-      background: black;
-      cursor: pointer;
-    
-    }
-    
-    .button_code2:hover {
-      background: black;
-      cursor: pointer;
-    
-    }
-    
-    .button_code3 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      position: relative;
-      z-index: 7;
-      left: 20.1%;
-      bottom: 8vh;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-    }
-    
-    .button_code3:hover {
-      background: black;
-      cursor: pointer;
-    }
-    
-    .button_code4 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      position: relative;
-      z-index: 7;
-      left: 20.1%;
-      bottom: 65px;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-    }
-    
-    
-    .button_code4:hover {
-      cursor: pointer;
-      background: black;
-    }
-    .button_code5 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      position: relative;
-      z-index: 7;
-      left: 20.1%;
-      bottom: 65px;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-    }
-    
-    
-    .button_code5:hover {
-      cursor: pointer;
-      background: black;
-    }
-    .button_code6 {
-      overflow: hidden;
-      width: 33%;
-      height: 40px;
-      position: relative;
-      z-index: 7;
-      left: 20.1%;
-      bottom: 8vh;
-      font-size: 1.5vw;
-      border-radius: 15px;
-      color: white;
-      background: red;
-      font-family: "Jost", sans-serif;
-    }
-    
-    .button_code6:hover {
-      background: black;
-      cursor: pointer;
-    }
-    
-    .title_maproject {
-      font-size: 3vw;
-      color: white;
-      position: relative;
-      z-index: 6;
-      left: 13%;
-      margin: 1%;
-      bottom: 11vh;
-    }
-    
-    .img_projects {
-      width: 100%;
-      height: 100%;
-      display: block;
-      position: relative;
-      z-index: 6;
-    
-    }
-    
-    .img_projects2 {
-      width: 100%;
-      height: 100%;
-      display: block;
-      position: relative;
-      z-index: 6;
-    }
-    
-    .img_projects3 {
-      width: 100%;
-      height: 100%;
-      display: block;
-      position: relative;
-      z-index: 6;
-    }
-    .img_projects4 {
-      width: 100%;
-      height: 100%;
-      display: block;
-      position: relative;
-      z-index: 6;
-    }
-    .img_projects5 {
-      width: 100%;
-      height: 100%;
-      display: block;
-      position: relative;
-      z-index: 6;
-    }
   }
+
+  .text_port {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    width: 33%;
+  }
+
+  .text_port2 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 112vh;
+    width: 33%;
+  }
+
+
+  .text_port3 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    right: 0.7%;
+    bottom: 0vh;
+    border: none;
+    width: 35%;
+  }
+
+  .text_port4 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    right: 0.7%;
+    bottom: 0vh;
+    white-space: normal;
+    border: none;
+    width: 35%;
+  }
+
+  .text_port5 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 58%;
+    bottom: 136vh;
+    border: none;
+    width: 35%;
+  }
+
+  .text_port6 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 104vh;
+    white-space: normal;
+    border: none;
+    width: 35%;
+  }
+
+
+
+  .title_project1 {
+    color: white;
+    position: relative;
+    z-index: 6;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+  }
+
+  .title_project2 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 112vh;
+  }
+
+  .title_project3 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 0%;
+    bottom: 0vh;
+  }
+
+  .title_project4 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 0%;
+    bottom: 0vh;
+  }
+
+  .title_project5 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 58.6%;
+    bottom: 136vh;
+  }
+
+  .title_project6 {
+    color: white;
+    position: relative;
+    z-index: 7;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    left: 59.6%;
+    bottom: 104vh;
+  }
+
+
+  .area_project {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 5;
+    margin-left: 5%;
+
+  }
+
+  .area_project2 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 59%;
+    bottom: 113vh;
+  }
+
+  .area_project3 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 0%;
+    bottom: 0vh;
+  }
+
+  .area_project4 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 0%;
+    bottom: 0vh;
+  }
+
+  .area_project5 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 58.6%;
+    bottom: 136vh;
+  }
+
+  .area_project6 {
+    background: rgb(119, 119, 119);
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    height: 43vh;
+    z-index: 7;
+    margin-left: 5%;
+    left: 59.6%;
+    bottom: 104vh;
+  }
+
+  .button_website1 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    left: 13%;
+    bottom: 14vh;
+  }
+
+  .button_website2 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 14vh;
+    left: 13%;
+
+  }
+
+  .button_website1:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_website2:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_website3 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 8vh;
+    left: 13%;
+  }
+
+  .button_website3:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_website4 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 65px;
+    left: 13%;
+  }
+
+  .button_website4:hover {
+    cursor: pointer;
+    background: black;
+
+  }
+
+  .button_website5 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 65px;
+    left: 13%;
+  }
+
+  .button_website5:hover {
+    cursor: pointer;
+    background: black;
+
+  }
+
+  .button_website6 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    z-index: 7;
+    bottom: 8vh;
+    left: 13%;
+  }
+
+  .button_website6:hover {
+    background: black;
+    cursor: pointer;
+  }
+
+
+
+  .button_code1 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    left: 20.1%;
+    bottom: 14vh;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    z-index: 7;
+  }
+
+  .button_code2 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    left: 20.1%;
+    bottom: 14vh;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+    z-index: 7;
+  }
+
+  .button_code1:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_code2:hover {
+    background: black;
+    cursor: pointer;
+
+  }
+
+  .button_code3 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    z-index: 7;
+    left: 20.1%;
+    bottom: 8vh;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+  }
+
+  .button_code3:hover {
+    background: black;
+    cursor: pointer;
+  }
+
+  .button_code4 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    z-index: 7;
+    left: 20.1%;
+    bottom: 65px;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+  }
+
+
+  .button_code4:hover {
+    cursor: pointer;
+    background: black;
+  }
+
+  .button_code5 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    z-index: 7;
+    left: 20.1%;
+    bottom: 65px;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+  }
+
+
+  .button_code5:hover {
+    cursor: pointer;
+    background: black;
+  }
+
+  .button_code6 {
+    overflow: hidden;
+    width: 33%;
+    height: auto;
+    position: relative;
+    z-index: 7;
+    left: 20.1%;
+    bottom: 8vh;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-family: "Jost", sans-serif;
+  }
+
+  .button_code6:hover {
+    background: black;
+    cursor: pointer;
+  }
+
+
+  .img_projects {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+
+  }
+
+  .img_projects2 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+
+  .img_projects3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+
+  .img_projects4 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+
+  .img_projects5 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 6;
+  }
+
 }
