@@ -72,10 +72,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function addProjects() {
     if (!loaded) {
-      // Altera o estilo dos projetos 7 ao 12 para display: block
+      // Altera o estilo dos projetos 7 ao 12 para display: inline-block
       const projectsToAdd = document.querySelectorAll("#projects-container .project:nth-child(n+7)");
       projectsToAdd.forEach(project => {
-        project.style.display = "block";
+        project.style.display = "inline-block";
       });
       loaded = true; // Marca que os projetos 7 ao 12 foram carregados
     } else {
@@ -104,15 +104,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const projects = document.querySelectorAll(".project");
     projects.forEach(project => {
       if (category === "all") {
-        project.style.display = "block";
+        project.style.display = "inline-block";
       } else if (project.classList.contains(category)) {
-        project.style.display = "block";
+        project.style.display = "inline-block";
       } else {
         project.style.display = "none";
       }
     });
   }
 });
+
 
 
 var menuAberto = false; // Variável para rastrear se o menu está aberto ou fechado

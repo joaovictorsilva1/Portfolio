@@ -1250,11 +1250,6 @@ footer {
   z-index: 6;
 }
 
-.project {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-}
 
 #load-more-btn {
   overflow: hidden;
@@ -1317,22 +1312,29 @@ footer {
   white-space: normal;
   border: none;
 }
-
-
+.project {
+  border: none;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 
 .project frontend {
   white-space: normal;
+  overflow: hidden;
   border: none;
   height: auto;
 }
 
 .project fullstack {
+  white-space: normal;
   border: none;
   overflow: hidden;
   height: auto;
 }
 
 .project backend {
+  white-space: normal;
   border: none;
   overflow: hidden;
   height: auto;
@@ -1398,11 +1400,7 @@ footer {
   color: black;
 }
 
-.project {
-  border: none;
-  padding: 10px;
-  margin-bottom: 10px;
-}
+
 
 .flex_skills {
   display: none;
